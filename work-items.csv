@@ -1,0 +1,32 @@
+Work Item Type,Title,Description
+Issue,Phase 1: System Architecture,Setting up the Master File and Repository.
+Task,Create Master File Structure,"Create pages: Cover, 📜 Changelog, 🟢 Start Here, 🎨 Foundations, 🧩 Components, 📄 Layouts."
+Task,Initialize Git Repository,"Set up GitHub repo, configure Git LFS for .fig files, and create the README.md template."
+Issue,Phase 2: Foundations - Primitives,Importing Open Color and defining raw values.
+Task,Import Open Color Library,"Import Open Color variables (Gray, Red, Blue, Green, etc. 0-9 scales) into the 'Primitives' collection."
+Task,Add Brand Primitives,"Add custom DFD colors (Rust, Stone) to a 'Brand' group in Primitives to supplement Open Color."
+Task,Define Spacing & Radius,"Input Number variables for 10px Rem scale (10, 12, 14, 16...) and Radius (2, 4, 8, 999)."
+Issue,Phase 3: Foundations - Semantics & Styles,Mapping Primitives to logic and creating Text Styles.
+Task,Map Color Semantics,"Create Semantic aliases (Bg, Text, Border, Action) mapped to specific Open Color tokens (e.g., Action -> oc-blue-6)."
+Task,Map Status Semantics,"Map Status tokens (Success, Warning, Error) to Open Color Green, Yellow, and Red scales."
+Task,Create Typography Styles,"Create Text Styles (Heading, Body, Utility) linked to Font-Size and Line-Height number variables."
+Task,Create Effect & Grid Styles,"Define Shadows (sm, md, lg), Focus Ring styles, and Layout Grids (Desktop/Mobile)."
+Issue,Phase 4: Atoms (Wave 1),Building the essential low-level components.
+Task,Build Icon Component,"Create master Icon component with flattened 'Vector' layer structure."
+Task,Build Button System,"Create Primary, Secondary, Ghost, Danger buttons with interaction states (Hover, Press, Disabled)."
+Task,Build Text Inputs,"Create Input fields (Default, Hover, Focus, Error) and Text Areas."
+Task,Build Selection Controls,"Create Checkbox, Radio Button, and Toggle Switch components."
+Task,Build Data Atoms,"Create Avatar, Badge, Tag (Chip), Divider, and Spinner components."
+Issue,Phase 5: Molecules (Wave 2),Building functional groups and patterns.
+Task,Build Form Groups,"Create 'Field' component combining Label, Input, and Helper/Error text slots."
+Task,Build Navigation Molecules,"Create Tabs, Breadcrumbs, and Pagination components."
+Task,Build Feedback Units,"Create Inline Alerts (Banner) and Floating Toasts (Snackbar) using Status semantics."
+Task,Build User & Empty States,"Create User Profile Card (Avatar+Text) and Empty State patterns."
+Issue,Phase 6: Organisms (Wave 3),Building complex layout containers and navigation.
+Task,Build Master Card,"Create flexible Card component with slots for Media, Header, Body, and Actions."
+Task,Build Overlay Containers,"Create Modal/Dialog window and Drawer/Sheet components."
+Task,Build Global Navigation,"Create top Navbar (Logo+Links+Search), Sidebar, and Footer components."
+Task,Build Data Tables,"Create Table Header and Table Row components with resizable columns."
+Issue,Phase 7: Documentation & Release,Finalizing the system for production use.
+Task,Create Sticker Sheet,"Assemble a visual catalog of all finished components on the 'Components' page."
+Task,Write v1.0 Changelog,"Document the completion of foundations and components on the '📜 Changelog' page."

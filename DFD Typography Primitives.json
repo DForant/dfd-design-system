@@ -1,0 +1,284 @@
+{
+  "pair-1-heading": {
+    "$type": "string",
+    "$value": "Space Grotesk",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:44",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-1-body": {
+    "$type": "string",
+    "$value": "inter",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:45",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-1-alt": {
+    "$type": "string",
+    "$value": "JetBrains Mono",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:46",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-2-heading": {
+    "$type": "string",
+    "$value": "DM Serif Display",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:55",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-2-body": {
+    "$type": "string",
+    "$value": "Mulish",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:56",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-2-alt": {
+    "$type": "string",
+    "$value": "Inconsolata",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:57",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-3-heading": {
+    "$type": "string",
+    "$value": "Libre Baskerville",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:58",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-3-body": {
+    "$type": "string",
+    "$value": "Source Sans 3",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:59",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "pair-3-alt": {
+    "$type": "string",
+    "$value": "IBM Plex Mono",
+    "$extensions": {
+      "com.figma.type": "string",
+      "com.figma.variableId": "VariableID:132:60",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "weight-regular": {
+    "$type": "number",
+    "$value": 400,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:63",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "weight-medium": {
+    "$type": "number",
+    "$value": 500,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:64",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "weight-semibold": {
+    "$type": "number",
+    "$value": 600,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:65",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "weight-bold": {
+    "$type": "number",
+    "$value": 700,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:66",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-12": {
+    "$type": "number",
+    "$value": 12,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:68",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-14": {
+    "$type": "number",
+    "$value": 14,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:69",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-16": {
+    "$type": "number",
+    "$value": 16,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:70",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-18": {
+    "$type": "number",
+    "$value": 18,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:71",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-20": {
+    "$type": "number",
+    "$value": 20,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:72",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-24": {
+    "$type": "number",
+    "$value": 24,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:73",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-32": {
+    "$type": "number",
+    "$value": 32,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:74",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-40": {
+    "$type": "number",
+    "$value": 40,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:75",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-48": {
+    "$type": "number",
+    "$value": 48,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:76",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "text-64": {
+    "$type": "number",
+    "$value": 64,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:77",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "leading-tight": {
+    "$type": "number",
+    "$value": 110,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:78",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "leading-snug": {
+    "$type": "number",
+    "$value": 130,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:79",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "leading-normal": {
+    "$type": "number",
+    "$value": 150,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:80",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "leading-relaxed": {
+    "$type": "number",
+    "$value": 170,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:132:81",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ]
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

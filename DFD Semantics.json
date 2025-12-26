@@ -1076,6 +1076,11 @@
           }
         }
       },
+      "h4": {
+            "$type": "number",
+            "$value": "{text-20}",
+            "$description": "Small section headers."
+      },      
       "body-lg": {
         "$type": "number",
         "$value": 18,
@@ -1108,6 +1113,11 @@
           }
         }
       },
+      "body-sm": {
+            "$type": "number",
+            "$value": "{text-14}",
+            "$description": "Dense UI text, tables, and subtext."
+      },      
       "caption": {
         "$type": "number",
         "$value": 12,

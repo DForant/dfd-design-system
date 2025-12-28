@@ -1,0 +1,123 @@
+ {
+ "color-shadow-04": {
+    "$type": "color",
+    "$value": "{--oc-gray-9}",
+    "$description": "Gray-9 at 4% opacity. Used for large Ambient shadows.",
+    "$extensions": {
+      "alpha": 0.04
+    }
+  },
+  "color-shadow-05": {
+    "$type": "color",
+    "$value": "{--oc-gray-9}",
+    "$description": "Gray-9 at 5% opacity. Used for XS and LG Key shadows.",
+    "$extensions": {
+      "alpha": 0.05
+    }
+  },
+  "color-shadow-06": {
+    "$type": "color",
+    "$value": "{--oc-gray-9}",
+    "$description": "Gray-9 at 6% opacity. Used for SM and MD Key shadows.",
+    "$extensions": {
+      "alpha": 0.06
+    }
+  },
+  "color-shadow-10": {
+    "$type": "color",
+    "$value": "{--oc-gray-9}",
+    "$description": "Gray-9 at 10% opacity. Used for all Ambient secondary layers.",
+    "$extensions": {
+      "alpha": 0.10
+    }
+  },
+"Shadow": {
+  "xs": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "1px",
+        "blur": "2px",
+        "spread": "0px",
+        "color": "{color-shadow-05}"
+      }
+    ]
+  },
+  "sm": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "1px",
+        "blur": "2px",
+        "spread": "0px",
+        "color": "{color-shadow-06}"
+      },
+      {
+        "offsetX": "0px",
+        "offsetY": "1px",
+        "blur": "3px",
+        "spread": "0px",
+        "color": "{color-shadow-10}"
+      }
+    ]
+  },
+  "md": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "2px",
+        "blur": "4px",
+        "spread": "-1px",
+        "color": "{color-shadow-06}"
+      },
+      {
+        "offsetX": "0px",
+        "offsetY": "4px",
+        "blur": "6px",
+        "spread": "-1px",
+        "color": "{color-shadow-10}"
+      }
+    ]
+  },
+  "lg": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "4px",
+        "blur": "6px",
+        "spread": "-2px",
+        "color": "{color-shadow-05}"
+      },
+      {
+        "offsetX": "0px",
+        "offsetY": "10px",
+        "blur": "15px",
+        "spread": "-3px",
+        "color": "{color-shadow-10}"
+      }
+    ]
+  },
+  "xl": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "offsetX": "0px",
+        "offsetY": "10px",
+        "blur": "10px",
+        "spread": "-5px",
+        "color": "{color-shadow-04}"
+      },
+      {
+        "offsetX": "0px",
+        "offsetY": "20px",
+        "blur": "25px",
+        "spread": "-5px",
+        "color": "{color-shadow-10}"
+      }
+    ]
+  }
+}

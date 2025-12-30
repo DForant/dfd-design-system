@@ -1,0 +1,15 @@
+<script>
+  window.onmessage = (event) => {
+    const { type, payload } = event.data.pluginMessage;
+    if (type === 'DOWNLOAD_JSON') {
+      const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `design-tokens-${new Date().toISOString().split('T')[0]}.json`;
+      link.click();
+      // Auto-close plugin after a short delay
+      setTimeout(() => { window.parent.postMessage({ pluginMessage: { type: 'CLOSE' } }, '*'); }, 500);
+    }
+  };
+</script>

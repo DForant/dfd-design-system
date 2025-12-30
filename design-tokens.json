@@ -1,0 +1,3980 @@
+{
+  "metadata": {
+    "rootUnit": "10px",
+    "schema": "2-tier"
+  },
+  "variables": [
+    {
+      "name": "--oc-gray-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F8F9FA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F1F3F5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E9ECEF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#DEE2E6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#CED4DA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#ADB5BD",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#868E96",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#495057",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#343A40",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#212529",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFF5F5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFE3E3",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFC9C9",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFA8A8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FF8787",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FF6B6B",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FA5252",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F03E3E",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E03131",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-red-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#C92A2A",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFF0F6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFDEEB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FCC2D7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FAA2C1",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F783AC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F06595",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E64980",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#D6336C",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#C2255C",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-pink-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#A61E4D",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F8F0FC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F3D9FA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#EEBEFA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E599F7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#DA77F2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#CC5DE8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#BE4BDB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#AE3EC9",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#9C36B5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-grape-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#862E9C",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F3F0FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E5DBFF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#D0BFFF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#B197FC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#9775FA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#845EF7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#7950F2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#7048E8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#6741D9",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-violet-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#5F3DC4",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#EDF2FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#DBE4FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#BAC8FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#91A7FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#5C7CFA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#4C6EF5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#4263EB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#3B5BDB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#364FC7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-indigo-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#748FFC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E7F5FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#D0EBFF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#A5D8FF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#74C0FC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#4DABF7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#339AF0",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#228BE6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#1C7ED6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#1971C2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-blue-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#1864AB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E3FAFC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#C5F6FA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#99E9F2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#66D9E8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#3BC9DB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#22B8CF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#15AABF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#1098AD",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#0C8599",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-cyan-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#0B7285",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E6FCF5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#C3FAE8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#96F2D7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#38D9A9",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#20C997",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#12B886",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#0CA678",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#099268",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-teal-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#087F5B",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#EBFBEE",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#D3F9D8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#B2F2BB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#8CE99A",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#69DB7C",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#51CF66",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#40C057",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#37B24D",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#2F9E44",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-green-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#2B8A3E",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F4FCE3",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E9FAC8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#D8F5A2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#C0EB75",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#A9E34B",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#94D82D",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#82C91E",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#74B816",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#66A80F",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-lime-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#5C940D",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFF9DB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFF3BF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFEC99",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFE066",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFD43B",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FCC419",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FAB005",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F59F00",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F08C00",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-yellow-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E67700",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-0",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFF4E6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFE8CC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFD8A8",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFC078",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FFA94D",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FF922B",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-6",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#FD7E14",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-7",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#F76707",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-8",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#E8590C",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-orange-9",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#D9480F",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "--oc-gray-9-60",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#212529",
+          "opacity": 0.6000000238418579
+        }
+      },
+      "description": "Open Color Gray 9 With 60% Opacity"
+    },
+    {
+      "name": "--oc-gray-9-80",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#212529",
+          "opacity": 0.800000011920929
+        }
+      },
+      "description": "Open Color Gray 9 with 80% opacity"
+    },
+    {
+      "name": "--oc-gray-9-40",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#212529",
+          "opacity": 0.20000000298023224
+        }
+      },
+      "description": "Open Color Gray 9 with 20% Opacity"
+    },
+    {
+      "name": "--oc-gray-9-20",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "68:0": {
+          "hex": "#212529",
+          "opacity": 0.20000000298023224
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "space-0",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 0
+      },
+      "description": "Reset"
+    },
+    {
+      "name": "space-2",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 2
+      },
+      "description": "Micro adjustments / optical grouping"
+    },
+    {
+      "name": "space-4",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 4
+      },
+      "description": "Smallest gap (Icon + Text)"
+    },
+    {
+      "name": "space-8",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 8
+      },
+      "description": "Base Unit. Standard padding inside small buttons."
+    },
+    {
+      "name": "space-10",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 10
+      },
+      "description": "The Root. Useful for strict 10-based alignments."
+    },
+    {
+      "name": "space-12",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 12
+      },
+      "description": "Padding for inputs/default buttons."
+    },
+    {
+      "name": "space-16",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 16
+      },
+      "description": "Standard card padding (Compact)."
+    },
+    {
+      "name": "space-20",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 20
+      },
+      "description": "Standard card padding (Relaxed)."
+    },
+    {
+      "name": "space-24",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 24
+      },
+      "description": "Section separation (Internal)."
+    },
+    {
+      "name": "space-32",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 32
+      },
+      "description": "Section separation (Major)."
+    },
+    {
+      "name": "space-40",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 40
+      },
+      "description": "Layout margins."
+    },
+    {
+      "name": "space-48",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 48
+      },
+      "description": "Layout margins (Wide)."
+    },
+    {
+      "name": "space-64",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "100:0": 64
+      },
+      "description": "Major section breaks."
+    },
+    {
+      "name": "radius-none",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 0
+      },
+      "description": "Square corners."
+    },
+    {
+      "name": "radius-xs",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 2
+      },
+      "description": "Checkboxes, Tags, tiny badges."
+    },
+    {
+      "name": "radius-sm",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 4
+      },
+      "description": "Inputs, small buttons, internal card elements."
+    },
+    {
+      "name": "radius-md",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 8
+      },
+      "description": "Base Radius. Standard Buttons, Cards, Popovers."
+    },
+    {
+      "name": "radius-lg",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 12
+      },
+      "description": "Large Modals, Sheets."
+    },
+    {
+      "name": "radius-xl",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 16
+      },
+      "description": "Heavy containers, outer frames."
+    },
+    {
+      "name": "radius-full",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "106:1": 999
+      },
+      "description": "Pills, Avatars, Round Icon Buttons."
+    },
+    {
+      "name": "vintage-parchment-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FCF9F2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "vintage-parchment-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F7F0E3",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "vintage-parchment-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F2E8D5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "vintage-parchment-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#DED3BF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "vintage-parchment-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#B3A893",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "roasted-clay-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F0D4CA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "roasted-clay-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#E0A593",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "roasted-clay-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#C06C4F",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "roasted-clay-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#A05A41",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "roasted-clay-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#6F3625",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "harvest-gold-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F7E8B7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "harvest-gold-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#ECCA78",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "harvest-gold-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#D9A520",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "harvest-gold-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#B38817",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "harvest-gold-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#85650F",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "retro-teal-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#C3E6E6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "retro-teal-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#94D4D4",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "retro-teal-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#4E9F9F",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "retro-teal-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#418585",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "retro-teal-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#2D5C5C",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "sudsy-cloud-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F5F9FC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "sudsy-cloud-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#EDF4F7",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "sudsy-cloud-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#E6EEF2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "sudsy-cloud-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#BDC8CC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "sudsy-cloud-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#949EA3",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "hot-dog-pink-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FFD1E0",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "hot-dog-pink-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FF94B4",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "hot-dog-pink-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FF4D80",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "hot-dog-pink-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#C72C56",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "hot-dog-pink-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#8F1536",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "park-grass-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#E3F7D1",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "park-grass-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#B8E88E",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "park-grass-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#76D13D",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "park-grass-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#549926",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "park-grass-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#366614",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "splash-cyan-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#D1F4FA",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "splash-cyan-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#85E1F0",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "splash-cyan-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#00BCD4",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "splash-cyan-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#008799",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "splash-cyan-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#005663",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "silk-linen-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FFFEFC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "silk-linen-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FAF9F5",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "silk-linen-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F7F5F0",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "silk-linen-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#EBE6DC",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "silk-linen-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#D6CDBB",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "eucalyptus-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#D9E3DE",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "eucalyptus-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#B4C9BE",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "eucalyptus-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#8FA89B",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "eucalyptus-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#6D877A",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "eucalyptus-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#4C665A",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "warm-stone-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#EBE8E1",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "warm-stone-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#D4CCC2",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "warm-stone-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#BDB3A6",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "warm-stone-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#9C9183",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "warm-stone-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#7A7063",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "dusty-rose-gold-1",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#F2E4E1",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "dusty-rose-gold-2",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#E3C9C1",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "dusty-rose-gold-3",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#D4ADA3",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "dusty-rose-gold-4",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#B58B80",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "dusty-rose-gold-5",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#91685E",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "pair-1-heading",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "Space Grotesk"
+      },
+      "description": "A quirkier sans-serif that feels machined and technical."
+    },
+    {
+      "name": "pair-1-body",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "inter"
+      },
+      "description": "The industry standard for readability."
+    },
+    {
+      "name": "pair-1-alt",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "JetBrains Mono"
+      },
+      "description": "A code font for IDs, data, or technical labels."
+    },
+    {
+      "name": "white",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#FFFFFF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "black",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#000000",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "pair-2-heading",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "DM Serif Display"
+      },
+      "description": "A beautiful, heavy serif that feels warm and established."
+    },
+    {
+      "name": "pair-2-body",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "Mulish"
+      },
+      "description": "A friendly, rounded sans-serif that is easy on the eyes."
+    },
+    {
+      "name": "pair-2-alt",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "Inconsolata"
+      },
+      "description": "A soft monospace that doesn't feel robotic."
+    },
+    {
+      "name": "pair-3-heading",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "Libre Baskerville"
+      },
+      "description": "A traditional serif optimized for screens."
+    },
+    {
+      "name": "pair-3-body",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "Source Sans 3"
+      },
+      "description": "A humanist sans-serif that pairs well with classic type."
+    },
+    {
+      "name": "pair-3-alt",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "132:1": "IBM Plex Mono"
+      },
+      "description": "A crisp, editorial monospace."
+    },
+    {
+      "name": "weight-regular",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 400
+      },
+      "description": "Standard body text."
+    },
+    {
+      "name": "weight-medium",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 500
+      },
+      "description": "Interactive text (Buttons, Tabs, Inputs)."
+    },
+    {
+      "name": "weight-semibold",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 600
+      },
+      "description": "Emphasis / Subheadings."
+    },
+    {
+      "name": "weight-bold",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 700
+      },
+      "description": "Main Headings."
+    },
+    {
+      "name": "text-12",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 12
+      },
+      "description": "Caption. Tooltips, helper text."
+    },
+    {
+      "name": "text-14",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 14
+      },
+      "description": "Body Small. Dense interfaces or mobile body text."
+    },
+    {
+      "name": "text-16",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 16
+      },
+      "description": "Body Default. Standard reading size."
+    },
+    {
+      "name": "text-18",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 18
+      },
+      "description": "Intro. Lead paragraphs or large buttons."
+    },
+    {
+      "name": "text-20",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 20
+      },
+      "description": "Heading 6. Card titles."
+    },
+    {
+      "name": "text-24",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 24
+      },
+      "description": "Heading 5. Section headers."
+    },
+    {
+      "name": "text-32",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 32
+      },
+      "description": "Heading 4. Major section breaks."
+    },
+    {
+      "name": "text-40",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 40
+      },
+      "description": "Heading 3. Page titles."
+    },
+    {
+      "name": "text-48",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 48
+      },
+      "description": "Heading 2. Landing page sub-hero."
+    },
+    {
+      "name": "text-64",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 64
+      },
+      "description": ""
+    },
+    {
+      "name": "gap/xs",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:7"
+        }
+      },
+      "description": "Tight spacing between icon and text."
+    },
+    {
+      "name": "gap/sm",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:8"
+        }
+      },
+      "description": "Default spacing between sibling items."
+    },
+    {
+      "name": "gap/md",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:11"
+        }
+      },
+      "description": "Spacing between distinct groups."
+    },
+    {
+      "name": "gap/lg",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:13"
+        }
+      },
+      "description": "Spacing between major columns."
+    },
+    {
+      "name": "gap/section",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:16"
+        }
+      },
+      "description": "Vertical space between content sections."
+    },
+    {
+      "name": "padding/button-x",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:10"
+        }
+      },
+      "description": "Horizontal padding for standard buttons."
+    },
+    {
+      "name": "padding/button-y",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:8"
+        }
+      },
+      "description": "Vertical padding for standard buttons."
+    },
+    {
+      "name": "padding/card",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:12"
+        }
+      },
+      "description": "Inset padding for content cards."
+    },
+    {
+      "name": "padding/container",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:100:18"
+        }
+      },
+      "description": "Global page margins."
+    },
+    {
+      "name": "radius/button",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:106:14"
+        }
+      },
+      "description": "Corner radius for interactive buttons."
+    },
+    {
+      "name": "radius/input",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:106:13"
+        }
+      },
+      "description": "Corner radius for text fields."
+    },
+    {
+      "name": "radius/card",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:106:14"
+        }
+      },
+      "description": "Corner radius for containers."
+    },
+    {
+      "name": "radius/badge",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:106:12"
+        }
+      },
+      "description": "Tight radius for small chips."
+    },
+    {
+      "name": "radius/pill",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:106:17"
+        }
+      },
+      "description": "Fully rounded corners."
+    },
+    {
+      "name": "color/surface/page",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:2"
+        }
+      },
+      "description": "Very pale, cool gray background."
+    },
+    {
+      "name": "color/surface/card",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:410"
+        }
+      },
+      "description": "High-contrast white surface."
+    },
+    {
+      "name": "color/surface/sunken",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:3"
+        }
+      },
+      "description": "Slightly darker cool gray for inputs."
+    },
+    {
+      "name": "color/surface/brand-subtle",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:7"
+        }
+      },
+      "description": "Pale pink wash for selected states."
+    },
+    {
+      "name": "color/surface/accent-subtle",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:17"
+        }
+      },
+      "description": "Pale cyan wash for info callouts."
+    },
+    {
+      "name": "color/surface/overlay",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:86:18"
+        }
+      },
+      "description": "Gray-9 at 60% opacity."
+    },
+    {
+      "name": "color/content/primary",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:419"
+        }
+      },
+      "description": "Deepest gray for main headings."
+    },
+    {
+      "name": "color/content/secondary",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:416"
+        }
+      },
+      "description": "Medium gray for subtitles."
+    },
+    {
+      "name": "color/content/tertiary",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:415"
+        }
+      },
+      "description": "Disabled text or placeholders."
+    },
+    {
+      "name": "color/content/brand",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:10"
+        }
+      },
+      "description": "Deep pink for text links."
+    },
+    {
+      "name": "color/content/accent",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:21"
+        }
+      },
+      "description": "Darkest cyan for readable accent text."
+    },
+    {
+      "name": "color/content/success",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:16"
+        }
+      },
+      "description": "Deep green for success message text."
+    },
+    {
+      "name": "color/content/inverted",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:410"
+        }
+      },
+      "description": "White text for use on top of vibrant buttons."
+    },
+    {
+      "name": "color/border/subtle",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:3"
+        }
+      },
+      "description": "Very light dividers."
+    },
+    {
+      "name": "color/border/default",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:4"
+        }
+      },
+      "description": "Standard borders for Inputs."
+    },
+    {
+      "name": "color/border/focus",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:19"
+        }
+      },
+      "description": "Bright cyan ring for focus."
+    },
+    {
+      "name": "color/border/active",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:9"
+        }
+      },
+      "description": "Pink border for active text fields."
+    },
+    {
+      "name": "font/family/brand",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:55"
+        }
+      },
+      "description": "Expressive font for headers."
+    },
+    {
+      "name": "font/family/plain",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:56"
+        }
+      },
+      "description": "Functional UI font."
+    },
+    {
+      "name": "font/family/code",
+      "resolvedType": "STRING",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:57"
+        }
+      },
+      "description": "Monospace font."
+    },
+    {
+      "name": "text/size/display",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:77"
+        }
+      },
+      "description": "Hero / Marketing text."
+    },
+    {
+      "name": "text/size/h1",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:76"
+        }
+      },
+      "description": "Page Title."
+    },
+    {
+      "name": "text/size/h2",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:74"
+        }
+      },
+      "description": "Major Section Header."
+    },
+    {
+      "name": "text/size/h3",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:73"
+        }
+      },
+      "description": "Card/Container Header."
+    },
+    {
+      "name": "text/size/body-lg",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:71"
+        }
+      },
+      "description": "Intro / Lead text."
+    },
+    {
+      "name": "text/size/body-md",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:70"
+        }
+      },
+      "description": "Default reading text."
+    },
+    {
+      "name": "text/size/caption",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:68"
+        }
+      },
+      "description": "Tooltips and helper text."
+    },
+    {
+      "name": "text/weight/body",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:63"
+        }
+      },
+      "description": "Default weight (400)."
+    },
+    {
+      "name": "text/weight/strong",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:65"
+        }
+      },
+      "description": "Emphasis weight (600)."
+    },
+    {
+      "name": "color/action/primary/bg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:9"
+        }
+      },
+      "description": "Vibrant magenta for main CTA."
+    },
+    {
+      "name": "color/action/primary/hover",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:10"
+        }
+      },
+      "description": "Darker pink for hover state."
+    },
+    {
+      "name": "color/action/primary/fg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:410"
+        }
+      },
+      "description": "White text on primary button."
+    },
+    {
+      "name": "color/action/secondary/bg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:19"
+        }
+      },
+      "description": "Electric blue for secondary buttons."
+    },
+    {
+      "name": "color/action/secondary/hover",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:20"
+        }
+      },
+      "description": "Darker cyan for hover state."
+    },
+    {
+      "name": "color/action/ghost/fg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:417"
+        }
+      },
+      "description": "Neutral text for tertiary buttons."
+    },
+    {
+      "name": "color/feedback/success/bg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:14"
+        }
+      },
+      "description": "Fresh Green base for success."
+    },
+    {
+      "name": "color/feedback/success/fg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:16"
+        }
+      },
+      "description": "Dark green text."
+    },
+    {
+      "name": "color/feedback/info/bg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:129:19"
+        }
+      },
+      "description": "Splash Cyan base for info."
+    },
+    {
+      "name": "color/feedback/warning/bg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:71:94"
+        }
+      },
+      "description": "Standard yellow."
+    },
+    {
+      "name": "color/feedback/error/bg",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:68:428"
+        }
+      },
+      "description": "Standard red."
+    },
+    {
+      "name": "lh-16",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 16
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-20",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 20
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-24",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 24
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-28",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 28
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-32",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 32
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-36",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 36
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-40",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 40
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-44",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 44
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-48",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 48
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-56",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 56
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-64",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 64
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-72",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 72
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-88",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 88
+      },
+      "description": ""
+    },
+    {
+      "name": "lh-76",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "132:1": 76
+      },
+      "description": ""
+    },
+    {
+      "name": "text/size/h4",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:72"
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "text/weight/small",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": 0
+      },
+      "description": ""
+    },
+    {
+      "name": "text/size/body-sm",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:132:69"
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "text/size/Color",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "hex": "#FFFFFF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "color-shadow-04",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#212529",
+          "opacity": 0.03999999910593033
+        }
+      },
+      "description": "Used for shadow-xl"
+    },
+    {
+      "name": "color-shadow-05",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#212529",
+          "opacity": 0.05000000074505806
+        }
+      },
+      "description": "Used for shadow-xs, lg"
+    },
+    {
+      "name": "color-shadow-06",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#212529",
+          "opacity": 0.05999999865889549
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "color-shadow-10",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "19:0": {
+          "hex": "#212529",
+          "opacity": 0.10000000149011612
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "stroke-0",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "172:0": 0
+      },
+      "description": "No border (reset)."
+    },
+    {
+      "name": "stroke-1",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "172:0": 1
+      },
+      "description": "Hairline. The standard for all UI dividers and inputs."
+    },
+    {
+      "name": "stroke-2",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "172:0": 2
+      },
+      "description": "Thick. Used for active states or selected cards."
+    },
+    {
+      "name": "stroke-4",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "172:0": 4
+      },
+      "description": "Heavy. Used for high-contrast focus rings."
+    },
+    {
+      "name": "border/width/none",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:172:11"
+        }
+      },
+      "description": "No border set"
+    },
+    {
+      "name": "border/width/ui",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:172:12"
+        }
+      },
+      "description": "Standard for inputs/cards"
+    },
+    {
+      "name": "border/width/active",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:172:13"
+        }
+      },
+      "description": "Selected states"
+    },
+    {
+      "name": "border/width/focus",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:172:14"
+        }
+      },
+      "description": "Accessibility rings"
+    },
+    {
+      "name": "opacity-0",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0
+      },
+      "description": "Invisible"
+    },
+    {
+      "name": "opacity-10",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0.10000000149011612
+      },
+      "description": "Very subtle (often used for ghost hover backgrounds)."
+    },
+    {
+      "name": "opacity-20",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0.20000000298023224
+      },
+      "description": "Subtle."
+    },
+    {
+      "name": "opacity-40",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0.4000000059604645
+      },
+      "description": "Soft Fade"
+    },
+    {
+      "name": "opacity-50",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0.5
+      },
+      "description": "Medium (\"Disabled\") base."
+    },
+    {
+      "name": "opacity-60",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0.6000000238418579
+      },
+      "description": "Strong (Overlay) base"
+    },
+    {
+      "name": "opacity-80",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 0.800000011920929
+      },
+      "description": "High visibility, slightly softened."
+    },
+    {
+      "name": "opacity-100",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "185:0": 1
+      },
+      "description": "Fully opaque."
+    },
+    {
+      "name": "opacity/state/disabled",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:185:7"
+        }
+      },
+      "description": "Disabled state"
+    },
+    {
+      "name": "opacity/state/inactive",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:185:6"
+        }
+      },
+      "description": "Inactive state"
+    },
+    {
+      "name": "opacity/surface/overlay",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:185:8"
+        }
+      },
+      "description": "For modal backdrops"
+    },
+    {
+      "name": "opacity/interaction/hover",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "143:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:185:4"
+        }
+      },
+      "description": "Useful for applying a subtle wash over buttons/list items"
+    },
+    {
+      "name": "a",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "143:5": {
+          "hex": "#FFFFFF",
+          "opacity": 1
+        }
+      },
+      "description": ""
+    }
+  ],
+  "textStyles": [
+    {
+      "name": "display/hero",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 64,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 76
+      },
+      "description": "Hero Heading Text"
+    },
+    {
+      "name": "heading/h1",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      "description": ""
+    },
+    {
+      "name": "heading/h2",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 40
+      },
+      "description": ""
+    },
+    {
+      "name": "heading/h3",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "description": ""
+    },
+    {
+      "name": "heading/h4",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "description": ""
+    },
+    {
+      "name": "heading/h5",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/large",
+      "font": {
+        "family": "Mulish",
+        "style": "Regular"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/medium",
+      "font": {
+        "family": "Mulish",
+        "style": "Regular"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/small",
+      "font": {
+        "family": "Mulish",
+        "style": "Regular"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/caption",
+      "font": {
+        "family": "DM Serif Display",
+        "style": "Regular"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/bold/large",
+      "font": {
+        "family": "Mulish",
+        "style": "SemiBold"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/bold/medium",
+      "font": {
+        "family": "Mulish",
+        "style": "SemiBold"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/bold/small",
+      "font": {
+        "family": "Mulish",
+        "style": "SemiBold"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "description": ""
+    },
+    {
+      "name": "body/ui/bold/caption",
+      "font": {
+        "family": "Mulish",
+        "style": "SemiBold"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "description": ""
+    },
+    {
+      "name": "article/large",
+      "font": {
+        "family": "Mulish",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "description": ""
+    },
+    {
+      "name": "article/medium",
+      "font": {
+        "family": "Mulish",
+        "style": "Regular"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "description": ""
+    },
+    {
+      "name": "article/small",
+      "font": {
+        "family": "Mulish",
+        "style": "Regular"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "description": ""
+    },
+    {
+      "name": "utility/code/medium",
+      "font": {
+        "family": "Inconsolata",
+        "style": "Regular"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "description": ""
+    },
+    {
+      "name": "utility/code/small",
+      "font": {
+        "family": "Inconsolata",
+        "style": "Regular"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "description": ""
+    }
+  ],
+  "effectStyles": [
+    {
+      "name": "shadow-xs",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:163:11"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "description": "Contact state. Use for Input Fields (Sunken), active borders, or pressed states where items feel flush with the surface."
+    },
+    {
+      "name": "shadow-sm",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:163:12"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 3,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:172:2"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "description": "Touch state. Use for clickable interactive elements like Buttons, list items, or small chips that need a subtle lift."
+    },
+    {
+      "name": "shadow-md",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:163:12"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.05999999865889549
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": -1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:172:2"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "description": "Float state. The default elevation for Cards, Panels, and Content Containers. Defines distinct separation from the background"
+    },
+    {
+      "name": "shadow-lg",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:163:11"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 15,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:172:2"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 10
+          },
+          "spread": -3,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "description": "Lift state. Use for Hover interactions on cards, sticky navigation headers, Dropdown menus, or Tooltips"
+    },
+    {
+      "name": "shadow-xl",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 10,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:163:10"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.03999999910593033
+          },
+          "offset": {
+            "x": 0,
+            "y": 10
+          },
+          "spread": -5,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 25,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:172:2"
+            }
+          },
+          "color": {
+            "r": 0.12941177189350128,
+            "g": 0.14509804546833038,
+            "b": 0.16078431904315948,
+            "a": 0.10000000149011612
+          },
+          "offset": {
+            "x": 0,
+            "y": 20
+          },
+          "spread": -5,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "description": "Focus state. Max elevation. Use exclusively for Modals, Dialogs, Lightboxes, and blocking alerts that float above everything else."
+    }
+  ]
+}

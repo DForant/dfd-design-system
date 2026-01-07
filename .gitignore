@@ -1,1 +1,16 @@
 ror
+*.code-workspace
+.vscode/
+# Ignore node_modules
+node_modules/
+# Ignore build output
+dist/
+build/
+# Ignore logs
+logs/
+*.log
+# Ignore environment variables
+.env
+# Ignore OS files
+.DS_Store
+Thumbs.db

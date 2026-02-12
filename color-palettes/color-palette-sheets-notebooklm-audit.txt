@@ -1,0 +1,21 @@
+Context: I am the Lead Architect for the DFD Design System. I have uploaded four distinct color palettes: Warm & Cozy, Fun & Vibrant, Cool & Industrial, and Soft & Elegant. These represent "Tier 2: Interim/Themes" in my 3-Tier Variable System.
+
+Sheets column structure: Each sheet represents a single color palette consiting of 5 colors each with its own 5 step chromatic scale. Columns A-C have single data values that represent the general palette information. Columns D & E have the name and description for each base color in the palette. and the remaining columns represent the information specific to that color step. 
+
+Objective: Audit these sources for naming consistency and architectural alignment. Please provide the following:
+
+Naming Convention Check: Identify any inconsistencies in how colors are named across the four sheets. (e.g., Is one using "Blue-500" while another uses "Sky-Medium"?). Recommend a unified naming structure that fits the color/hue/step format.
+
+Step Alignment: Compare the "Steps" (e.g., 100, 200, 300 or 10, 20, 30). Ensure that "Step 500" in Cool & Industrial has a similar perceived lightness/utility as "Step 500" in Fun & Vibrant.
+
+Semantic Readiness: Based on the current sheets, identify which colors are the most likely candidates for the following Tier 3 Semantic tokens:
+
+action/primary/bg
+
+surface/page/base
+
+text/secondary/muted
+
+Missing Values: Note if any palette is missing a critical utility color (like a neutral "Background" or a high-contrast "Text" color) that the others possess.
+
+Output Format: Present the findings in a Markdown table for easy review.

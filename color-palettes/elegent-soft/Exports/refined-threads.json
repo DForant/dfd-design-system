@@ -1,0 +1,59 @@
+{
+  "Refined Threads": {
+    "charcoal-noir": {
+      "charcoal-noir-1": { "$value": "#4D4D4D", "$type": "color" },
+      "charcoal-noir-2": { "$value": "#404040", "$type": "color" },
+      "charcoal-noir-3": { 
+        "$value": "#333333", 
+        "$type": "color",
+        "$description": "Deep grounded neutral for text and high contrast."
+      },
+      "charcoal-noir-4": { "$value": "#262626", "$type": "color" },
+      "charcoal-noir-5": { "$value": "#1A1A1A", "$type": "color" }
+    },
+    "alabaster-silk": {
+      "alabaster-silk-1": { "$value": "#FDFBF7", "$type": "color" },
+      "alabaster-silk-2": { "$value": "#FAF6EF", "$type": "color" },
+      "alabaster-silk-3": { 
+        "$value": "#F5EFE1", 
+        "$type": "color",
+        "$description": "Warm white background color."
+      },
+      "alabaster-silk-4": { "$value": "#EBE1CB", "$type": "color" },
+      "alabaster-silk-5": { "$value": "#E1D3B5", "$type": "color" }
+    },
+    "dusty-rose": {
+      "dusty-rose-1": { "$value": "#E8C9C9", "$type": "color" },
+      "dusty-rose-2": { "$value": "#D6A8A8", "$type": "color" },
+      "dusty-rose-3": { 
+        "$value": "#BC8E8E", 
+        "$type": "color",
+        "$description": "Primary brand color for buttons and highlights."
+      },
+      "dusty-rose-4": { "$value": "#9C6E6E", "$type": "color" },
+      "dusty-rose-5": { "$value": "#7A5252", "$type": "color" }
+    },
+    "chambray-mist": {
+      "chambray-mist-1": { "$value": "#D6E0E8", "$type": "color" },
+      "chambray-mist-2": { "$value": "#B8C9D6", "$type": "color" },
+      "chambray-mist-3": { 
+        "$value": "#96A9B8", 
+        "$type": "color",
+        "$description": "Secondary brand color for subtle UI."
+      },
+      "chambray-mist-4": { "$value": "#748896", "$type": "color" },
+      "chambray-mist-5": { "$value": "#556773", "$type": "color" }
+    },
+    "camel-suede": {
+      "camel-suede-1": { "$value": "#F2E3C9", "$type": "color" },
+      "camel-suede-2": { "$value": "#E6D0AC", "$type": "color" },
+      "camel-suede-3": { 
+        "$value": "#C7AD84", 
+        "$type": "color",
+        "$description": "Accent color for details and tags."
+      },
+      "camel-suede-4": { "$value": "#A88F68", "$type": "color" },
+      "camel-suede-5": { "$value": "#877150", "$type": "color" }
+    }
+  }
+}

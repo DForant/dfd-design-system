@@ -1,0 +1,930 @@
+# DFD Color Palettes
+
+## Version: 1.0.0
+**Release Date**: 02/11/2026
+
+```
+
+{
+    "Cozy & Warm": {
+        "Artisan-Estate": {
+            "spiced-pumpkin": {
+            "spiced-pumpkin-1": {"$value": "#F9E6D8", "$type": "color"},
+            "spiced-pumpkin-2": {"$value": "#E6A16D", "$type": "color"},
+            "spiced-pumpkin-3": {
+                "$value": "#B3591B", 
+                "$type": "color",
+                "$description": "A rich, artisanal orange used for primary actions and highlights that need to feel energetic yet grounded."
+            },
+            "spiced-pumpkin-4": {"$value": "#8A4315", "$type": "color"},
+            "spiced-pumpkin-5": {"$value": "#5C2D0E", "$type": "color"}
+            },
+            "creamy-beige": {
+            "creamy-beige-1": {"$value": "#FAF7F2", "$type": "color"},
+            "creamy-beige-2": {"$value": "#EDE3D1", "$type": "color"},
+            "creamy-beige-3": {
+                "$value": "#DBC9A9", 
+                "$type": "color",
+                "$description": "A soft, sophisticated neutral ideal for large backgrounds or secondary text surfaces."
+            },
+            "creamy-beige-4": {"$value": "#B09A75", "$type": "color"},
+            "creamy-beige-5": {"$value": "#7D6C52", "$type": "color"}
+            },
+            "cranberry-red": {
+            "cranberry-red-1": {"$value": "#F5E6E6", "$type": "color"},
+            "cranberry-red-2": {"$value": "#C47A7A", "$type": "color"},
+            "cranberry-red-3": {
+                "$value": "#8A2B2B", 
+                "$type": "color",
+                "$description": "A deep, passionate red for accents that require a touch of elegance and tradition."
+            },
+            "cranberry-red-4": {"$value": "#692121", "$type": "color"},
+            "cranberry-red-5": {"$value": "#451616", "$type": "color"}
+            },
+            "moss-green": {
+            "moss-green-1": {"$value": "#EEF0E9", "$type": "color"},
+            "moss-green-2": {"$value": "#9CAD83", "$type": "color"},
+            "moss-green-3": {
+                "$value": "#556340", 
+                "$type": "color",
+                "$description": "A natural, calming green that works perfectly for footers, borders, or botanical elements."
+            },
+            "moss-green-4": {"$value": "#404A30", "$type": "color"},
+            "moss-green-5": {"$value": "#2B3120", "$type": "color"}
+            },
+            "golden-yellow": {
+            "golden-yellow-1": {"$value": "#FDF7E6", "$type": "color"},
+            "golden-yellow-2": {"$value": "#F3D991", "$type": "color"},
+            "golden-yellow-3": {
+                "$value": "#D4A017", 
+                "$type": "color",
+                "$description": "A warm, honey-like yellow used for subtle highlights and secondary buttons."
+            },
+            "golden-yellow-4": {"$value": "#A17A11", "$type": "color"},
+            "golden-yellow-5": {"$value": "#6E530C", "$type": "color"}
+            }
+        },
+        "Autumn-Hearth": {
+            "woolen-oat": {
+            "woolen-oat-1": { "$value": "#d9cebd", "$type": "color" },
+            "woolen-oat-2": { "$value": "#ede5d8", "$type": "color" },
+            "woolen-oat-3": { 
+                "$value": "#f7f1e6", 
+                "$type": "color",
+                "$description": "A soft, neutral beige with warm undertones. Best used for large background areas or minimalist packaging to provide a gentle, non-clinical feel."
+            },
+            "woolen-oat-4": { "$value": "#ffffff", "$type": "color" },
+            "woolen-oat-5": { "$value": "#faf9f7", "$type": "color" }
+            },
+            "spiced-cider": {
+            "spiced-cider-1": { "$value": "#9e5b32", "$type": "color" },
+            "spiced-cider-2": { "$value": "#c4713e", "$type": "color" },
+            "spiced-cider-3": { 
+                "$value": "#e08c5e", 
+                "$type": "color",
+                "$description": "A muted, dusty orange. Ideal for illustrative accents, secondary headings, or UI elements that need to feel friendly but not loud."
+            },
+            "spiced-cider-4": { "$value": "#ebb391", "$type": "color" },
+            "spiced-cider-5": { "$value": "#f5d9c9", "$type": "color" }
+            },
+            "embers-glow": {
+            "embers-glow-1": { "$value": "#8c3216", "$type": "color" },
+            "embers-glow-2": { "$value": "#b3401c", "$type": "color" },
+            "embers-glow-3": { 
+                "$value": "#d94e23", 
+                "$type": "color",
+                "$description": "A rich, saturated burnt sienna. This is the 'heart' of the palette, perfect for primary buttons and brand marks."
+            },
+            "embers-glow-4": { "$value": "#e6856a", "$type": "color" },
+            "embers-glow-5": { "$value": "#f0b5a5", "$type": "color" }
+            },
+            "mulled-wine": {
+            "mulled-wine-1": { "$value": "#3b1620", "$type": "color" },
+            "mulled-wine-2": { "$value": "#57202f", "$type": "color" },
+            "mulled-wine-3": { 
+                "$value": "#7a2d42", 
+                "$type": "color",
+                "$description": "A deep, sophisticated berry-purple. Use this for high-contrast text or decorative borders to add a touch of luxury."
+            },
+            "mulled-wine-4": { "$value": "#a36171", "$type": "color" },
+            "mulled-wine-5": { "$value": "#cc9ba6", "$type": "color" }
+            },
+            "roasted-bean": {
+            "roasted-bean-1": { "$value": "#1a110e", "$type": "color" },
+            "roasted-bean-2": { "$value": "#261914", "$type": "color" },
+            "roasted-bean-3": { 
+                "$value": "#33211b", 
+                "$type": "color",
+                "$description": "A very dark, warm brown. Replaces pure black for all typography and grounding elements to maintain the 'cozy' theme."
+            },
+            "roasted-bean-4": { "$value": "#5c4740", "$type": "color" },
+            "roasted-bean-5": { "$value": "#85746e", "$type": "color" }
+            }
+        },
+        "Golden-Orchard": {
+            "parchment-silk": {
+            "parchment-silk-1": { "$value": "#e0d9cf", "$type": "color" },
+            "parchment-silk-2": { "$value": "#f0ece6", "$type": "color" },
+            "parchment-silk-3": { 
+                "$value": "#faf9f7", 
+                "$type": "color",
+                "$description": "A warm, breathable off-white. This is the ultimate background for minimalist layouts, providing a softer look than pure white."
+            },
+            "parchment-silk-4": { "$value": "#ffffff", "$type": "color" },
+            "parchment-silk-5": { "$value": "#fcfcfb", "$type": "color" }
+            },
+            "honey-glow": {
+            "honey-glow-1": { "$value": "#b38600", "$type": "color" },
+            "honey-glow-2": { "$value": "#e6ac00", "$type": "color" },
+            "honey-glow-3": { 
+                "$value": "#ffc107", 
+                "$type": "color",
+                "$description": "A rich, golden amber. Use for secondary buttons, interactive highlights, or branding icons to inject warmth and energy."
+            },
+            "honey-glow-4": { "$value": "#ffd54f", "$type": "color" },
+            "honey-glow-5": { "$value": "#ffecb3", "$type": "color" }
+            },
+            "terracotta-soil": {
+            "terracotta-soil-1": { "$value": "#8c3a1a", "$type": "color" },
+            "terracotta-soil-2": { "$value": "#b34a21", "$type": "color" },
+            "terracotta-soil-3": { 
+                "$value": "#d95a28", 
+                "$type": "color",
+                "$description": "A deep, sun-baked clay. This is the primary brand color, ideal for Call-to-Action (CTA) elements and main headings."
+            },
+            "terracotta-soil-4": { "$value": "#e68b6a", "$type": "color" },
+            "terracotta-soil-5": { "$value": "#f0bcab", "$type": "color" }
+            },
+            "mossy-branch": {
+            "mossy-branch-1": { "$value": "#2b2e1b", "$type": "color" },
+            "mossy-branch-2": { "$value": "#444a2b", "$type": "color" },
+            "mossy-branch-3": { 
+                "$value": "#5d663b", 
+                "$type": "color",
+                "$description": "A dark, desaturated olive green. Use for secondary typography, botanical illustrations, or footer backgrounds."
+            },
+            "mossy-branch-4": { "$value": "#8b9464", "$type": "color" },
+            "mossy-branch-5": { "$value": "#b7bd9a", "$type": "color" }
+            },
+            "heirloom-bark": {
+            "heirloom-bark-1": { "$value": "#1a1512", "$type": "color" },
+            "heirloom-bark-2": { "$value": "#2e2621", "$type": "color" },
+            "heirloom-bark-3": { 
+                "$value": "#423730", 
+                "$type": "color",
+                "$description": "A deep, warm charcoal brown. A richer alternative to black, perfect for primary body copy and grounding elements."
+            },
+            "heirloom-bark-4": { "$value": "#6b5e55", "$type": "color" },
+            "heirloom-bark-5": { "$value": "#948880", "$type": "color" }
+            }
+        },
+        "Hearth-and-Harvest": {
+            "roasted-umber": {
+            "roasted-umber-1": {"$value": "#5C3A21", "$type": "color"},
+            "roasted-umber-2": {"$value": "#4D311C", "$type": "color"},
+            "roasted-umber-3": {
+                "$value": "#3E2717", 
+                "$type": "color",
+                "$description": "Deep grounding brown used for primary brand elements, footers, and high-contrast text."
+            },
+            "roasted-umber-4": {"$value": "#2F1D11", "$type": "color"},
+            "roasted-umber-5": {"$value": "#1F140C", "$type": "color"}
+            },
+            "golden-ochard": {
+            "golden-ochard-1": {"$value": "#E8B459", "$type": "color"},
+            "golden-ochard-2": {"$value": "#DB9F3A", "$type": "color"},
+            "golden-ochard-3": {
+                "$value": "#D18C26", 
+                "$type": "color",
+                "$description": "A vibrant yet earthy yellow for call-to-action buttons, icons, and highlights."
+            },
+            "golden-ochard-4": {"$value": "#B07620", "$type": "color"},
+            "golden-ochard-5": {"$value": "#8F601A", "$type": "color"}
+            },
+            "spiced-chai": {
+            "spiced-chai-1": {"$value": "#BC8E7A", "$type": "color"},
+            "spiced-chai-2": {"$value": "#AF7962", "$type": "color"},
+            "spiced-chai-3": {
+                "$value": "#A3644A", 
+                "$type": "color",
+                "$description": "A muted, warm terracotta/rose tone used for secondary cards and UI elements."
+            },
+            "spiced-chai-4": {"$value": "#8A553E", "$type": "color"},
+            "spiced-chai-5": {"$value": "#714633", "$type": "color"}
+            },
+            "clotted-cream": {
+            "clotted-cream-1": {"$value": "#FFF9F2", "$type": "color"},
+            "clotted-cream-2": {"$value": "#F9F1E5", "$type": "color"},
+            "clotted-cream-3": {
+                "$value": "#F2E8D7", 
+                "$type": "color",
+                "$description": "A soft, warm off-white used for backgrounds, headers, and light UI sections."
+            },
+            "clotted-cream-4": {"$value": "#E5D8C3", "$type": "color"},
+            "clotted-cream-5": {"$value": "#D8C7B0", "$type": "color"}
+            },
+            "antique-parchment": {
+            "antique-parchment-1": {"$value": "#EEDBC4", "$type": "color"},
+            "antique-parchment-2": {"$value": "#E2CAB0", "$type": "color"},
+            "antique-parchment-3": {
+                "$value": "#D6B99B", 
+                "$type": "color",
+                "$description": "A slightly darker neutral for card backgrounds and borders to provide depth."
+            },
+            "antique-parchment-4": {"$value": "#C3A687", "$type": "color"},
+            "antique-parchment-5": {"$value": "#AF9273", "$type": "color"}
+            }
+        }
+    },
+    "Fun & Vibrant": {
+        "Electric-Stream": {
+            "cream-silk": {
+            "cream-silk-1": {"$value": "#FFFDF5", "$type": "color"},
+            "cream-silk-2": {"$value": "#FDF9E2", "$type": "color"},
+            "cream-silk-3": {
+                "$value": "#F9F4D2", 
+                "$type": "color",
+                "$description": "Cream Silk: Light background base color. Soft, warm off-white for low-strain readability."
+            },
+            "cream-silk-4": {"$value": "#EBE4B0", "$type": "color"},
+            "cream-silk-5": {"$value": "#D1C98C", "$type": "color"}
+            },
+            "midnight-neon": {
+            "midnight-neon-1": {"$value": "#3B3B8F", "$type": "color"},
+            "midnight-neon-2": {"$value": "#2F2F73", "$type": "color"},
+            "midnight-neon-3": {
+                "$value": "#2A2A64", 
+                "$type": "color",
+                "$description": "Midnight Neon: Dark background base color. Deep violet-blue for sophisticated depth."
+            },
+            "midnight-neon-4": {"$value": "#1E1E4A", "$type": "color"},
+            "midnight-neon-5": {"$value": "#12122E", "$type": "color"}
+            },
+            "electric-yellow": {
+            "electric-yellow-1": {"$value": "#FFEB70", "$type": "color"},
+            "electric-yellow-2": {"$value": "#FFE342", "$type": "color"},
+            "electric-yellow-3": {
+                "$value": "#FFD700", 
+                "$type": "color",
+                "$description": "Electric Yellow: Primary brand color. High energy and optimism for CTAs."
+            },
+            "electric-yellow-4": {"$value": "#DBB900", "$type": "color"},
+            "electric-yellow-5": {"$value": "#B39700", "$type": "color"}
+            },
+            "dragonfruit-pink": {
+            "dragonfruit-pink-1": {"$value": "#F2618E", "$type": "color"},
+            "dragonfruit-pink-2": {"$value": "#EB3D74", "$type": "color"},
+            "dragonfruit-pink-3": {
+                "$value": "#E31B5D", 
+                "$type": "color",
+                "$description": "Dragonfruit Pink: Secondary accent color. Bold contrast for high-priority elements."
+            },
+            "dragonfruit-pink-4": {"$value": "#C1174F", "$type": "color"},
+            "dragonfruit-pink-5": {"$value": "#9E1241", "$type": "color"}
+            },
+            "lime-spark": {
+            "lime-spark-1": {"$value": "#B8E65C", "$type": "color"},
+            "lime-spark-2": {"$value": "#A3D936", "$type": "color"},
+            "lime-spark-3": {
+                "$value": "#8CC63F", 
+                "$type": "color",
+                "$description": "Lime Spark: Alt brand color. Refreshing balance for icons and success states."
+            },
+            "lime-spark-4": {"$value": "#76A635", "$type": "color"},
+            "lime-spark-5": {"$value": "#5F862B", "$type": "color"}
+            }
+        },
+        "PawsAndPlay": {
+            "playful-red": {
+            "playful-red-1": { "$value": "#FFD1D1", "$type": "color" },
+            "playful-red-2": { "$value": "#FF7070", "$type": "color" },
+            "playful-red-3": { 
+                "$value": "#C62828", 
+                "$type": "color",
+                "$description": "Energetic accent used for primary Call-to-Action buttons and urgent alerts."
+            },
+            "playful-red-4": { "$value": "#8E1C1C", "$type": "color" },
+            "playful-red-5": { "$value": "#560F0F", "$type": "color" }
+            },
+            "sunny-gold": {
+            "sunny-gold-1": { "$value": "#FFF4C2", "$type": "color" },
+            "sunny-gold-2": { "$value": "#FFE052", "$type": "color" },
+            "sunny-gold-3": { 
+                "$value": "#F9C80E", 
+                "$type": "color",
+                "$description": "Used for highlights, star ratings, and seasonal badges."
+            },
+            "sunny-gold-4": { "$value": "#C29B0B", "$type": "color" },
+            "sunny-gold-5": { "$value": "#8B6E08", "$type": "color" }
+            },
+            "warm-biscuit": {
+            "warm-biscuit-1": { "$value": "#FFFFFF", "$type": "color" },
+            "warm-biscuit-2": { "$value": "#FAF7F0", "$type": "color" },
+            "warm-biscuit-3": { 
+                "$value": "#F2EBD9", 
+                "$type": "color",
+                "$description": "A soft, neutral light color designed for large background surfaces to reduce eye strain."
+            },
+            "warm-biscuit-4": { "$value": "#E0D4B8", "$type": "color" },
+            "warm-biscuit-5": { "$value": "#C9B891", "$type": "color" }
+            },
+            "midnight-navy": {
+            "midnight-navy-1": { "$value": "#D1D8E0", "$type": "color" },
+            "midnight-navy-2": { "$value": "#5C7089", "$type": "color" },
+            "midnight-navy-3": { 
+                "$value": "#0B1E33", 
+                "$type": "color",
+                "$description": "A deep, near-black blue for high-contrast text and structural navigation."
+            },
+            "midnight-navy-4": { "$value": "#071421", "$type": "color" },
+            "midnight-navy-5": { "$value": "#03080D", "$type": "color" }
+            },
+            "royal-purple": {
+            "royal-purple-1": { "$value": "#E8DEF0", "$type": "color" },
+            "royal-purple-2": { "$value": "#A37AC2", "$type": "color" },
+            "royal-purple-3": { 
+                "$value": "#6A3093", 
+                "$type": "color",
+                "$description": "Used for secondary buttons, interactive states, and luxury product accents."
+            },
+            "royal-purple-4": { "$value": "#4C2269", "$type": "color" },
+            "royal-purple-5": { "$value": "#2E1540", "$type": "color" }
+            }
+        },
+        "Toyland-Treats-Trends": {
+            "onyx-night": {
+            "onyx-night-1": { "$value": "#4D4D4D", "$type": "color" },
+            "onyx-night-2": { "$value": "#2B2B2B", "$type": "color" },
+            "onyx-night-3": { 
+                "$value": "#121212", 
+                "$type": "color",
+                "$description": "A deep, near-black used for primary typography, headers, and high-contrast UI elements to ensure readability against vibrant accents."
+            },
+            "onyx-night-4": { "$value": "#0A0A0A", "$type": "color" },
+            "onyx-night-5": { "$value": "#000000", "$type": "color" }
+            },
+            "cotton-cloud": {
+            "cotton-cloud-1": { "$value": "#FFFFFF", "$type": "color" },
+            "cotton-cloud-2": { "$value": "#FAF8F2", "$type": "color" },
+            "cotton-cloud-3": { 
+                "$value": "#F5F1E6", 
+                "$type": "color",
+                "$description": "A warm, soft off-white designed for large background areas, providing a friendly and less 'sterile' look than pure white."
+            },
+            "cotton-cloud-4": { "$value": "#EBE4D0", "$type": "color" },
+            "cotton-cloud-5": { "$value": "#DED4B6", "$type": "color" }
+            },
+            "electric-blue": {
+            "electric-blue-1": { "$value": "#B3E0FF", "$type": "color" },
+            "electric-blue-2": { "$value": "#4DB8FF", "$type": "color" },
+            "electric-blue-3": { 
+                "$value": "#0099FF", 
+                "$type": "color",
+                "$description": "The main brand driver. Used for primary call-to-action buttons, shopping bags, and key brand icons to denote reliability and fun."
+            },
+            "electric-blue-4": { "$value": "#007ACC", "$type": "color" },
+            "electric-blue-5": { "$value": "#005C99", "$type": "color" }
+            },
+            "bubblegum-pink": {
+            "bubblegum-pink-1": { "$value": "#FFC2D6", "$type": "color" },
+            "bubblegum-pink-2": { "$value": "#FF85AD", "$type": "color" },
+            "bubblegum-pink-3": { 
+                "$value": "#F07197", 
+                "$type": "color",
+                "$description": "A vibrant accent color ideal for product packaging (like the box mockup), promotional banners, and highlights."
+            },
+            "bubblegum-pink-4": { "$value": "#D64D77", "$type": "color" },
+            "bubblegum-pink-5": { "$value": "#A32E52", "$type": "color" }
+            },
+            "sunny-citrus": {
+            "sunny-citrus-1": { "$value": "#FFF2B3", "$type": "color" },
+            "sunny-citrus-2": { "$value": "#FFE44D", "$type": "color" },
+            "sunny-citrus-3": { 
+                "$value": "#FFD600", 
+                "$type": "color",
+                "$description": "Used for badges, 'New Arrival' tags, and illustrations to add a pop of warmth and visual variety."
+            },
+            "sunny-citrus-4": { "$value": "#CCAB00", "$type": "color" },
+            "sunny-citrus-5": { "$value": "#998000", "$type": "color" }
+            }
+        },
+        "Vivid Horizon": {
+            "Creamy Bone": {
+            "creamy-bone-1": { "$value": "#FAF9F2", "$type": "color" },
+            "creamy-bone-2": { "$value": "#F7F5E6", "$type": "color" },
+            "creamy-bone-3": { 
+                "$value": "#F2EFE0", 
+                "$type": "color",
+                "$description": "A soft, sophisticated off-white used for primary backgrounds to reduce eye strain while maintaining a bright, airy feel."
+            },
+            "creamy-bone-4": { "$value": "#EBE6CC", "$type": "color" },
+            "creamy-bone-5": { "$value": "#DED8B6", "$type": "color" }
+            },
+            "Sunny Yellow": {
+            "sunny-yellow-1": { "$value": "#FFF299", "$type": "color" },
+            "sunny-yellow-2": { "$value": "#FFE94D", "$type": "color" },
+            "sunny-yellow-3": { 
+                "$value": "#FFD700", 
+                "$type": "color",
+                "$description": "An optimistic accent color perfect for highlights, icons, and bringing a sense of 'joy' to the user interface."
+            },
+            "sunny-yellow-4": { "$value": "#CCAC00", "$type": "color" },
+            "sunny-yellow-5": { "$value": "#998100", "$type": "color" }
+            },
+            "Cerulean Blue": {
+            "cerulean-blue-1": { "$value": "#80D4FF", "$type": "color" },
+            "cerulean-blue-2": { "$value": "#33B5FF", "$type": "color" },
+            "cerulean-blue-3": { 
+                "$value": "#0099EE", 
+                "$type": "color",
+                "$description": "A trustworthy and calm blue used for secondary buttons, links, and illustrative elements."
+            },
+            "cerulean-blue-4": { "$value": "#007ACC", "$type": "color" },
+            "cerulean-blue-5": { "$value": "#005C99", "$type": "color" }
+            },
+            "Forest Green": {
+            "forest-green-1": { "$value": "#2A6B54", "$type": "color" },
+            "forest-green-2": { "$value": "#1A4D3B", "$type": "color" },
+            "forest-green-3": { 
+                "$value": "#0A3022", 
+                "$type": "color",
+                "$description": "The deep, grounding color used for text, dark-mode backgrounds, and primary navigation elements."
+            },
+            "forest-green-4": { "$value": "#062017", "$type": "color" },
+            "forest-green-5": { "$value": "#020D09", "$type": "color" }
+            },
+            "Fiery Orange": {
+            "fiery-orange-1": { "$value": "#FF9D66", "$type": "color" },
+            "fiery-orange-2": { "$value": "#FF7526", "$type": "color" },
+            "fiery-orange-3": { 
+                "$value": "#E65100", 
+                "$type": "color",
+                "$description": "The primary call-to-action color, designed to grab attention and drive user conversion."
+            },
+            "fiery-orange-4": { "$value": "#B33F00", "$type": "color" },
+            "fiery-orange-5": { "$value": "#802D00", "$type": "color" }
+            }
+        }             
+    },
+    "Industrial & Cool":{
+        "Forge-Foundry": {
+            "onyx-steel": {
+            "onyx-steel-1": {"$value": "#424242", "$type": "color"},
+            "onyx-steel-2": {"$value": "#303030", "$type": "color"},
+            "onyx-steel-3": {
+                "$value": "#1A1A1A",
+                "$type": "color",
+                "$description": "Deep near-black neutral for primary text and dark mode backgrounds."
+            },
+            "onyx-steel-4": {"$value": "#121212", "$type": "color"},
+            "onyx-steel-5": {"$value": "#080808", "$type": "color"}
+            },
+            "frosted-zinc": {
+            "frosted-zinc-1": {"$value": "#F5F7F8", "$type": "color"},
+            "frosted-zinc-2": {"$value": "#E9ECEE", "$type": "color"},
+            "frosted-zinc-3": {
+                "$value": "#D1D5D8", 
+                "$type": "color",
+                "$description": "Cool-toned light grey for surfaces and UI dividers."
+            },
+            "frosted-zinc-4": {"$value": "#BFC4C8", "$type": "color"},
+            "frosted-zinc-5": {"$value": "#A8AEB3", "$type": "color"}
+            },
+            "cobalt-graphite": {
+            "cobalt-graphite-1": {"$value": "#5C6B7A", "$type": "color"},
+            "cobalt-graphite-2": {"$value": "#4A5663", "$type": "color"},
+            "cobalt-graphite-3": {
+                "$value": "#3A434D", 
+                "$type": "color",
+                "$description": "Muted blue-grey primary brand color for headers and buttons."
+            },
+            "cobalt-graphite-4": {"$value": "#2D343C", "$type": "color"},
+            "cobalt-graphite-5": {"$value": "#1F2429", "$type": "color"}
+            },
+            "slag-grey": {
+            "slag-grey-1": {"$value": "#949494", "$type": "color"},
+            "slag-grey-2": {"$value": "#7B7B7B", "$type": "color"},
+            "slag-grey-3": {
+                "$value": "#666666", 
+                "$type": "color",
+                "$description": "Mid-tone neutral for secondary text and disabled states."
+            },
+            "slag-grey-4": {"$value": "#525252", "$type": "color"},
+            "slag-grey-5": {"$value": "#3D3D3D", "$type": "color"}
+            },
+            "industrial-amber": {
+            "industrial-amber-1": {"$value": "#E07D4F", "$type": "color"},
+            "industrial-amber-2": {"$value": "#C7683C", "$type": "color"},
+            "industrial-amber-3": {
+                "$value": "#AF5832", 
+                "$type": "color",
+                "$description": "High-visibility safety amber for CTAs and key highlights."
+            },
+            "industrial-amber-4": {"$value": "#8F4728", "$type": "color"},
+            "industrial-amber-5": {"$value": "#6E361E", "$type": "color"}
+            }
+        },
+        "Industrial-Foundation": {
+            "concrete-grey": {
+            "concrete-grey-1": { "$value": "#F2F4F5", "$type": "color" },
+            "concrete-grey-2": { "$value": "#D1D8DB", "$type": "color" },
+            "concrete-grey-3": { 
+                "$value": "#A9B4B8", 
+                "$type": "color",
+                "$description": "A foundational neutral that mimics cured cement. Perfect for large background areas or secondary containers."
+            },
+            "concrete-grey-4": { "$value": "#7B888D", "$type": "color" },
+            "concrete-grey-5": { "$value": "#4E575B", "$type": "color" }
+            },
+            "steel-blue": {
+            "steel-blue-1": { "$value": "#E8EEF2", "$type": "color" },
+            "steel-blue-2": { "$value": "#99B3C6", "$type": "color" },
+            "steel-blue-3": { 
+                "$value": "#5B82A1", 
+                "$type": "color",
+                "$description": "A professional mid-tone representing high-grade machinery and diamond-tipped tools. Used for subheaders and icons."
+            },
+            "steel-blue-4": { "$value": "#3D576B", "$type": "color" },
+            "steel-blue-5": { "$value": "#202D38", "$type": "color" }
+            },
+            "asphalt-dark": {
+            "asphalt-dark-1": { "$value": "#D6D9DB", "$type": "color" },
+            "asphalt-dark-2": { "$value": "#5C6369", "$type": "color" },
+            "asphalt-dark-3": { 
+                "$value": "#2E3438", 
+                "$type": "color",
+                "$description": "A deep, near-black blue for maximum contrast. Ideal for footers, primary text, and heavy branding elements."
+            },
+            "asphalt-dark-4": { "$value": "#1D2124", "$type": "color" },
+            "asphalt-dark-5": { "$value": "#0E1012", "$type": "color" }
+            },
+            "deep-sea-blue": {
+            "deep-sea-blue-1": { "$value": "#D3DCE3", "$type": "color" },
+            "deep-sea-blue-2": { "$value": "#608099", "$type": "color" },
+            "deep-sea-blue-3": { 
+                "$value": "#2B4B63", 
+                "$type": "color",
+                "$description": "An elegant, dark corporate blue that adds depth to the industrial aesthetic. Use for primary buttons or navigation."
+            },
+            "deep-sea-blue-4": { "$value": "#1D3242", "$type": "color" },
+            "deep-sea-blue-5": { "$value": "#0E1921", "$type": "color" }
+            },
+            "warning-orange": {
+            "warning-orange-1": { "$value": "#FFF2E6", "$type": "color" },
+            "warning-orange-2": { "$value": "#FFC48C", "$type": "color" },
+            "warning-orange-3": { 
+                "$value": "#F38A1D", 
+                "$type": "color",
+                "$description": "The energetic accent color. It signifies action, safety, and high-performance power. Use for CTAs and alerts."
+            },
+            "warning-orange-4": { "$value": "#B86714", "$type": "color" },
+            "warning-orange-5": { "$value": "#7A450D", "$type": "color" }
+            }
+        },
+        "Industrial Steel & Concrete": {
+            "carbon-shadow": {
+            "carbon-shadow-1": { "$value": "#424242", "$type": "color" },
+            "carbon-shadow-2": { "$value": "#363636", "$type": "color" },
+            "carbon-shadow-3": { 
+                "$value": "#2A2A2A", 
+                "$type": "color",
+                "$description": "A deep, near-black neutral used for structural grounding, primary text, and heavy borders."
+            },
+            "carbon-shadow-4": { "$value": "#1E1E1E", "$type": "color" },
+            "carbon-shadow-5": { "$value": "#121212", "$type": "color" }
+            },
+            "slate-foundry": {
+            "slate-foundry-1": { "$value": "#738391", "$type": "color" },
+            "slate-foundry-2": { "$value": "#64727F", "$type": "color" },
+            "slate-foundry-3": { 
+                "$value": "#55616D", 
+                "$type": "color",
+                "$description": "A cool, muted blue-grey that mimics treated metal. Use for secondary UI elements."
+            },
+            "slate-foundry-4": { "$value": "#46505A", "$type": "color" },
+            "slate-foundry-5": { "$value": "#373F47", "$type": "color" }
+            },
+            "raw-steel": {
+            "raw-steel-1": { "$value": "#9E9E9E", "$type": "color" },
+            "raw-steel-2": { "$value": "#8E8E8E", "$type": "color" },
+            "raw-steel-3": { 
+                "$value": "#7E7E7E", 
+                "$type": "color",
+                "$description": "The primary neutral. Represents unfinished concrete and brushed aluminum."
+            },
+            "raw-steel-4": { "$value": "#6E6E6E", "$type": "color" },
+            "raw-steel-5": { "$value": "#5E5E5E", "$type": "color" }
+            },
+            "midnight-teal": {
+            "midnight-teal-1": { "$value": "#465F64", "$type": "color" },
+            "midnight-teal-2": { "$value": "#394E52", "$type": "color" },
+            "midnight-teal-3": { 
+                "$value": "#2C3C40", 
+                "$type": "color",
+                "$description": "A sophisticated accent color for CTA buttons and core brand identity."
+            },
+            "midnight-teal-4": { "$value": "#1F2A2D", "$type": "color" },
+            "midnight-teal-5": { "$value": "#12181A", "$type": "color" }
+            },
+            "oxidized-copper": {
+            "oxidized-copper-1": { "$value": "#9C6C52", "$type": "color" },
+            "oxidized-copper-2": { "$value": "#865D46", "$type": "color" },
+            "oxidized-copper-3": { 
+                "$value": "#704E3B", 
+                "$type": "color",
+                "$description": "A warm contrast color mimicking weathered copper or rust. Use for alerts."
+            },
+            "oxidized-copper-4": { "$value": "#5A3F2F", "$type": "color" },
+            "oxidized-copper-5": { "$value": "#443024", "$type": "color" }
+            }
+        },
+        "Iron-Oxygen": {
+            "Charcoal": {
+            "charcoal-1": { "$value": "#404040", "$type": "color" },
+            "charcoal-2": { "$value": "#333333", "$type": "color" },
+            "charcoal-3": { 
+                "$value": "#2C3531", 
+                "$type": "color",
+                "$description": "Primary dark grounding color for text and deep UI regions."
+            },
+            "charcoal-4": { "$value": "#1E2421", "$type": "color" },
+            "charcoal-5": { "$value": "#111413", "$type": "color" }
+            },
+            "Steel-Grey": {
+            "steel-grey-1": { "$value": "#F2F2F2", "$type": "color" },
+            "steel-grey-2": { "$value": "#E0E0E0", "$type": "color" },
+            "steel-grey-3": { 
+                "$value": "#D1D1D1", 
+                "$type": "color",
+                "$description": "Neutral scale for secondary backgrounds, borders, and subtle structural elements."
+            },
+            "steel-grey-4": { "$value": "#BDBDBD", "$type": "color" },
+            "steel-grey-5": { "$value": "#A6A6A6", "$type": "color" }
+            },
+            "Industrial-Blue": {
+            "industrial-blue-1": { "$value": "#5C7080", "$type": "color" },
+            "industrial-blue-2": { "$value": "#455A64", "$type": "color" },
+            "industrial-blue-3": { 
+                "$value": "#34495E", 
+                "$type": "color",
+                "$description": "The Structural Support primary brand color for navigation and primary containers."
+            },
+            "industrial-blue-4": { "$value": "#2C3E50", "$type": "color" },
+            "industrial-blue-5": { "$value": "#1A252F", "$type": "color" }
+            },
+            "Rust-Red": {
+            "rust-red-1": { "$value": "#E67E22", "$type": "color" },
+            "rust-red-2": { "$value": "#D35400", "$type": "color" },
+            "rust-red-3": { 
+                "$value": "#A5443B", 
+                "$type": "color",
+                "$description": "High-contrast secondary color used for membership tiers and primary calls to action."
+            },
+            "rust-red-4": { "$value": "#8A3931", "$type": "color" },
+            "rust-red-5": { "$value": "#6E2D27", "$type": "color" }
+            },
+            "Electric-Cyan": {
+            "electric-cyan-1": { "$value": "#81D4FA", "$type": "color" },
+            "electric-cyan-2": { "$value": "#4FC3F7", "$type": "color" },
+            "electric-cyan-3": { 
+                "$value": "#11ABB0", 
+                "$type": "color",
+                "$description": "The Digital Energy accent for active states, icons, and vital Join Now buttons."
+            },
+            "electric-cyan-4": { "$value": "#0E8E92", "$type": "color" },
+            "electric-cyan-5": { "$value": "#0A6D70", "$type": "color" }
+            }
+        }
+    },
+    "Elegant & Soft":{
+        "Heirloom Luxe": {
+            "creme-brulee": {
+            "creme-brulee-1": { "$value": "#FAF9F6", "$type": "color" },
+            "creme-brulee-2": { "$value": "#F2F1EC", "$type": "color" },
+            "creme-brulee-3": { 
+                "$value": "#E9E7DE", 
+                "$type": "color",
+                "$description": "Warm off-white used for primary backgrounds and clean whitespace."
+            },
+            "creme-brulee-4": { "$value": "#D8D4C7", "$type": "color" },
+            "creme-brulee-5": { "$value": "#C1BAA8", "$type": "color" }
+            },
+            "charcoal-truffle": {
+            "charcoal-truffle-1": { "$value": "#5C5B5A", "$type": "color" },
+            "charcoal-truffle-2": { "$value": "#474645", "$type": "color" },
+            "charcoal-truffle-3": { 
+                "$value": "#333231", 
+                "$type": "color",
+                "$description": "Deep, rich near-black with warm undertones for primary typography and footers."
+            },
+            "charcoal-truffle-4": { "$value": "#242322", "$type": "color" },
+            "charcoal-truffle-5": { "$value": "#121111", "$type": "color" }
+            },
+            "dusty-rose": {
+            "dusty-rose-1": { "$value": "#D19A9A", "$type": "color" },
+            "dusty-rose-2": { "$value": "#BC8080", "$type": "color" },
+            "dusty-rose-3": { 
+                "$value": "#A5666C", 
+                "$type": "color",
+                "$description": "Sophisticated, muted pink-red for secondary accents and soft borders."
+            },
+            "dusty-rose-4": { "$value": "#8A5257", "$type": "color" },
+            "dusty-rose-5": { "$value": "#6D3D41", "$type": "color" }
+            },
+            "gilded-saffron": {
+            "gilded-saffron-1": { "$value": "#D9B87E", "$type": "color" },
+            "gilded-saffron-2": { "$value": "#C7A063", "$type": "color" },
+            "gilded-saffron-3": { 
+                "$value": "#B1894C", 
+                "$type": "color",
+                "$description": "Muted, golden ochre for buttons, branding, and high-value highlights."
+            },
+            "gilded-saffron-4": { "$value": "#94713E", "$type": "color" },
+            "gilded-saffron-5": { "$value": "#755931", "$type": "color" }
+            },
+            "slate-blue": {
+            "slate-blue-1": { "$value": "#AAB7C4", "$type": "color" },
+            "slate-blue-2": { "$value": "#8699AA", "$type": "color" },
+            "slate-blue-3": { 
+                "$value": "#667A8C", 
+                "$type": "color",
+                "$description": "Cool, desaturated blue used for cooling anchors and elegant UI dividers."
+            },
+            "slate-blue-4": { "$value": "#4F5F6D", "$type": "color" },
+            "slate-blue-5": { "$value": "#39454F", "$type": "color" }
+            }
+        },
+        "Radiant Satin": {
+            "Silk Creamsicle": {
+            "silk-creamsicle-1": {"$value": "#FDFBF7", "$type": "color"},
+            "silk-creamsicle-2": {"$value": "#FAF5ED", "$type": "color"},
+            "silk-creamsicle-3": {
+                "$value": "#F4EBE0", 
+                "$type": "color",
+                "$description": "A delicate champagne off-white used for clean, elegant backgrounds and airy UI sections."
+            },
+            "silk-creamsicle-4": {"$value": "#E9DCCB", "$type": "color"},
+            "silk-creamsicle-5": {"$value": "#DDC8AE", "$type": "color"}
+            },
+            "Dusty Rose Petal": {
+            "dusty-rose-petal-1": {"$value": "#F2E3E3", "$type": "color"},
+            "dusty-rose-petal-2": {"$value": "#D8A9A9", "$type": "color"},
+            "dusty-rose-petal-3": {
+                "$value": "#B17A7A", 
+                "$type": "color",
+                "$description": "A sophisticated, muted rose that serves as the primary brand color for buttons and call-to-actions."
+            },
+            "dusty-rose-petal-4": {"$value": "#8A5B5B", "$type": "color"},
+            "dusty-rose-petal-5": {"$value": "#613C3C", "$type": "color"}
+            },
+            "Burnished Gold": {
+            "burnished-gold-1": {"$value": "#F8F1E7", "$type": "color"},
+            "burnished-gold-2": {"$value": "#E0CDB4", "$type": "color"},
+            "burnished-gold-3": {
+                "$value": "#B89A74", 
+                "$type": "color",
+                "$description": "A soft, metallic-inspired tan used for luxury accents, borders, and high-end iconography."
+            },
+            "burnished-gold-4": {"$value": "#8F7657", "$type": "color"},
+            "burnished-gold-5": {"$value": "#66533B", "$type": "color"}
+            },
+            "Vintage Mauve": {
+            "vintage-mauve-1": {"$value": "#EFE9E9", "$type": "color"},
+            "vintage-mauve-2": {"$value": "#BC9E9E", "$type": "color"},
+            "vintage-mauve-3": {
+                "$value": "#8F6B6B", 
+                "$type": "color",
+                "$description": "A deeper, muted mauve that provides variety for secondary interactive elements and hover states."
+            },
+            "vintage-mauve-4": {"$value": "#6D4F4F", "$type": "color"},
+            "vintage-mauve-5": {"$value": "#4B3434", "$type": "color"}
+            },
+            "Velvet Charcoal": {
+            "velvet-charcoal-1": {"$value": "#D9D9D9", "$type": "color"},
+            "velvet-charcoal-2": {"$value": "#8C8C8C", "$type": "color"},
+            "velvet-charcoal-3": {
+                "$value": "#2D2D2D", 
+                "$type": "color",
+                "$description": "A soft warm black used for body typography and high-contrast luxury dark-mode backgrounds."
+            },
+            "velvet-charcoal-4": {"$value": "#1F1F1F", "$type": "color"},
+            "velvet-charcoal-5": {"$value": "#121212", "$type": "color"}
+            }
+        },
+        "Refined Threads": {
+            "charcoal-noir": {
+            "charcoal-noir-1": { "$value": "#4D4D4D", "$type": "color" },
+            "charcoal-noir-2": { "$value": "#404040", "$type": "color" },
+            "charcoal-noir-3": { 
+                "$value": "#333333", 
+                "$type": "color",
+                "$description": "Deep grounded neutral for text and high contrast."
+            },
+            "charcoal-noir-4": { "$value": "#262626", "$type": "color" },
+            "charcoal-noir-5": { "$value": "#1A1A1A", "$type": "color" }
+            },
+            "alabaster-silk": {
+            "alabaster-silk-1": { "$value": "#FDFBF7", "$type": "color" },
+            "alabaster-silk-2": { "$value": "#FAF6EF", "$type": "color" },
+            "alabaster-silk-3": { 
+                "$value": "#F5EFE1", 
+                "$type": "color",
+                "$description": "Warm white background color."
+            },
+            "alabaster-silk-4": { "$value": "#EBE1CB", "$type": "color" },
+            "alabaster-silk-5": { "$value": "#E1D3B5", "$type": "color" }
+            },
+            "dusty-rose": {
+            "dusty-rose-1": { "$value": "#E8C9C9", "$type": "color" },
+            "dusty-rose-2": { "$value": "#D6A8A8", "$type": "color" },
+            "dusty-rose-3": { 
+                "$value": "#BC8E8E", 
+                "$type": "color",
+                "$description": "Primary brand color for buttons and highlights."
+            },
+            "dusty-rose-4": { "$value": "#9C6E6E", "$type": "color" },
+            "dusty-rose-5": { "$value": "#7A5252", "$type": "color" }
+            },
+            "chambray-mist": {
+            "chambray-mist-1": { "$value": "#D6E0E8", "$type": "color" },
+            "chambray-mist-2": { "$value": "#B8C9D6", "$type": "color" },
+            "chambray-mist-3": { 
+                "$value": "#96A9B8", 
+                "$type": "color",
+                "$description": "Secondary brand color for subtle UI."
+            },
+            "chambray-mist-4": { "$value": "#748896", "$type": "color" },
+            "chambray-mist-5": { "$value": "#556773", "$type": "color" }
+            },
+            "camel-suede": {
+            "camel-suede-1": { "$value": "#F2E3C9", "$type": "color" },
+            "camel-suede-2": { "$value": "#E6D0AC", "$type": "color" },
+            "camel-suede-3": { 
+                "$value": "#C7AD84", 
+                "$type": "color",
+                "$description": "Accent color for details and tags."
+            },
+            "camel-suede-4": { "$value": "#A88F68", "$type": "color" },
+            "camel-suede-5": { "$value": "#877150", "$type": "color" }
+            }
+        },
+        "SereneSanctuary": {
+            "AlmondFrost": {
+            "almond-frost-1": {"$value": "#FAF9F6", "$type": "color"},
+            "almond-frost-2": {"$value": "#F2F0E9", "$type": "color"},
+            "almond-frost-3": {
+                "$value": "#EAE7DC", 
+                "$type": "color",
+                "$description": "A warm, breathable off-white used for primary backgrounds and clean, airy spaces."
+            },
+            "almond-frost-4": {"$value": "#D8D3C3", "$type": "color"},
+            "almond-frost-5": {"$value": "#C6BFAA", "$type": "color"}
+            },
+            "DustyRose": {
+            "dusty-rose-1": {"$value": "#F2E4E4", "$type": "color"},
+            "dusty-rose-2": {"$value": "#D9B8B8", "$type": "color"},
+            "dusty-rose-3": {
+                "$value": "#C19A9A", 
+                "$type": "color",
+                "$description": "A sophisticated, muted pink that adds a touch of warmth and femininity."
+            },
+            "dusty-rose-4": {"$value": "#A97C7C", "$type": "color"},
+            "dusty-rose-5": {"$value": "#8A5F5F", "$type": "color"}
+            },
+            "SageLeaf": {
+            "sage-leaf-1": {"$value": "#E8EEE5", "$type": "color"},
+            "sage-leaf-2": {"$value": "#C3D1BD", "$type": "color"},
+            "sage-leaf-3": {
+                "$value": "#9EAF97", 
+                "$type": "color",
+                "$description": "A grounding, organic green that represents nature, healing, and renewal."
+            },
+            "sage-leaf-4": {"$value": "#7D8F76", "$type": "color"},
+            "sage-leaf-5": {"$value": "#5D6D58", "$type": "color"}
+            },
+            "ObsidianMist": {
+            "obsidian-mist-1": {"$value": "#6F7275", "$type": "color"},
+            "obsidian-mist-2": {"$value": "#585B5E", "$type": "color"},
+            "obsidian-mist-3": {
+                "$value": "#424548", 
+                "$type": "color",
+                "$description": "A deep, soft charcoal used for text, grounding elements, and luxury dark-mode backgrounds."
+            },
+            "obsidian-mist-4": {"$value": "#2C2F32", "$type": "color"},
+            "obsidian-mist-5": {"$value": "#16191B", "$type": "color"}
+            },
+            "GildedSand": {
+            "gilded-sand-1": {"$value": "#F3E7D1", "$type": "color"},
+            "gilded-sand-2": {"$value": "#E1CB9F", "$type": "color"},
+            "gilded-sand-3": {
+                "$value": "#C8AD7F", 
+                "$type": "color",
+                "$description": "A soft gold/bronze tone used for call-to-action buttons and premium highlights."
+            },
+            "gilded-sand-4": {"$value": "#AA8F60", "$type": "color"},
+            "gilded-sand-5": {"$value": "#8A724A", "$type": "color"}
+            }
+        }        
+    }
+}
+```

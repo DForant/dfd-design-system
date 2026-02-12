@@ -1,0 +1,59 @@
+{
+  "Electric-Stream": {
+    "cream-silk": {
+      "cream-silk-1": {"$value": "#FFFDF5", "$type": "color"},
+      "cream-silk-2": {"$value": "#FDF9E2", "$type": "color"},
+      "cream-silk-3": {
+        "$value": "#F9F4D2", 
+        "$type": "color",
+        "$description": "Cream Silk: Light background base color. Soft, warm off-white for low-strain readability."
+      },
+      "cream-silk-4": {"$value": "#EBE4B0", "$type": "color"},
+      "cream-silk-5": {"$value": "#D1C98C", "$type": "color"}
+    },
+    "midnight-neon": {
+      "midnight-neon-1": {"$value": "#3B3B8F", "$type": "color"},
+      "midnight-neon-2": {"$value": "#2F2F73", "$type": "color"},
+      "midnight-neon-3": {
+        "$value": "#2A2A64", 
+        "$type": "color",
+        "$description": "Midnight Neon: Dark background base color. Deep violet-blue for sophisticated depth."
+      },
+      "midnight-neon-4": {"$value": "#1E1E4A", "$type": "color"},
+      "midnight-neon-5": {"$value": "#12122E", "$type": "color"}
+    },
+    "electric-yellow": {
+      "electric-yellow-1": {"$value": "#FFEB70", "$type": "color"},
+      "electric-yellow-2": {"$value": "#FFE342", "$type": "color"},
+      "electric-yellow-3": {
+        "$value": "#FFD700", 
+        "$type": "color",
+        "$description": "Electric Yellow: Primary brand color. High energy and optimism for CTAs."
+      },
+      "electric-yellow-4": {"$value": "#DBB900", "$type": "color"},
+      "electric-yellow-5": {"$value": "#B39700", "$type": "color"}
+    },
+    "dragonfruit-pink": {
+      "dragonfruit-pink-1": {"$value": "#F2618E", "$type": "color"},
+      "dragonfruit-pink-2": {"$value": "#EB3D74", "$type": "color"},
+      "dragonfruit-pink-3": {
+        "$value": "#E31B5D", 
+        "$type": "color",
+        "$description": "Dragonfruit Pink: Secondary accent color. Bold contrast for high-priority elements."
+      },
+      "dragonfruit-pink-4": {"$value": "#C1174F", "$type": "color"},
+      "dragonfruit-pink-5": {"$value": "#9E1241", "$type": "color"}
+    },
+    "lime-spark": {
+      "lime-spark-1": {"$value": "#B8E65C", "$type": "color"},
+      "lime-spark-2": {"$value": "#A3D936", "$type": "color"},
+      "lime-spark-3": {
+        "$value": "#8CC63F", 
+        "$type": "color",
+        "$description": "Lime Spark: Alt brand color. Refreshing balance for icons and success states."
+      },
+      "lime-spark-4": {"$value": "#76A635", "$type": "color"},
+      "lime-spark-5": {"$value": "#5F862B", "$type": "color"}
+    }
+  }
+}

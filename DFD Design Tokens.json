@@ -1,0 +1,6383 @@
+{
+  "font": {
+    "caption": {
+      "description": "Specifically for image credits, tooltips, \"legal\" fine print, or technical helper text.",
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 48,
+        "textDecoration": "none",
+        "fontFamily": "Mulish",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 5,
+        "lineHeight": 22,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:16a3dc076ecb7540fb4d8f5965bfc9d917930664,",
+          "exportKey": "font"
+        }
+      }
+    },
+    "display": {
+      "hero": {
+        "description": "Hero Heading Text",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 64,
+          "textDecoration": "none",
+          "fontFamily": "DM Serif Display",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": -2,
+          "lineHeight": 76,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:020b9281b2e4248433a4c05b46d17df34b495dca,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 48,
+          "textDecoration": "none",
+          "fontFamily": "DM Serif Display",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:95f16a6a25764745ea2222c97d6430aecd16bf15,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "h2": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 32,
+          "textDecoration": "none",
+          "fontFamily": "DM Serif Display",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:de4e96c573da936815857c95b5b0d3e191f13665,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "h3": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 24,
+          "textDecoration": "none",
+          "fontFamily": "DM Serif Display",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:6e630e70378837116998800ac8f656f8ac830f48,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "h4": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "DM Serif Display",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:78fc7eb8640bb8be7c24d23cd17e93ea16f40596,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "h5": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 18,
+          "textDecoration": "none",
+          "fontFamily": "DM Serif Display",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e66b3f08cef7400489a8ae0aebde9261bd65d1cf,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "body": {
+      "large": {
+        "description": "Used for lead paragraphs or \"TL;DR\" sections to provide high prominence and readability at a glance.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 18,
+          "textDecoration": "none",
+          "fontFamily": "Mulish",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 1,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:5d4385c4ff37021963b13a075db7872aeb5ec0fd,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "medium": {
+        "description": "The primary workhorse for all DFD content, blog articles, and detailed product descriptions.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "none",
+          "fontFamily": "Mulish",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 1,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:01adf26e2651b881afdef1abe0469d0c5ad271d7,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "small": {
+        "description": "Ideal for dense information blocks, bulleted lists, or footer content where space is at a premium.",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 14,
+          "textDecoration": "none",
+          "fontFamily": "Mulish",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 1,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:37d5365fb1b67351f9b0d8e1df9171d5cc62ffe7,",
+            "exportKey": "font"
+          }
+        }
+      }
+    },
+    "utility": {
+      "code": {
+        "medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Inconsolata",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:9eeec92cb555ea7e40ce11f49f65d7edda1995db,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Inconsolata",
+            "fontWeight": 400,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:8729474643d8ef5756aeac4b5db239e5ceffc098,",
+              "exportKey": "font"
+            }
+          }
+        }
+      }
+    },
+    "label": {
+      "ui": {
+        "bold": {
+          "description": "Optimized for buttons, primary navigation links, and prominent tags. High weight and wider spacing ensure accessibility.",
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Mulish",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 2,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5a93f449ecee40fef4096f3f7fd049a8286475f6,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "small": {
+          "description": "Used for smaller buttons, status chips, or secondary navigation items within components.",
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Mulish",
+            "fontWeight": 600,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 2,
+            "lineHeight": 16,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:2fbcb5e6f481429096ceb24872afaa1bc3566ebd,",
+              "exportKey": "font"
+            }
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "shadow-xs": {
+      "description": "Contact state. Use for Input Fields (Sunken), active borders, or pressed states where items feel flush with the surface.",
+      "type": "custom-shadow",
+      "value": {
+        "shadowType": "dropShadow",
+        "radius": 2,
+        "color": "#2125290d",
+        "offsetX": 0,
+        "offsetY": 1,
+        "spread": 0
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:800e1bd60fdcdb2ee2903370da9944314f873a07,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "shadow-sm": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 2,
+          "color": "#2125290f",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 3,
+          "color": "#2125291a",
+          "offsetX": 0,
+          "offsetY": 1,
+          "spread": 0
+        }
+      },
+      "description": "Touch state. Use for clickable interactive elements like Buttons, list items, or small chips that need a subtle lift.",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:d7ff87c644f3d902dc024d395c16115c786be4fc,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "shadow-md": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 4,
+          "color": "#2125290f",
+          "offsetX": 0,
+          "offsetY": 2,
+          "spread": -1
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 6,
+          "color": "#2125291a",
+          "offsetX": 0,
+          "offsetY": 4,
+          "spread": -1
+        }
+      },
+      "description": "Float state. The default elevation for Cards, Panels, and Content Containers. Defines distinct separation from the background",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:3ddc8e5059f73c7ac05c029d1ff5aafa7517f45b,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "shadow-lg": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 6,
+          "color": "#2125290d",
+          "offsetX": 0,
+          "offsetY": 4,
+          "spread": -2
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 15,
+          "color": "#2125291a",
+          "offsetX": 0,
+          "offsetY": 10,
+          "spread": -3
+        }
+      },
+      "description": "Lift state. Use for Hover interactions on cards, sticky navigation headers, Dropdown menus, or Tooltips",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:e769fac10f64b93df832940ec4f4a19d9704e886,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "shadow-xl": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 10,
+          "color": "#2125290a",
+          "offsetX": 0,
+          "offsetY": 10,
+          "spread": -5
+        }
+      },
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "dropShadow",
+          "radius": 25,
+          "color": "#2125291a",
+          "offsetX": 0,
+          "offsetY": 20,
+          "spread": -5
+        }
+      },
+      "description": "Focus state. Max elevation. Use exclusively for Modals, Dialogs, Lightboxes, and blocking alerts that float above everything else.",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:33d773eb5d6d89a50b11249c16a69d0b1b7c88ae,",
+          "exportKey": "effect"
+        }
+      }
+    }
+  },
+  "dfd open color primitives": {
+    "--oc-gray-0": {
+      "type": "color",
+      "value": "#f8f9faff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:410",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-1": {
+      "type": "color",
+      "value": "#f1f3f5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:411",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-2": {
+      "type": "color",
+      "value": "#e9ecefff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:412",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-3": {
+      "type": "color",
+      "value": "#dee2e6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:413",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-4": {
+      "type": "color",
+      "value": "#ced4daff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:414",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-5": {
+      "type": "color",
+      "value": "#adb5bdff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:415",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-6": {
+      "type": "color",
+      "value": "#868e96ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:416",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-7": {
+      "type": "color",
+      "value": "#495057ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:417",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-8": {
+      "type": "color",
+      "value": "#343a40ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:418",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-9": {
+      "type": "color",
+      "value": "#212529ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:419",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-0": {
+      "type": "color",
+      "value": "#fff5f5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:423",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-1": {
+      "type": "color",
+      "value": "#ffe3e3ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:424",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-2": {
+      "type": "color",
+      "value": "#ffc9c9ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:425",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-3": {
+      "type": "color",
+      "value": "#ffa8a8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:426",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-4": {
+      "type": "color",
+      "value": "#ff8787ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:427",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-5": {
+      "type": "color",
+      "value": "#ff6b6bff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:428",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-6": {
+      "type": "color",
+      "value": "#fa5252ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:429",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-7": {
+      "type": "color",
+      "value": "#f03e3eff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:430",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-8": {
+      "type": "color",
+      "value": "#e03131ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:431",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-red-9": {
+      "type": "color",
+      "value": "#c92a2aff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:68:432",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-0": {
+      "type": "color",
+      "value": "#fff0f6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:2",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-1": {
+      "type": "color",
+      "value": "#ffdeebff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:3",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-2": {
+      "type": "color",
+      "value": "#fcc2d7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:4",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-3": {
+      "type": "color",
+      "value": "#faa2c1ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:5",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-4": {
+      "type": "color",
+      "value": "#f783acff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:6",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-5": {
+      "type": "color",
+      "value": "#f06595ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:7",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-6": {
+      "type": "color",
+      "value": "#e64980ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:8",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-7": {
+      "type": "color",
+      "value": "#d6336cff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-8": {
+      "type": "color",
+      "value": "#c2255cff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-pink-9": {
+      "type": "color",
+      "value": "#a61e4dff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:69:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-0": {
+      "type": "color",
+      "value": "#f8f0fcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:2",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-1": {
+      "type": "color",
+      "value": "#f3d9faff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:3",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-2": {
+      "type": "color",
+      "value": "#eebefaff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:4",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-3": {
+      "type": "color",
+      "value": "#e599f7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:5",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-4": {
+      "type": "color",
+      "value": "#da77f2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:6",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-5": {
+      "type": "color",
+      "value": "#cc5de8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:7",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-6": {
+      "type": "color",
+      "value": "#be4bdbff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:8",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-7": {
+      "type": "color",
+      "value": "#ae3ec9ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-8": {
+      "type": "color",
+      "value": "#9c36b5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-grape-9": {
+      "type": "color",
+      "value": "#862e9cff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-0": {
+      "type": "color",
+      "value": "#f3f0ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-1": {
+      "type": "color",
+      "value": "#e5dbffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:14",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-2": {
+      "type": "color",
+      "value": "#d0bfffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:15",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-3": {
+      "type": "color",
+      "value": "#b197fcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:16",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-4": {
+      "type": "color",
+      "value": "#9775faff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:17",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-5": {
+      "type": "color",
+      "value": "#845ef7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:18",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-6": {
+      "type": "color",
+      "value": "#7950f2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:19",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-7": {
+      "type": "color",
+      "value": "#7048e8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:20",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-8": {
+      "type": "color",
+      "value": "#6741d9ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:21",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-violet-9": {
+      "type": "color",
+      "value": "#5f3dc4ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:22",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-0": {
+      "type": "color",
+      "value": "#edf2ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:24",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-1": {
+      "type": "color",
+      "value": "#dbe4ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:25",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-2": {
+      "type": "color",
+      "value": "#bac8ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:26",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-3": {
+      "type": "color",
+      "value": "#91a7ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:27",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-5": {
+      "type": "color",
+      "value": "#5c7cfaff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:28",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-6": {
+      "type": "color",
+      "value": "#4c6ef5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:29",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-7": {
+      "type": "color",
+      "value": "#4263ebff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:30",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-8": {
+      "type": "color",
+      "value": "#3b5bdbff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:31",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-9": {
+      "type": "color",
+      "value": "#364fc7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:32",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-indigo-4": {
+      "type": "color",
+      "value": "#748ffcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:33",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-0": {
+      "type": "color",
+      "value": "#e7f5ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:35",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-1": {
+      "type": "color",
+      "value": "#d0ebffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:36",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-2": {
+      "type": "color",
+      "value": "#a5d8ffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:37",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-3": {
+      "type": "color",
+      "value": "#74c0fcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:38",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-4": {
+      "type": "color",
+      "value": "#4dabf7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:39",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-5": {
+      "type": "color",
+      "value": "#339af0ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:40",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-6": {
+      "type": "color",
+      "value": "#228be6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:41",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-7": {
+      "type": "color",
+      "value": "#1c7ed6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:42",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-8": {
+      "type": "color",
+      "value": "#1971c2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:43",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-blue-9": {
+      "type": "color",
+      "value": "#1864abff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:44",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-0": {
+      "type": "color",
+      "value": "#e3fafcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:46",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-1": {
+      "type": "color",
+      "value": "#c5f6faff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:47",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-2": {
+      "type": "color",
+      "value": "#99e9f2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:48",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-3": {
+      "type": "color",
+      "value": "#66d9e8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:49",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-4": {
+      "type": "color",
+      "value": "#3bc9dbff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:50",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-5": {
+      "type": "color",
+      "value": "#22b8cfff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:51",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-6": {
+      "type": "color",
+      "value": "#15aabfff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:52",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-7": {
+      "type": "color",
+      "value": "#1098adff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:53",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-8": {
+      "type": "color",
+      "value": "#0c8599ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:54",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-cyan-9": {
+      "type": "color",
+      "value": "#0b7285ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:55",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-0": {
+      "type": "color",
+      "value": "#e6fcf5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:57",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-1": {
+      "type": "color",
+      "value": "#c3fae8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:58",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-2": {
+      "type": "color",
+      "value": "#96f2d7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:59",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-4": {
+      "type": "color",
+      "value": "#38d9a9ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:60",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-5": {
+      "type": "color",
+      "value": "#20c997ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:61",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-6": {
+      "type": "color",
+      "value": "#12b886ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:62",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-7": {
+      "type": "color",
+      "value": "#0ca678ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:63",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-8": {
+      "type": "color",
+      "value": "#099268ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:64",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-9": {
+      "type": "color",
+      "value": "#087f5bff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:65",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-0": {
+      "type": "color",
+      "value": "#ebfbeeff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:67",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-1": {
+      "type": "color",
+      "value": "#d3f9d8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:68",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-2": {
+      "type": "color",
+      "value": "#b2f2bbff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:69",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-3": {
+      "type": "color",
+      "value": "#8ce99aff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:70",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-4": {
+      "type": "color",
+      "value": "#69db7cff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:71",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-5": {
+      "type": "color",
+      "value": "#51cf66ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:72",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-6": {
+      "type": "color",
+      "value": "#40c057ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:73",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-7": {
+      "type": "color",
+      "value": "#37b24dff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:74",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-8": {
+      "type": "color",
+      "value": "#2f9e44ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:75",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-green-9": {
+      "type": "color",
+      "value": "#2b8a3eff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:76",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-0": {
+      "type": "color",
+      "value": "#f4fce3ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:78",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-1": {
+      "type": "color",
+      "value": "#e9fac8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:79",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-2": {
+      "type": "color",
+      "value": "#d8f5a2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:80",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-3": {
+      "type": "color",
+      "value": "#c0eb75ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:81",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-4": {
+      "type": "color",
+      "value": "#a9e34bff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:82",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-5": {
+      "type": "color",
+      "value": "#94d82dff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:83",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-6": {
+      "type": "color",
+      "value": "#82c91eff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:85",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-7": {
+      "type": "color",
+      "value": "#74b816ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:86",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-8": {
+      "type": "color",
+      "value": "#66a80fff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:87",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-lime-9": {
+      "type": "color",
+      "value": "#5c940dff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:88",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-0": {
+      "type": "color",
+      "value": "#fff9dbff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:90",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-1": {
+      "type": "color",
+      "value": "#fff3bfff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:91",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-2": {
+      "type": "color",
+      "value": "#ffec99ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:92",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-3": {
+      "type": "color",
+      "value": "#ffe066ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:93",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-4": {
+      "type": "color",
+      "value": "#ffd43bff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:94",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-5": {
+      "type": "color",
+      "value": "#fcc419ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:95",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-6": {
+      "type": "color",
+      "value": "#fab005ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:96",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-7": {
+      "type": "color",
+      "value": "#f59f00ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:97",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-8": {
+      "type": "color",
+      "value": "#f08c00ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:98",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-yellow-9": {
+      "type": "color",
+      "value": "#e67700ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:99",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-0": {
+      "type": "color",
+      "value": "#fff4e6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:101",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-1": {
+      "type": "color",
+      "value": "#ffe8ccff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:102",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-2": {
+      "type": "color",
+      "value": "#ffd8a8ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:103",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-3": {
+      "type": "color",
+      "value": "#ffc078ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:104",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-4": {
+      "type": "color",
+      "value": "#ffa94dff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:105",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-5": {
+      "type": "color",
+      "value": "#ff922bff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:106",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-6": {
+      "type": "color",
+      "value": "#fd7e14ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:107",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-7": {
+      "type": "color",
+      "value": "#f76707ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:108",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-8": {
+      "type": "color",
+      "value": "#e8590cff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:109",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-orange-9": {
+      "type": "color",
+      "value": "#d9480fff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:71:110",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-9-60": {
+      "description": "Open Color Gray 9 With 60% Opacity",
+      "type": "color",
+      "value": "#21252999",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:86:18",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-9-80": {
+      "description": "Open Color Gray 9 with 80% opacity",
+      "type": "color",
+      "value": "#212529cc",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:86:19",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-9-40": {
+      "description": "Open Color Gray 9 with 20% Opacity",
+      "type": "color",
+      "value": "#21252933",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:86:20",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-gray-9-20": {
+      "type": "color",
+      "value": "#21252933",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:86:21",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "--oc-teal-3": {
+      "type": "color",
+      "value": "#63e6beff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Open Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:254:240",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd spacing primitives": {
+    "space-0": {
+      "description": "Reset",
+      "type": "dimension",
+      "value": 0,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:5",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-2": {
+      "description": "Micro adjustments / optical grouping",
+      "type": "dimension",
+      "value": 2,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:6",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-4": {
+      "description": "Smallest gap (Icon + Text)",
+      "type": "dimension",
+      "value": 4,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:7",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-8": {
+      "description": "Base Unit. Standard padding inside small buttons.",
+      "type": "dimension",
+      "value": 8,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:8",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-10": {
+      "description": "The Root. Useful for strict 10-based alignments.",
+      "type": "dimension",
+      "value": 10,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-12": {
+      "description": "Padding for inputs/default buttons.",
+      "type": "dimension",
+      "value": 12,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-16": {
+      "description": "Standard card padding (Compact).",
+      "type": "dimension",
+      "value": 16,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-20": {
+      "description": "Standard card padding (Relaxed).",
+      "type": "dimension",
+      "value": 20,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:12",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-24": {
+      "description": "Section separation (Internal).",
+      "type": "dimension",
+      "value": 24,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-32": {
+      "description": "Section separation (Major).",
+      "type": "dimension",
+      "value": 32,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:14",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-40": {
+      "description": "Layout margins.",
+      "type": "dimension",
+      "value": 40,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:15",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-48": {
+      "description": "Layout margins (Wide).",
+      "type": "dimension",
+      "value": 48,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:16",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "space-64": {
+      "description": "Major section breaks.",
+      "type": "dimension",
+      "value": 64,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:100:18",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd radius primitives": {
+    "radius-none": {
+      "description": "Square corners.",
+      "type": "dimension",
+      "value": 0,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "radius-xs": {
+      "description": "Checkboxes, Tags, tiny badges.",
+      "type": "dimension",
+      "value": 2,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:12",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "radius-sm": {
+      "description": "Inputs, small buttons, internal card elements.",
+      "type": "dimension",
+      "value": 4,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "radius-md": {
+      "description": "Base Radius. Standard Buttons, Cards, Popovers.",
+      "type": "dimension",
+      "value": 8,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:14",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "radius-lg": {
+      "description": "Large Modals, Sheets.",
+      "type": "dimension",
+      "value": 12,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:15",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "radius-xl": {
+      "description": "Heavy containers, outer frames.",
+      "type": "dimension",
+      "value": 16,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:16",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "radius-full": {
+      "description": "Pills, Avatars, Round Icon Buttons.",
+      "type": "dimension",
+      "value": 999,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Radius Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:106:17",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd brand color primitives": {
+    "vintage-parchment-1": {
+      "type": "color",
+      "value": "#fcf9f2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:121:129",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "vintage-parchment-2": {
+      "type": "color",
+      "value": "#f7f0e3ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:121:132",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "vintage-parchment-3": {
+      "type": "color",
+      "value": "#f2e8d5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:121:133",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "vintage-parchment-4": {
+      "type": "color",
+      "value": "#ded3bfff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:121:134",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "vintage-parchment-5": {
+      "type": "color",
+      "value": "#b3a893ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:121:140",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "roasted-clay-1": {
+      "type": "color",
+      "value": "#f0d4caff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:2",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "roasted-clay-2": {
+      "type": "color",
+      "value": "#e0a593ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:3",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "roasted-clay-3": {
+      "type": "color",
+      "value": "#c06c4fff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:4",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "roasted-clay-4": {
+      "type": "color",
+      "value": "#a05a41ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:5",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "roasted-clay-5": {
+      "type": "color",
+      "value": "#6f3625ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:6",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "harvest-gold-1": {
+      "type": "color",
+      "value": "#f7e8b7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:7",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "harvest-gold-2": {
+      "type": "color",
+      "value": "#ecca78ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:8",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "harvest-gold-3": {
+      "type": "color",
+      "value": "#d9a520ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "harvest-gold-4": {
+      "type": "color",
+      "value": "#b38817ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:124:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "harvest-gold-5": {
+      "type": "color",
+      "value": "#85650fff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:125:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "retro-teal-1": {
+      "type": "color",
+      "value": "#c3e6e6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:125:12",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "retro-teal-2": {
+      "type": "color",
+      "value": "#94d4d4ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:125:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "retro-teal-3": {
+      "type": "color",
+      "value": "#4e9f9fff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:125:14",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "retro-teal-4": {
+      "type": "color",
+      "value": "#418585ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:125:15",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "retro-teal-5": {
+      "type": "color",
+      "value": "#2d5c5cff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:125:16",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "sudsy-cloud-1": {
+      "type": "color",
+      "value": "#f5f9fcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:2",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "sudsy-cloud-2": {
+      "type": "color",
+      "value": "#edf4f7ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:3",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "sudsy-cloud-3": {
+      "type": "color",
+      "value": "#e6eef2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:4",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "sudsy-cloud-4": {
+      "type": "color",
+      "value": "#bdc8ccff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:5",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "sudsy-cloud-5": {
+      "type": "color",
+      "value": "#949ea3ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:6",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "hot-dog-pink-1": {
+      "type": "color",
+      "value": "#ffd1e0ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:7",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "hot-dog-pink-2": {
+      "type": "color",
+      "value": "#ff94b4ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:8",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "hot-dog-pink-3": {
+      "type": "color",
+      "value": "#ff4d80ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "hot-dog-pink-4": {
+      "type": "color",
+      "value": "#c72c56ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "hot-dog-pink-5": {
+      "type": "color",
+      "value": "#8f1536ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "park-grass-1": {
+      "type": "color",
+      "value": "#e3f7d1ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:12",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "park-grass-2": {
+      "type": "color",
+      "value": "#b8e88eff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "park-grass-3": {
+      "type": "color",
+      "value": "#76d13dff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:14",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "park-grass-4": {
+      "type": "color",
+      "value": "#549926ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:15",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "park-grass-5": {
+      "type": "color",
+      "value": "#366614ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:16",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "splash-cyan-1": {
+      "type": "color",
+      "value": "#d1f4faff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:17",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "splash-cyan-2": {
+      "type": "color",
+      "value": "#85e1f0ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:18",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "splash-cyan-3": {
+      "type": "color",
+      "value": "#00bcd4ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:19",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "splash-cyan-4": {
+      "type": "color",
+      "value": "#008799ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:20",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "splash-cyan-5": {
+      "type": "color",
+      "value": "#005663ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:21",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "silk-linen-1": {
+      "type": "color",
+      "value": "#fffefcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:22",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "silk-linen-2": {
+      "type": "color",
+      "value": "#faf9f5ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:23",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "silk-linen-3": {
+      "type": "color",
+      "value": "#f7f5f0ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:24",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "silk-linen-4": {
+      "type": "color",
+      "value": "#ebe6dcff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:25",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "silk-linen-5": {
+      "type": "color",
+      "value": "#d6cdbbff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:26",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "eucalyptus-1": {
+      "type": "color",
+      "value": "#d9e3deff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:129:27",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "eucalyptus-2": {
+      "type": "color",
+      "value": "#b4c9beff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:28",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "eucalyptus-3": {
+      "type": "color",
+      "value": "#8fa89bff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:29",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "eucalyptus-4": {
+      "type": "color",
+      "value": "#6d877aff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:30",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "eucalyptus-5": {
+      "type": "color",
+      "value": "#4c665aff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:31",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "warm-stone-1": {
+      "type": "color",
+      "value": "#ebe8e1ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:32",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "warm-stone-2": {
+      "type": "color",
+      "value": "#d4ccc2ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:33",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "warm-stone-3": {
+      "type": "color",
+      "value": "#bdb3a6ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:34",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "warm-stone-4": {
+      "type": "color",
+      "value": "#9c9183ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:35",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "warm-stone-5": {
+      "type": "color",
+      "value": "#7a7063ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:36",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "dusty-rose-1": {
+      "type": "color",
+      "value": "#f2e4e1ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:37",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "dusty-rose-2": {
+      "type": "color",
+      "value": "#e3c9c1ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:38",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "dusty-rose-3": {
+      "type": "color",
+      "value": "#d4ada3ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:39",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "dusty-rose-4": {
+      "type": "color",
+      "value": "#b58b80ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:40",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "dusty-rose-5": {
+      "type": "color",
+      "value": "#91685eff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:130:41",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "white": {
+      "type": "color",
+      "value": "#ffffffff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:53",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "black": {
+      "type": "color",
+      "value": "#000000ff",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:54",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "color-shadow-04": {
+      "description": "Used for shadow-xl",
+      "type": "color",
+      "value": "#2125290a",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:163:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "color-shadow-05": {
+      "description": "Used for shadow-xs, lg",
+      "type": "color",
+      "value": "#2125290d",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:163:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "color-shadow-06": {
+      "type": "color",
+      "value": "#2125290f",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:163:12",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "color-shadow-10": {
+      "type": "color",
+      "value": "#2125291a",
+      "blendMode": "normal",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Brand Color Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:172:2",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd typography primitives": {
+    "pair-1-heading": {
+      "description": "A quirkier sans-serif that feels machined and technical.",
+      "type": "string",
+      "value": "Space Grotesk",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:44",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-1-body": {
+      "description": "The industry standard for readability.",
+      "type": "string",
+      "value": "inter",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:45",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-1-alt": {
+      "description": "A code font for IDs, data, or technical labels.",
+      "type": "string",
+      "value": "JetBrains Mono",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:46",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-2-heading": {
+      "description": "A beautiful, heavy serif that feels warm and established.",
+      "type": "string",
+      "value": "DM Serif Display",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:55",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-2-body": {
+      "description": "A friendly, rounded sans-serif that is easy on the eyes.",
+      "type": "string",
+      "value": "Mulish",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:56",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-2-alt": {
+      "description": "A soft monospace that doesn't feel robotic.",
+      "type": "string",
+      "value": "Inconsolata",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:57",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-3-heading": {
+      "description": "A traditional serif optimized for screens.",
+      "type": "string",
+      "value": "Libre Baskerville",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:58",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-3-body": {
+      "description": "A humanist sans-serif that pairs well with classic type.",
+      "type": "string",
+      "value": "Source Sans 3",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:59",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "pair-3-alt": {
+      "description": "A crisp, editorial monospace.",
+      "type": "string",
+      "value": "IBM Plex Mono",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:60",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "weight-regular": {
+      "description": "Standard body text.",
+      "type": "dimension",
+      "value": 400,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:63",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "weight-medium": {
+      "description": "Interactive text (Buttons, Tabs, Inputs).",
+      "type": "dimension",
+      "value": 500,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:64",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "weight-semibold": {
+      "description": "Emphasis / Subheadings.",
+      "type": "dimension",
+      "value": 600,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:65",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "weight-bold": {
+      "description": "Main Headings.",
+      "type": "dimension",
+      "value": 700,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:66",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-12": {
+      "description": "Caption. Tooltips, helper text.",
+      "type": "dimension",
+      "value": 12,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:68",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-14": {
+      "description": "Body Small. Dense interfaces or mobile body text.",
+      "type": "dimension",
+      "value": 14,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:69",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-16": {
+      "description": "Body Default. Standard reading size.",
+      "type": "dimension",
+      "value": 16,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:70",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-18": {
+      "description": "Intro. Lead paragraphs or large buttons.",
+      "type": "dimension",
+      "value": 18,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:71",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-20": {
+      "description": "Heading 6. Card titles.",
+      "type": "dimension",
+      "value": 20,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:72",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-24": {
+      "description": "Heading 5. Section headers.",
+      "type": "dimension",
+      "value": 24,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:73",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-32": {
+      "description": "Heading 4. Major section breaks.",
+      "type": "dimension",
+      "value": 32,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:74",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-40": {
+      "description": "Heading 3. Page titles.",
+      "type": "dimension",
+      "value": 40,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:75",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-48": {
+      "description": "Heading 2. Landing page sub-hero.",
+      "type": "dimension",
+      "value": 48,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:76",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "text-size-64": {
+      "type": "dimension",
+      "value": 64,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:132:77",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "line-height-none": {
+      "description": "100%: Used for single-line UI elements like buttons and chips where height is controlled by padding.",
+      "type": "dimension",
+      "value": 16,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:277:46",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "line-height-xs": {
+      "description": "110%: Extremely tight for massive Hero/Display headers to prevent \"gaps\" between words.",
+      "type": "dimension",
+      "value": 18,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:277:47",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "line-height-sm": {
+      "description": "125%: The \"Heading Standard\" for H1–H3 to keep stacked titles cohesive.",
+      "type": "dimension",
+      "value": 20,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:277:48",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "line-height-md": {
+      "description": "135%: Balanced spacing for smaller headers (H4–H5) and secondary UI text.",
+      "type": "dimension",
+      "value": 22,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:277:49",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "line-height-lg": {
+      "description": "150%: The \"Body Standard\" for optimal reading comfort and accessibility in paragraphs.",
+      "type": "dimension",
+      "value": 24,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Typography Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:277:50",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd semantics": {
+    "gap": {
+      "xs": {
+        "description": "Tight spacing between icon and text.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-4}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:223",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "sm": {
+        "description": "Default spacing between sibling items.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-8}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:224",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "md": {
+        "description": "Spacing between distinct groups.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-16}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:225",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "lg": {
+        "description": "Spacing between major columns.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-24}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:226",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "section": {
+        "description": "Vertical space between content sections.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-48}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:227",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "padding": {
+      "button-x": {
+        "description": "Horizontal padding for standard buttons.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-12}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:228",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "button-y": {
+        "description": "Vertical padding for standard buttons.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-8}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:229",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "card": {
+        "description": "Inset padding for content cards.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-20}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:230",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "container": {
+        "description": "Global page margins.",
+        "type": "dimension",
+        "value": "{dfd spacing primitives.space-64}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:231",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "radius": {
+      "button": {
+        "description": "Corner radius for interactive buttons.",
+        "type": "dimension",
+        "value": "{dfd radius primitives.radius-md}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:232",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "input": {
+        "description": "Corner radius for text fields.",
+        "type": "dimension",
+        "value": "{dfd radius primitives.radius-sm}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:233",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "card": {
+        "description": "Corner radius for containers.",
+        "type": "dimension",
+        "value": "{dfd radius primitives.radius-md}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:234",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "badge": {
+        "description": "Tight radius for small chips.",
+        "type": "dimension",
+        "value": "{dfd radius primitives.radius-xs}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:235",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "pill": {
+        "description": "Fully rounded corners.",
+        "type": "dimension",
+        "value": "{dfd radius primitives.radius-full}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DFD Semantics",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:143:236",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "color": {
+      "surface": {
+        "page": {
+          "description": "Very pale, cool gray background.",
+          "type": "color",
+          "value": "{dfd brand color primitives.sudsy-cloud-1}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:237",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "card": {
+          "description": "High-contrast white surface.",
+          "type": "color",
+          "value": "{dfd brand color primitives.white}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:238",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "sunken": {
+          "description": "Slightly darker cool gray for inputs.",
+          "type": "color",
+          "value": "{dfd brand color primitives.sudsy-cloud-2}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:239",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "brand-subtle": {
+          "description": "Pale pink wash for selected states.",
+          "type": "color",
+          "value": "{dfd brand color primitives.hot-dog-pink-1}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:240",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "accent-subtle": {
+          "description": "Pale cyan wash for info callouts.",
+          "type": "color",
+          "value": "{dfd brand color primitives.hot-dog-pink-2}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:241",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "overlay": {
+          "description": "Gray-9 at 60% opacity.",
+          "type": "color",
+          "value": "{dfd open color primitives.--oc-gray-9-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:242",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "content": {
+        "primary": {
+          "description": "Deepest gray for main headings.",
+          "type": "color",
+          "value": "{dfd brand color primitives.splash-cyan-5}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:243",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "secondary": {
+          "description": "Medium gray for subtitles.",
+          "type": "color",
+          "value": "{dfd brand color primitives.sudsy-cloud-4}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:244",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "tertiary": {
+          "description": "Disabled text or placeholders.",
+          "type": "color",
+          "value": "{dfd open color primitives.--oc-gray-5}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:245",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "brand": {
+          "description": "Deep pink for text links.",
+          "type": "color",
+          "value": "{dfd brand color primitives.hot-dog-pink-3}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:246",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "accent": {
+          "description": "Darkest cyan for readable accent text.",
+          "type": "color",
+          "value": "{dfd brand color primitives.park-grass-3}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:247",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "success": {
+          "description": "Deep green for success message text.",
+          "type": "color",
+          "value": "{dfd brand color primitives.park-grass-4}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:248",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "inverted": {
+          "description": "White text for use on top of vibrant buttons.",
+          "type": "color",
+          "value": "{dfd open color primitives.--oc-gray-0}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:249",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "border": {
+        "subtle": {
+          "description": "Very light dividers.",
+          "type": "color",
+          "value": "{dfd brand color primitives.sudsy-cloud-1}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:250",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "default": {
+          "description": "Standard borders for Inputs.",
+          "type": "color",
+          "value": "{dfd brand color primitives.sudsy-cloud-2}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:251",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "focus": {
+          "description": "Bright cyan ring for focus.",
+          "type": "color",
+          "value": "{dfd brand color primitives.hot-dog-pink-2}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:252",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "active": {
+          "description": "Pink border for active text fields.",
+          "type": "color",
+          "value": "{dfd brand color primitives.hot-dog-pink-3}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:253",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "action": {
+        "primary": {
+          "bg": {
+            "description": "Vibrant magenta for main CTA.",
+            "type": "color",
+            "value": "{dfd brand color primitives.hot-dog-pink-3}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:266",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "hover": {
+            "description": "Darker pink for hover state.",
+            "type": "color",
+            "value": "{dfd brand color primitives.hot-dog-pink-4}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:267",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "fg": {
+            "description": "White text on primary button.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-gray-0}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:268",
+                "exportKey": "variables"
+              }
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "description": "Electric blue for secondary buttons.",
+            "type": "color",
+            "value": "{dfd brand color primitives.park-grass-3}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:269",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "hover": {
+            "description": "Darker cyan for hover state.",
+            "type": "color",
+            "value": "{dfd brand color primitives.park-grass-4}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:270",
+                "exportKey": "variables"
+              }
+            }
+          }
+        },
+        "ghost": {
+          "fg": {
+            "description": "Neutral text for tertiary buttons.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-gray-7}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:271",
+                "exportKey": "variables"
+              }
+            }
+          }
+        }
+      },
+      "feedback": {
+        "success": {
+          "bg": {
+            "description": "Fresh Green base for success.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-green-7}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:272",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "fg": {
+            "description": "Dark green text.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-green-9}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:273",
+                "exportKey": "variables"
+              }
+            }
+          }
+        },
+        "info": {
+          "bg": {
+            "description": "Splash Cyan base for info.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-cyan-6}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:274",
+                "exportKey": "variables"
+              }
+            }
+          }
+        },
+        "warning": {
+          "bg": {
+            "description": "Standard yellow.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-yellow-4}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:275",
+                "exportKey": "variables"
+              }
+            }
+          }
+        },
+        "error": {
+          "bg": {
+            "description": "Standard red.",
+            "type": "color",
+            "value": "{dfd open color primitives.--oc-red-5}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "collection": "DFD Semantics",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:143:276",
+                "exportKey": "variables"
+              }
+            }
+          }
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "brand": {
+          "description": "Expressive font for headers.",
+          "type": "string",
+          "value": "{dfd typography primitives.pair-2-heading}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:254",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "plain": {
+          "description": "Functional UI font.",
+          "type": "string",
+          "value": "{dfd typography primitives.pair-2-body}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:255",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "code": {
+          "description": "Monospace font.",
+          "type": "string",
+          "value": "{dfd typography primitives.pair-2-alt}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:256",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "size": {
+        "display": {
+          "description": "Hero / Marketing text.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-64}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:257",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h1": {
+          "description": "Page Title.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-48}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:258",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h2": {
+          "description": "Major Section Header.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-32}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:259",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h3": {
+          "description": "Card/Container Header.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-24}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:260",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "body-lg": {
+          "description": "Intro / Lead text.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-18}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:261",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "body-md": {
+          "description": "Default reading text.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-16}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:262",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "caption": {
+          "description": "Tooltips and helper text.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-12}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:263",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h4": {
+          "description": "",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-20}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:155:66",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "body-sm": {
+          "description": "",
+          "type": "dimension",
+          "value": "{dfd typography primitives.text-size-14}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:155:75",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "weight": {
+        "body": {
+          "description": "Default weight (400).",
+          "type": "dimension",
+          "value": "{dfd typography primitives.weight-regular}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:264",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "strong": {
+          "description": "Emphasis weight (600).",
+          "type": "dimension",
+          "value": "{dfd typography primitives.weight-semibold}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:143:265",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "spacing": {
+        "display": {
+          "description": "For large hero/marketing text.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-tighter}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:13",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h1": {
+          "description": "For primary page titles.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-tighter}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:14",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h2": {
+          "description": "For major section headers.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-tight}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:15",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h3": {
+          "description": "For card and container headers.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-tight}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:16",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h4": {
+          "description": "For small functional headers.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-base}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:17",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "body": {
+          "description": "Default reading text.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-base}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:18",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "label": {
+          "description": "For button text and small UI tags.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-wide}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:19",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "caption": {
+          "description": "For tooltips and helper text.",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-wider}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:276:20",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "h5": {
+          "description": "",
+          "type": "dimension",
+          "value": "{dfd letter spacing primitives.letter-spacing-base}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:279:6",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "line-height": {
+        "tight": {
+          "description": "Used for the largest titles (Display, H1) to keep letters from feeling \"floaty\"",
+          "type": "dimension",
+          "value": "{dfd typography primitives.line-height-xs}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:277:45",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "heading": {
+          "description": "The standard for most headings (H2, H3) to balance density and readability.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.line-height-sm}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:279:2",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "caption": {
+          "description": "Optimal for smaller headers (H4, H5) and metadata where extra vertical space helps clarity.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.line-height-md}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:279:3",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "body": {
+          "description": "The gold standard for multi-line paragraph text to ensure high accessibility.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.line-height-lg}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:279:4",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "ui": {
+          "description": "Reserved for single-line elements like buttons where the auto-layout container defines the height.",
+          "type": "dimension",
+          "value": "{dfd typography primitives.line-height-none}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:279:5",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    },
+    "border": {
+      "width": {
+        "none": {
+          "description": "No border set",
+          "type": "dimension",
+          "value": "{dfd stroke width primitives.stroke-0}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:180:15",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "ui": {
+          "description": "Standard for inputs/cards",
+          "type": "dimension",
+          "value": "{dfd stroke width primitives.stroke-1}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:180:16",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "active": {
+          "description": "Selected states",
+          "type": "dimension",
+          "value": "{dfd stroke width primitives.stroke-2}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:180:17",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "focus": {
+          "description": "Accessibility rings",
+          "type": "dimension",
+          "value": "{dfd stroke width primitives.stroke-4}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:180:18",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    },
+    "opacity": {
+      "state": {
+        "disabled": {
+          "description": "Disabled state",
+          "type": "dimension",
+          "value": "{dfd opacity primitives.opacity-50}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:185:11",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "inactive": {
+          "description": "Inactive state",
+          "type": "dimension",
+          "value": "{dfd opacity primitives.opacity-40}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:185:12",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "surface": {
+        "overlay": {
+          "description": "For modal backdrops",
+          "type": "dimension",
+          "value": "{dfd opacity primitives.opacity-60}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:185:13",
+              "exportKey": "variables"
+            }
+          }
+        }
+      },
+      "interaction": {
+        "hover": {
+          "description": "Useful for applying a subtle wash over buttons/list items",
+          "type": "dimension",
+          "value": "{dfd opacity primitives.opacity-10}",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DFD Semantics",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:185:14",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dfd stroke width primitives": {
+    "stroke-0": {
+      "description": "No border (reset).",
+      "type": "dimension",
+      "value": 0,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Stroke Width Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:172:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "stroke-1": {
+      "description": "Hairline. The standard for all UI dividers and inputs.",
+      "type": "dimension",
+      "value": 1,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Stroke Width Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:172:12",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "stroke-2": {
+      "description": "Thick. Used for active states or selected cards.",
+      "type": "dimension",
+      "value": 2,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Stroke Width Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:172:13",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "stroke-4": {
+      "description": "Heavy. Used for high-contrast focus rings.",
+      "type": "dimension",
+      "value": 4,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Stroke Width Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:172:14",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "stroke-6": {
+      "type": "dimension",
+      "value": 6,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Stroke Width Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:274:2",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd opacity primitives": {
+    "opacity-0": {
+      "description": "Invisible",
+      "type": "dimension",
+      "value": 0,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:3",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-10": {
+      "description": "Very subtle (often used for ghost hover backgrounds).",
+      "type": "dimension",
+      "value": 0.1,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:4",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-20": {
+      "description": "Subtle.",
+      "type": "dimension",
+      "value": 0.2,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:5",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-40": {
+      "description": "Soft Fade",
+      "type": "dimension",
+      "value": 0.4,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:6",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-50": {
+      "description": "Medium (\"Disabled\") base.",
+      "type": "dimension",
+      "value": 0.5,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:7",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-60": {
+      "description": "Strong (Overlay) base",
+      "type": "dimension",
+      "value": 0.6,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:8",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-80": {
+      "description": "High visibility, slightly softened.",
+      "type": "dimension",
+      "value": 0.8,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "opacity-100": {
+      "description": "Fully opaque.",
+      "type": "dimension",
+      "value": 1,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Opacity Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:185:10",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "dfd letter spacing primitives": {
+    "letter-spacing-tighter": {
+      "description": "Display Headers: For H1/H2 over 40px to prevent a \"gappy\" look.",
+      "type": "dimension",
+      "value": -2,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Letter Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:275:4",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "letter-spacing-tight": {
+      "description": "Standard Headers: For H3/H4 to make them feel compact and \"designed.\"",
+      "type": "dimension",
+      "value": -1,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Letter Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:275:9",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "letter-spacing-base": {
+      "description": "Standard Body: Default for paragraphs to ensure maximum legibility.",
+      "type": "dimension",
+      "value": 1,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Letter Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:275:10",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "letter-spacing-wide": {
+      "description": "Small Labels: For buttons, tags, or small all-caps text.",
+      "type": "dimension",
+      "value": 2,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Letter Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:275:11",
+          "exportKey": "variables"
+        }
+      }
+    },
+    "letter-spacing-wider": {
+      "description": "Technical/Accent: For tiny captions or \"Eyebrow\" headers",
+      "type": "dimension",
+      "value": 5,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "collection": "DFD Letter Spacing Primitives",
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "variableId": "VariableID:275:12",
+          "exportKey": "variables"
+        }
+      }
+    }
+  },
+  "typography": {
+    "caption": {
+      "description": "Specifically for image credits, tooltips, \"legal\" fine print, or technical helper text.",
+      "fontSize": {
+        "type": "dimension",
+        "value": 48
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Mulish"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 400
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 5
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 22
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    },
+    "display": {
+      "hero": {
+        "description": "Hero Heading Text",
+        "fontSize": {
+          "type": "dimension",
+          "value": 64
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "DM Serif Display"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": -2
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 76
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 48
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "DM Serif Display"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 20
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "h2": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 32
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "DM Serif Display"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 20
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "h3": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 24
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "DM Serif Display"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 20
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "h4": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "DM Serif Display"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 20
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "h5": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 18
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "DM Serif Display"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "body": {
+      "large": {
+        "description": "Used for lead paragraphs or \"TL;DR\" sections to provide high prominence and readability at a glance.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 18
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Mulish"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 1
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "medium": {
+        "description": "The primary workhorse for all DFD content, blog articles, and detailed product descriptions.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Mulish"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 1
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "small": {
+        "description": "Ideal for dense information blocks, bulleted lists, or footer content where space is at a premium.",
+        "fontSize": {
+          "type": "dimension",
+          "value": 14
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Mulish"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 1
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      }
+    },
+    "utility": {
+      "code": {
+        "medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Inconsolata"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Inconsolata"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 400
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      }
+    },
+    "label": {
+      "ui": {
+        "bold": {
+          "description": "Optimized for buttons, primary navigation links, and prominent tags. High weight and wider spacing ensure accessibility.",
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Mulish"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 600
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "small": {
+          "description": "Used for smaller buttons, status chips, or secondary navigation items within components.",
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Mulish"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 600
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 16
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      }
+    }
+  }
+}

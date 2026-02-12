@@ -1,0 +1,1255 @@
+[
+  {
+    "Design System | Base Tokens": {
+      "modes": {
+        "Light Mode": {
+          "colors": {
+            "brand": {
+              "primary": {
+                "$scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "$type": "color",
+                "$value": "#3b82f6",
+                "$description": "Primary brand color - hex format",
+                "$codeSyntax": {
+                  "WEB": "var(--brand-primary)",
+                  "ANDROID": "colorBrandPrimary",
+                  "iOS": "brandPrimary"
+                }
+              },
+              "secondary": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "rgb(99, 102, 241)",
+                "$description": "RGB format color example"
+              },
+              "success": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsla(142, 76%, 36%, 0.9)",
+                "$description": "HSLA format with transparency"
+              },
+              "warning": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "rgba(245, 158, 11, 0.8)",
+                "$description": "RGBA format with alpha channel"
+              },
+              "error": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "red",
+                "$description": "Named color support"
+              },
+              "accent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsl(320, 60%, 40%)",
+                "$description": "HSL format without alpha"
+              },
+              "highlight": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "#f0f",
+                "$description": "3-digit hex format",
+                "$hiddenFromPublishing": true
+              },
+              "transparent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "transparent",
+                "$description": "Named transparent color"
+              }
+            },
+            "neutral": {
+              "white": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "white"
+              },
+              "black": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "black"
+              },
+              "gray": {
+                "100": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$value": "#f3f4f6"
+                },
+                "500": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$value": "#6b7280"
+                },
+                "900": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$value": "#111827"
+                }
+              }
+            },
+            "advanced-formats": {
+              "figma-internal": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "rgba(204, 51, 153, 0.9)",
+                "$description": "Alternative to Figma internal format - using standard RGBA",
+                "$hiddenFromPublishing": true
+              },
+              "hsl-no-percent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsl(240, 100, 50)",
+                "$description": "HSL without percentage signs"
+              },
+              "hsla-no-percent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsla(240, 100, 50, 0.8)",
+                "$description": "HSLA without percentage signs"
+              }
+            },
+            "shadow": {
+              "color": {
+                "$scopes": [
+                  "EFFECT_COLOR"
+                ],
+                "$type": "color",
+                "$value": "rgba(0, 0, 0, 0.1)",
+                "$description": "Shadow color with transparency"
+              }
+            }
+          },
+          "spacing": {
+            "xs": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 4,
+              "$description": "Extra small spacing"
+            },
+            "sm": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 8
+            },
+            "md": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 16
+            },
+            "lg": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 24
+            },
+            "xl": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 32,
+              "$codeSyntax": {
+                "WEB": "var(--spacing-xl)",
+                "ANDROID": "spacingXl",
+                "iOS": "spacingXL"
+              }
+            }
+          },
+          "radius": {
+            "none": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 0
+            },
+            "sm": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 4
+            },
+            "md": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 8
+            },
+            "lg": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 12
+            },
+            "full": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 9999,
+              "$description": "Full radius for circular elements"
+            }
+          },
+          "typography": {
+            "font-family": {
+              "primary": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$value": "Inter",
+                "$description": "Primary font family",
+                "$codeSyntax": {
+                  "WEB": "var(--font-primary)",
+                  "ANDROID": "fontPrimary",
+                  "iOS": "fontPrimary"
+                }
+              },
+              "mono": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$value": "JetBrains Mono",
+                "$description": "Monospace font for code"
+              }
+            },
+            "font-size": {
+              "xs": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 12
+              },
+              "sm": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 14
+              },
+              "base": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 16
+              },
+              "lg": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 18
+              },
+              "xl": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 20
+              },
+              "2xl": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 24
+              }
+            },
+            "font-weight": {
+              "light": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 300
+              },
+              "normal": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 400
+              },
+              "medium": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 500
+              },
+              "semibold": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 600
+              },
+              "bold": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 700
+              }
+            }
+          },
+          "opacity": {
+            "0": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0,
+              "$description": "Completely transparent"
+            },
+            "25": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0.25
+            },
+            "50": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0.5
+            },
+            "75": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0.75
+            },
+            "100": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 1,
+              "$description": "Completely opaque"
+            }
+          },
+          "visibility": {
+            "visible": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "boolean",
+              "$value": true,
+              "$description": "Element is visible"
+            },
+            "hidden": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "boolean",
+              "$value": false,
+              "$description": "Element is hidden"
+            }
+          },
+          "content": {
+            "sample-text": {
+              "$scopes": [
+                "TEXT_CONTENT"
+              ],
+              "$type": "string",
+              "$value": "Sample button text",
+              "$description": "Default text content for components"
+            }
+          },
+          "nested": {
+            "deep": {
+              "structure": {
+                "example": {
+                  "token": {
+                    "$scopes": [
+                      "ALL_FILLS"
+                    ],
+                    "$type": "color",
+                    "$value": "#ff6b35",
+                    "$description": "Example of deeply nested token structure"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Dark Mode": {
+          "colors": {
+            "brand": {
+              "primary": {
+                "$scopes": [
+                  "ALL_FILLS",
+                  "STROKE_COLOR"
+                ],
+                "$type": "color",
+                "$value": "#60a5fa",
+                "$codeSyntax": {
+                  "WEB": "var(--brand-primary)",
+                  "ANDROID": "colorBrandPrimary",
+                  "iOS": "brandPrimary"
+                }
+              },
+              "secondary": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "rgb(129, 140, 248)"
+              },
+              "success": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsla(142, 76%, 46%, 0.9)"
+              },
+              "warning": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "rgba(251, 191, 36, 0.8)"
+              },
+              "error": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "#ef4444"
+              },
+              "accent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsl(320, 60%, 60%)"
+              },
+              "highlight": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "#a0a",
+                "$hiddenFromPublishing": true
+              },
+              "transparent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "transparent"
+              }
+            },
+            "neutral": {
+              "white": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "#1f2937"
+              },
+              "black": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "#f9fafb"
+              },
+              "gray": {
+                "100": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$value": "#4b5563"
+                },
+                "500": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$value": "#9ca3af"
+                },
+                "900": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$value": "#f9fafb"
+                }
+              }
+            },
+            "advanced-formats": {
+              "figma-internal": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "rgba(230, 77, 179, 0.8)",
+                "$hiddenFromPublishing": true
+              },
+              "hsl-no-percent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsl(280, 80, 60)"
+              },
+              "hsla-no-percent": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$value": "hsla(280, 80, 60, 0.7)"
+              }
+            },
+            "shadow": {
+              "color": {
+                "$scopes": [
+                  "EFFECT_COLOR"
+                ],
+                "$type": "color",
+                "$value": "rgba(0, 0, 0, 0.3)"
+              }
+            }
+          },
+          "spacing": {
+            "xs": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 4
+            },
+            "sm": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 8
+            },
+            "md": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 16
+            },
+            "lg": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 24
+            },
+            "xl": {
+              "$scopes": [
+                "GAP",
+                "WIDTH_HEIGHT"
+              ],
+              "$type": "float",
+              "$value": 32,
+              "$codeSyntax": {
+                "WEB": "var(--spacing-xl)",
+                "ANDROID": "spacingXl",
+                "iOS": "spacingXL"
+              }
+            }
+          },
+          "radius": {
+            "none": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 0
+            },
+            "sm": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 4
+            },
+            "md": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 8
+            },
+            "lg": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 12
+            },
+            "full": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$value": 9999
+            }
+          },
+          "typography": {
+            "font-family": {
+              "primary": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$value": "Inter",
+                "$codeSyntax": {
+                  "WEB": "var(--font-primary)",
+                  "ANDROID": "fontPrimary",
+                  "iOS": "fontPrimary"
+                }
+              },
+              "mono": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$value": "JetBrains Mono"
+              }
+            },
+            "font-size": {
+              "xs": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 12
+              },
+              "sm": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 14
+              },
+              "base": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 16
+              },
+              "lg": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 18
+              },
+              "xl": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 20
+              },
+              "2xl": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$value": 24
+              }
+            },
+            "font-weight": {
+              "light": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 300
+              },
+              "normal": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 400
+              },
+              "medium": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 500
+              },
+              "semibold": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 600
+              },
+              "bold": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$value": 700
+              }
+            }
+          },
+          "opacity": {
+            "0": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0
+            },
+            "25": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0.25
+            },
+            "50": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0.5
+            },
+            "75": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 0.75
+            },
+            "100": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$value": 1
+            }
+          },
+          "visibility": {
+            "visible": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "boolean",
+              "$value": true
+            },
+            "hidden": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "boolean",
+              "$value": false
+            }
+          },
+          "content": {
+            "sample-text": {
+              "$scopes": [
+                "TEXT_CONTENT"
+              ],
+              "$type": "string",
+              "$value": "Sample button text"
+            }
+          },
+          "nested": {
+            "deep": {
+              "structure": {
+                "example": {
+                  "token": {
+                    "$scopes": [
+                      "ALL_FILLS"
+                    ],
+                    "$type": "color",
+                    "$value": "#ff8c42"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "Component Library | Aliases & External References": {
+      "modes": {
+        "Default": {
+          "button": {
+            "primary": {
+              "background": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.brand.primary}",
+                "$description": "Primary button background references the main brand color"
+              },
+              "text": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.white}",
+                "$description": "Primary button text color"
+              },
+              "padding": {
+                "$scopes": [
+                  "GAP"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{spacing.md}",
+                "$description": "Primary button padding"
+              },
+              "radius": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{radius.md}"
+              },
+              "font-family": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{typography.font-family.primary}"
+              },
+              "font-size": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{typography.font-size.base}"
+              },
+              "font-weight": {
+                "$scopes": [
+                  "FONT_WEIGHT"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{typography.font-weight.medium}"
+              }
+            },
+            "secondary": {
+              "background": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.brand.secondary}"
+              },
+              "text": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.white}"
+              },
+              "padding": {
+                "$scopes": [
+                  "GAP"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{spacing.sm}"
+              },
+              "radius": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{radius.sm}"
+              }
+            },
+            "disabled": {
+              "background": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.gray.100}"
+              },
+              "text": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.gray.500}"
+              },
+              "opacity": {
+                "$scopes": [
+                  "OPACITY"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{opacity.50}"
+              },
+              "visible": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "boolean",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{visibility.visible}"
+              }
+            }
+          },
+          "alert": {
+            "success": {
+              "background": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.brand.success}"
+              },
+              "text": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.white}"
+              }
+            },
+            "warning": {
+              "background": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.brand.warning}"
+              },
+              "text": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.black}"
+              }
+            },
+            "error": {
+              "background": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.brand.error}"
+              },
+              "text": {
+                "$scopes": [
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{colors.neutral.white}"
+              }
+            }
+          },
+          "card": {
+            "background": {
+              "$scopes": [
+                "ALL_FILLS"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{colors.neutral.white}"
+            },
+            "border": {
+              "$scopes": [
+                "STROKE_COLOR"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{colors.neutral.gray.100}"
+            },
+            "shadow": {
+              "$scopes": [
+                "EFFECT_COLOR"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{colors.shadow.color}"
+            },
+            "padding": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{spacing.lg}"
+            },
+            "radius": {
+              "$scopes": [
+                "CORNER_RADIUS"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{radius.md}"
+            }
+          },
+          "semantic-aliases": {
+            "primary-action-color": {
+              "$scopes": [
+                "ALL_FILLS"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{colors.brand.primary}",
+              "$description": "Semantic alias for primary action color"
+            },
+            "layout-spacing": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{spacing.lg}",
+              "$description": "Semantic alias for layout spacing"
+            }
+          },
+          "typography": {
+            "heading": {
+              "h1": {
+                "font-family": {
+                  "$scopes": [
+                    "FONT_FAMILY"
+                  ],
+                  "$type": "string",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{typography.font-family.primary}"
+                },
+                "font-size": {
+                  "$scopes": [
+                    "FONT_SIZE"
+                  ],
+                  "$type": "float",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{typography.font-size.2xl}"
+                },
+                "font-weight": {
+                  "$scopes": [
+                    "FONT_WEIGHT"
+                  ],
+                  "$type": "float",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{typography.font-weight.bold}"
+                }
+              },
+              "h2": {
+                "font-family": {
+                  "$scopes": [
+                    "FONT_FAMILY"
+                  ],
+                  "$type": "string",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{typography.font-family.primary}"
+                },
+                "font-size": {
+                  "$scopes": [
+                    "FONT_SIZE"
+                  ],
+                  "$type": "float",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{typography.font-size.xl}"
+                },
+                "font-weight": {
+                  "$scopes": [
+                    "FONT_WEIGHT"
+                  ],
+                  "$type": "float",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{typography.font-weight.semibold}"
+                }
+              }
+            },
+            "code": {
+              "font-family": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{typography.font-family.mono}"
+              },
+              "font-size": {
+                "$scopes": [
+                  "FONT_SIZE"
+                ],
+                "$type": "float",
+                "$libraryName": "",
+                "$collectionName": "Design System | Base Tokens",
+                "$value": "{typography.font-size.sm}"
+              }
+            }
+          },
+          "advanced-aliases": {
+            "nested-reference": {
+              "deep": {
+                "token": {
+                  "$scopes": [
+                    "ALL_FILLS"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "Design System | Base Tokens",
+                  "$value": "{nested.deep.structure.example.token}",
+                  "$description": "Example of deep nested alias reference"
+                }
+              }
+            },
+            "opacity-reference": {
+              "$scopes": [
+                "OPACITY"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{opacity.75}",
+              "$description": "Example of opacity alias"
+            },
+            "boolean-reference": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "boolean",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{visibility.hidden}",
+              "$description": "Example of boolean alias"
+            },
+            "text-content-reference": {
+              "$scopes": [
+                "TEXT_CONTENT"
+              ],
+              "$type": "string",
+              "$libraryName": "",
+              "$collectionName": "Design System | Base Tokens",
+              "$value": "{content.sample-text}",
+              "$description": "Example of text content alias"
+            }
+          }
+        }
+      }
+    }
+  }
+]

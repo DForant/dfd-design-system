@@ -1,59 +1,59 @@
 {
-  "Toyland-Treats-Trends": {
-    "onyx-night": {
+  "toyland-treats-trends": {
+      "onyx-night": {
       "onyx-night-1": { "$value": "#4D4D4D", "$type": "color" },
       "onyx-night-2": { "$value": "#2B2B2B", "$type": "color" },
       "onyx-night-3": { 
-        "$value": "#121212", 
-        "$type": "color",
-        "$description": "A deep, near-black used for primary typography, headers, and high-contrast UI elements to ensure readability against vibrant accents."
+          "$value": "#121212", 
+          "$type": "color",
+          "$description": "A deep, near-black used for primary typography, headers, and high-contrast UI elements to ensure readability against vibrant accents."
       },
       "onyx-night-4": { "$value": "#0A0A0A", "$type": "color" },
       "onyx-night-5": { "$value": "#000000", "$type": "color" }
-    },
-    "cotton-cloud": {
+      },
+      "cotton-cloud": {
       "cotton-cloud-1": { "$value": "#FFFFFF", "$type": "color" },
       "cotton-cloud-2": { "$value": "#FAF8F2", "$type": "color" },
       "cotton-cloud-3": { 
-        "$value": "#F5F1E6", 
-        "$type": "color",
-        "$description": "A warm, soft off-white designed for large background areas, providing a friendly and less 'sterile' look than pure white."
+          "$value": "#F5F1E6", 
+          "$type": "color",
+          "$description": "A warm, soft off-white designed for large background areas, providing a friendly and less 'sterile' look than pure white."
       },
       "cotton-cloud-4": { "$value": "#EBE4D0", "$type": "color" },
       "cotton-cloud-5": { "$value": "#DED4B6", "$type": "color" }
-    },
-    "electric-blue": {
+      },
+      "electric-blue": {
       "electric-blue-1": { "$value": "#B3E0FF", "$type": "color" },
       "electric-blue-2": { "$value": "#4DB8FF", "$type": "color" },
       "electric-blue-3": { 
-        "$value": "#0099FF", 
-        "$type": "color",
-        "$description": "The main brand driver. Used for primary call-to-action buttons, shopping bags, and key brand icons to denote reliability and fun."
+          "$value": "#0099FF", 
+          "$type": "color",
+          "$description": "The main brand driver. Used for primary call-to-action buttons, shopping bags, and key brand icons to denote reliability and fun."
       },
       "electric-blue-4": { "$value": "#007ACC", "$type": "color" },
       "electric-blue-5": { "$value": "#005C99", "$type": "color" }
-    },
-    "bubblegum-pink": {
+      },
+      "bubblegum-pink": {
       "bubblegum-pink-1": { "$value": "#FFC2D6", "$type": "color" },
       "bubblegum-pink-2": { "$value": "#FF85AD", "$type": "color" },
       "bubblegum-pink-3": { 
-        "$value": "#F07197", 
-        "$type": "color",
-        "$description": "A vibrant accent color ideal for product packaging (like the box mockup), promotional banners, and highlights."
+          "$value": "#F07197", 
+          "$type": "color",
+          "$description": "A vibrant accent color ideal for product packaging (like the box mockup), promotional banners, and highlights."
       },
       "bubblegum-pink-4": { "$value": "#D64D77", "$type": "color" },
       "bubblegum-pink-5": { "$value": "#A32E52", "$type": "color" }
-    },
-    "sunny-citrus": {
+      },
+      "sunny-citrus": {
       "sunny-citrus-1": { "$value": "#FFF2B3", "$type": "color" },
       "sunny-citrus-2": { "$value": "#FFE44D", "$type": "color" },
       "sunny-citrus-3": { 
-        "$value": "#FFD600", 
-        "$type": "color",
-        "$description": "Used for badges, 'New Arrival' tags, and illustrations to add a pop of warmth and visual variety."
+          "$value": "#FFD600", 
+          "$type": "color",
+          "$description": "Used for badges, 'New Arrival' tags, and illustrations to add a pop of warmth and visual variety."
       },
       "sunny-citrus-4": { "$value": "#CCAB00", "$type": "color" },
       "sunny-citrus-5": { "$value": "#998000", "$type": "color" }
-    }
+      }
   }
 }

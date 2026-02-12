@@ -1,59 +1,59 @@
 {
-  "Artisan-Estate": {
-    "spiced-pumpkin": {
-      "spiced-pumpkin-1": {"$value": "#F9E6D8", "$type": "color"},
-      "spiced-pumpkin-2": {"$value": "#E6A16D", "$type": "color"},
-      "spiced-pumpkin-3": {
-        "$value": "#B3591B", 
-        "$type": "color",
-        "$description": "A rich, artisanal orange used for primary actions and highlights that need to feel energetic yet grounded."
-      },
-      "spiced-pumpkin-4": {"$value": "#8A4315", "$type": "color"},
-      "spiced-pumpkin-5": {"$value": "#5C2D0E", "$type": "color"}
-    },
-    "creamy-beige": {
-      "creamy-beige-1": {"$value": "#FAF7F2", "$type": "color"},
-      "creamy-beige-2": {"$value": "#EDE3D1", "$type": "color"},
-      "creamy-beige-3": {
-        "$value": "#DBC9A9", 
-        "$type": "color",
-        "$description": "A soft, sophisticated neutral ideal for large backgrounds or secondary text surfaces."
-      },
-      "creamy-beige-4": {"$value": "#B09A75", "$type": "color"},
-      "creamy-beige-5": {"$value": "#7D6C52", "$type": "color"}
-    },
-    "cranberry-red": {
-      "cranberry-red-1": {"$value": "#F5E6E6", "$type": "color"},
-      "cranberry-red-2": {"$value": "#C47A7A", "$type": "color"},
-      "cranberry-red-3": {
-        "$value": "#8A2B2B", 
-        "$type": "color",
-        "$description": "A deep, passionate red for accents that require a touch of elegance and tradition."
-      },
-      "cranberry-red-4": {"$value": "#692121", "$type": "color"},
-      "cranberry-red-5": {"$value": "#451616", "$type": "color"}
-    },
-    "moss-green": {
-      "moss-green-1": {"$value": "#EEF0E9", "$type": "color"},
-      "moss-green-2": {"$value": "#9CAD83", "$type": "color"},
-      "moss-green-3": {
-        "$value": "#556340", 
-        "$type": "color",
-        "$description": "A natural, calming green that works perfectly for footers, borders, or botanical elements."
-      },
-      "moss-green-4": {"$value": "#404A30", "$type": "color"},
-      "moss-green-5": {"$value": "#2B3120", "$type": "color"}
-    },
-    "golden-yellow": {
-      "golden-yellow-1": {"$value": "#FDF7E6", "$type": "color"},
-      "golden-yellow-2": {"$value": "#F3D991", "$type": "color"},
-      "golden-yellow-3": {
-        "$value": "#D4A017", 
-        "$type": "color",
-        "$description": "A warm, honey-like yellow used for subtle highlights and secondary buttons."
-      },
-      "golden-yellow-4": {"$value": "#A17A11", "$type": "color"},
-      "golden-yellow-5": {"$value": "#6E530C", "$type": "color"}
+    "artisan-estate": {
+        "spiced-pumpkin": {
+        "spiced-pumpkin-1": {"$value": "#F9E6D8", "$type": "color"},
+        "spiced-pumpkin-2": {"$value": "#E6A16D", "$type": "color"},
+        "spiced-pumpkin-3": {
+            "$value": "#B3591B", 
+            "$type": "color",
+            "$description": "A rich, artisanal orange used for primary actions and highlights that need to feel energetic yet grounded."
+        },
+        "spiced-pumpkin-4": {"$value": "#8A4315", "$type": "color"},
+        "spiced-pumpkin-5": {"$value": "#5C2D0E", "$type": "color"}
+        },
+        "creamy-beige": {
+        "creamy-beige-1": {"$value": "#FAF7F2", "$type": "color"},
+        "creamy-beige-2": {"$value": "#EDE3D1", "$type": "color"},
+        "creamy-beige-3": {
+            "$value": "#DBC9A9", 
+            "$type": "color",
+            "$description": "A soft, sophisticated neutral ideal for large backgrounds or secondary text surfaces."
+        },
+        "creamy-beige-4": {"$value": "#B09A75", "$type": "color"},
+        "creamy-beige-5": {"$value": "#7D6C52", "$type": "color"}
+        },
+        "cranberry-red": {
+        "cranberry-red-1": {"$value": "#F5E6E6", "$type": "color"},
+        "cranberry-red-2": {"$value": "#C47A7A", "$type": "color"},
+        "cranberry-red-3": {
+            "$value": "#8A2B2B", 
+            "$type": "color",
+            "$description": "A deep, passionate red for accents that require a touch of elegance and tradition."
+        },
+        "cranberry-red-4": {"$value": "#692121", "$type": "color"},
+        "cranberry-red-5": {"$value": "#451616", "$type": "color"}
+        },
+        "moss-green": {
+        "moss-green-1": {"$value": "#EEF0E9", "$type": "color"},
+        "moss-green-2": {"$value": "#9CAD83", "$type": "color"},
+        "moss-green-3": {
+            "$value": "#556340", 
+            "$type": "color",
+            "$description": "A natural, calming green that works perfectly for footers, borders, or botanical elements."
+        },
+        "moss-green-4": {"$value": "#404A30", "$type": "color"},
+        "moss-green-5": {"$value": "#2B3120", "$type": "color"}
+        },
+        "golden-yellow": {
+        "golden-yellow-1": {"$value": "#FDF7E6", "$type": "color"},
+        "golden-yellow-2": {"$value": "#F3D991", "$type": "color"},
+        "golden-yellow-3": {
+            "$value": "#D4A017", 
+            "$type": "color",
+            "$description": "A warm, honey-like yellow used for subtle highlights and secondary buttons."
+        },
+        "golden-yellow-4": {"$value": "#A17A11", "$type": "color"},
+        "golden-yellow-5": {"$value": "#6E530C", "$type": "color"}
+        }
     }
-  }
 }

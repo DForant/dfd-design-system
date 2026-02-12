@@ -1,59 +1,59 @@
 {
-  "PawsAndPlay": {
-    "playful-red": {
+  "paws-and-play": {
+      "playful-red": {
       "playful-red-1": { "$value": "#FFD1D1", "$type": "color" },
       "playful-red-2": { "$value": "#FF7070", "$type": "color" },
       "playful-red-3": { 
-        "$value": "#C62828", 
-        "$type": "color",
-        "$description": "Energetic accent used for primary Call-to-Action buttons and urgent alerts."
+          "$value": "#C62828", 
+          "$type": "color",
+          "$description": "Energetic accent used for primary Call-to-Action buttons and urgent alerts."
       },
       "playful-red-4": { "$value": "#8E1C1C", "$type": "color" },
       "playful-red-5": { "$value": "#560F0F", "$type": "color" }
-    },
-    "sunny-gold": {
+      },
+      "sunny-gold": {
       "sunny-gold-1": { "$value": "#FFF4C2", "$type": "color" },
       "sunny-gold-2": { "$value": "#FFE052", "$type": "color" },
       "sunny-gold-3": { 
-        "$value": "#F9C80E", 
-        "$type": "color",
-        "$description": "Used for highlights, star ratings, and seasonal badges."
+          "$value": "#F9C80E", 
+          "$type": "color",
+          "$description": "Used for highlights, star ratings, and seasonal badges."
       },
       "sunny-gold-4": { "$value": "#C29B0B", "$type": "color" },
       "sunny-gold-5": { "$value": "#8B6E08", "$type": "color" }
-    },
-    "warm-biscuit": {
+      },
+      "warm-biscuit": {
       "warm-biscuit-1": { "$value": "#FFFFFF", "$type": "color" },
       "warm-biscuit-2": { "$value": "#FAF7F0", "$type": "color" },
       "warm-biscuit-3": { 
-        "$value": "#F2EBD9", 
-        "$type": "color",
-        "$description": "A soft, neutral light color designed for large background surfaces to reduce eye strain."
+          "$value": "#F2EBD9", 
+          "$type": "color",
+          "$description": "A soft, neutral light color designed for large background surfaces to reduce eye strain."
       },
       "warm-biscuit-4": { "$value": "#E0D4B8", "$type": "color" },
       "warm-biscuit-5": { "$value": "#C9B891", "$type": "color" }
-    },
-    "midnight-navy": {
+      },
+      "midnight-navy": {
       "midnight-navy-1": { "$value": "#D1D8E0", "$type": "color" },
       "midnight-navy-2": { "$value": "#5C7089", "$type": "color" },
       "midnight-navy-3": { 
-        "$value": "#0B1E33", 
-        "$type": "color",
-        "$description": "A deep, near-black blue for high-contrast text and structural navigation."
+          "$value": "#0B1E33", 
+          "$type": "color",
+          "$description": "A deep, near-black blue for high-contrast text and structural navigation."
       },
       "midnight-navy-4": { "$value": "#071421", "$type": "color" },
       "midnight-navy-5": { "$value": "#03080D", "$type": "color" }
-    },
-    "royal-purple": {
+      },
+      "royal-purple": {
       "royal-purple-1": { "$value": "#E8DEF0", "$type": "color" },
       "royal-purple-2": { "$value": "#A37AC2", "$type": "color" },
       "royal-purple-3": { 
-        "$value": "#6A3093", 
-        "$type": "color",
-        "$description": "Used for secondary buttons, interactive states, and luxury product accents."
+          "$value": "#6A3093", 
+          "$type": "color",
+          "$description": "Used for secondary buttons, interactive states, and luxury product accents."
       },
       "royal-purple-4": { "$value": "#4C2269", "$type": "color" },
       "royal-purple-5": { "$value": "#2E1540", "$type": "color" }
-    }
+      }
   }
 }

@@ -1,59 +1,119 @@
 {
-  "Autumn-Hearth": {
-    "woolen-oat": {
-      "woolen-oat-1": { "$value": "#d9cebd", "$type": "color" },
-      "woolen-oat-2": { "$value": "#ede5d8", "$type": "color" },
-      "woolen-oat-3": { 
-        "$value": "#f7f1e6", 
-        "$type": "color",
-        "$description": "A soft, neutral beige with warm undertones. Best used for large background areas or minimalist packaging to provide a gentle, non-clinical feel."
-      },
-      "woolen-oat-4": { "$value": "#ffffff", "$type": "color" },
-      "woolen-oat-5": { "$value": "#faf9f7", "$type": "color" }
-    },
-    "spiced-cider": {
-      "spiced-cider-1": { "$value": "#9e5b32", "$type": "color" },
-      "spiced-cider-2": { "$value": "#c4713e", "$type": "color" },
-      "spiced-cider-3": { 
-        "$value": "#e08c5e", 
-        "$type": "color",
-        "$description": "A muted, dusty orange. Ideal for illustrative accents, secondary headings, or UI elements that need to feel friendly but not loud."
-      },
-      "spiced-cider-4": { "$value": "#ebb391", "$type": "color" },
-      "spiced-cider-5": { "$value": "#f5d9c9", "$type": "color" }
-    },
-    "embers-glow": {
-      "embers-glow-1": { "$value": "#8c3216", "$type": "color" },
-      "embers-glow-2": { "$value": "#b3401c", "$type": "color" },
-      "embers-glow-3": { 
-        "$value": "#d94e23", 
-        "$type": "color",
-        "$description": "A rich, saturated burnt sienna. This is the 'heart' of the palette, perfect for primary buttons and brand marks."
-      },
-      "embers-glow-4": { "$value": "#e6856a", "$type": "color" },
-      "embers-glow-5": { "$value": "#f0b5a5", "$type": "color" }
-    },
-    "mulled-wine": {
-      "mulled-wine-1": { "$value": "#3b1620", "$type": "color" },
-      "mulled-wine-2": { "$value": "#57202f", "$type": "color" },
-      "mulled-wine-3": { 
-        "$value": "#7a2d42", 
-        "$type": "color",
-        "$description": "A deep, sophisticated berry-purple. Use this for high-contrast text or decorative borders to add a touch of luxury."
-      },
-      "mulled-wine-4": { "$value": "#a36171", "$type": "color" },
-      "mulled-wine-5": { "$value": "#cc9ba6", "$type": "color" }
-    },
-    "roasted-bean": {
-      "roasted-bean-1": { "$value": "#1a110e", "$type": "color" },
-      "roasted-bean-2": { "$value": "#261914", "$type": "color" },
-      "roasted-bean-3": { 
-        "$value": "#33211b", 
-        "$type": "color",
-        "$description": "A very dark, warm brown. Replaces pure black for all typography and grounding elements to maintain the 'cozy' theme."
-      },
-      "roasted-bean-4": { "$value": "#5c4740", "$type": "color" },
-      "roasted-bean-5": { "$value": "#85746e", "$type": "color" }
+    "Autumn Hearth": {
+        "embers-glow": {
+            "embers-glow-1": {
+                "$value": "#f0b5a5",
+                "$type": "color"
+            },
+            "embers-glow-2": {
+                "$value": "#e6856a",
+                "$type": "color"
+            },
+            "embers-glow-3": {
+                "$value": "#d94e23",
+                "$type": "color",
+                "$description": "A rich burnt sienna for primary buttons and brand marks."
+            },
+            "embers-glow-4": {
+                "$value": "#b3401c",
+                "$type": "color"
+            },
+            "embers-glow-5": {
+                "$value": "#8c3216",
+                "$type": "color"
+            }
+        },
+        "mulled-wine": {
+            "mulled-wine-1": {
+                "$value": "#cc9ba6",
+                "$type": "color"
+            },
+            "mulled-wine-2": {
+                "$value": "#a36171",
+                "$type": "color"
+            },
+            "mulled-wine-3": {
+                "$value": "#7a2d42",
+                "$type": "color",
+                "$description": "A deep berry purple for high-contrast luxury accents."
+            },
+            "mulled-wine-4": {
+                "$value": "#57202f",
+                "$type": "color"
+            },
+            "mulled-wine-5": {
+                "$value": "#3b1620",
+                "$type": "color"
+            }
+        },
+        "roasted-bean": {
+            "roasted-bean-1": {
+                "$value": "#85746e",
+                "$type": "color"
+            },
+            "roasted-bean-2": {
+                "$value": "#5c4740",
+                "$type": "color"
+            },
+            "roasted-bean-3": {
+                "$value": "#33211b",
+                "$type": "color",
+                "$description": "A dark warm brown for grounding typography."
+            },
+            "roasted-bean-4": {
+                "$value": "#261914",
+                "$type": "color"
+            },
+            "roasted-bean-5": {
+                "$value": "#1a110e",
+                "$type": "color"
+            }
+        },
+        "spiced-cider": {
+            "spiced-cider-1": {
+                "$value": "#f5d9c9",
+                "$type": "color"
+            },
+            "spiced-cider-2": {
+                "$value": "#ebb391",
+                "$type": "color"
+            },
+            "spiced-cider-3": {
+                "$value": "#e08c5e",
+                "$type": "color",
+                "$description": "A muted dusty orange for secondary headings and accents."
+            },
+            "spiced-cider-4": {
+                "$value": "#c4713e",
+                "$type": "color"
+            },
+            "spiced-cider-5": {
+                "$value": "#9e5b32",
+                "$type": "color"
+            }
+        },
+        "woolen-oat": {
+            "woolen-oat-1": {
+                "$value": "#ffffff",
+                "$type": "color"
+            },
+            "woolen-oat-2": {
+                "$value": "#faf9f7",
+                "$type": "color"
+            },
+            "woolen-oat-3": {
+                "$value": "#f7f1e6",
+                "$type": "color",
+                "$description": "A soft warm off-white for primary backgrounds."
+            },
+            "woolen-oat-4": {
+                "$value": "#ede5d8",
+                "$type": "color"
+            },
+            "woolen-oat-5": {
+                "$value": "#d9cebd",
+                "$type": "color"
+            }
+        }
     }
-  }
 }

@@ -1,59 +1,59 @@
 {
-  "Vivid Horizon": {
-    "Creamy Bone": {
+  "vivid-horizon": {
+      "Creamy Bone": {
       "creamy-bone-1": { "$value": "#FAF9F2", "$type": "color" },
       "creamy-bone-2": { "$value": "#F7F5E6", "$type": "color" },
       "creamy-bone-3": { 
-        "$value": "#F2EFE0", 
-        "$type": "color",
-        "$description": "A soft, sophisticated off-white used for primary backgrounds to reduce eye strain while maintaining a bright, airy feel."
+          "$value": "#F2EFE0", 
+          "$type": "color",
+          "$description": "A soft, sophisticated off-white used for primary backgrounds to reduce eye strain while maintaining a bright, airy feel."
       },
       "creamy-bone-4": { "$value": "#EBE6CC", "$type": "color" },
       "creamy-bone-5": { "$value": "#DED8B6", "$type": "color" }
-    },
-    "Sunny Yellow": {
+      },
+      "Sunny Yellow": {
       "sunny-yellow-1": { "$value": "#FFF299", "$type": "color" },
       "sunny-yellow-2": { "$value": "#FFE94D", "$type": "color" },
       "sunny-yellow-3": { 
-        "$value": "#FFD700", 
-        "$type": "color",
-        "$description": "An optimistic accent color perfect for highlights, icons, and bringing a sense of 'joy' to the user interface."
+          "$value": "#FFD700", 
+          "$type": "color",
+          "$description": "An optimistic accent color perfect for highlights, icons, and bringing a sense of 'joy' to the user interface."
       },
       "sunny-yellow-4": { "$value": "#CCAC00", "$type": "color" },
       "sunny-yellow-5": { "$value": "#998100", "$type": "color" }
-    },
-    "Cerulean Blue": {
+      },
+      "Cerulean Blue": {
       "cerulean-blue-1": { "$value": "#80D4FF", "$type": "color" },
       "cerulean-blue-2": { "$value": "#33B5FF", "$type": "color" },
       "cerulean-blue-3": { 
-        "$value": "#0099EE", 
-        "$type": "color",
-        "$description": "A trustworthy and calm blue used for secondary buttons, links, and illustrative elements."
+          "$value": "#0099EE", 
+          "$type": "color",
+          "$description": "A trustworthy and calm blue used for secondary buttons, links, and illustrative elements."
       },
       "cerulean-blue-4": { "$value": "#007ACC", "$type": "color" },
       "cerulean-blue-5": { "$value": "#005C99", "$type": "color" }
-    },
-    "Forest Green": {
+      },
+      "Forest Green": {
       "forest-green-1": { "$value": "#2A6B54", "$type": "color" },
       "forest-green-2": { "$value": "#1A4D3B", "$type": "color" },
       "forest-green-3": { 
-        "$value": "#0A3022", 
-        "$type": "color",
-        "$description": "The deep, grounding color used for text, dark-mode backgrounds, and primary navigation elements."
+          "$value": "#0A3022", 
+          "$type": "color",
+          "$description": "The deep, grounding color used for text, dark-mode backgrounds, and primary navigation elements."
       },
       "forest-green-4": { "$value": "#062017", "$type": "color" },
       "forest-green-5": { "$value": "#020D09", "$type": "color" }
-    },
-    "Fiery Orange": {
+      },
+      "Fiery Orange": {
       "fiery-orange-1": { "$value": "#FF9D66", "$type": "color" },
       "fiery-orange-2": { "$value": "#FF7526", "$type": "color" },
       "fiery-orange-3": { 
-        "$value": "#E65100", 
-        "$type": "color",
-        "$description": "The primary call-to-action color, designed to grab attention and drive user conversion."
+          "$value": "#E65100", 
+          "$type": "color",
+          "$description": "The primary call-to-action color, designed to grab attention and drive user conversion."
       },
       "fiery-orange-4": { "$value": "#B33F00", "$type": "color" },
       "fiery-orange-5": { "$value": "#802D00", "$type": "color" }
-    }
+      }
   }
 }

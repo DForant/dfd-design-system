@@ -1,6 +1,6 @@
 {
-    "Cozy & Warm": {
-        "Artisan-Estate": {
+    "cozy-warm": {
+        "artisan-estate": {
             "spiced-pumpkin": {
             "spiced-pumpkin-1": {"$value": "#F9E6D8", "$type": "color"},
             "spiced-pumpkin-2": {"$value": "#E6A16D", "$type": "color"},
@@ -57,180 +57,300 @@
             "golden-yellow-5": {"$value": "#6E530C", "$type": "color"}
             }
         },
-        "Autumn-Hearth": {
-            "woolen-oat": {
-            "woolen-oat-1": { "$value": "#d9cebd", "$type": "color" },
-            "woolen-oat-2": { "$value": "#ede5d8", "$type": "color" },
-            "woolen-oat-3": { 
-                "$value": "#f7f1e6", 
-                "$type": "color",
-                "$description": "A soft, neutral beige with warm undertones. Best used for large background areas or minimalist packaging to provide a gentle, non-clinical feel."
-            },
-            "woolen-oat-4": { "$value": "#ffffff", "$type": "color" },
-            "woolen-oat-5": { "$value": "#faf9f7", "$type": "color" }
-            },
-            "spiced-cider": {
-            "spiced-cider-1": { "$value": "#9e5b32", "$type": "color" },
-            "spiced-cider-2": { "$value": "#c4713e", "$type": "color" },
-            "spiced-cider-3": { 
-                "$value": "#e08c5e", 
-                "$type": "color",
-                "$description": "A muted, dusty orange. Ideal for illustrative accents, secondary headings, or UI elements that need to feel friendly but not loud."
-            },
-            "spiced-cider-4": { "$value": "#ebb391", "$type": "color" },
-            "spiced-cider-5": { "$value": "#f5d9c9", "$type": "color" }
-            },
+        "autumn-hearth": {
             "embers-glow": {
-            "embers-glow-1": { "$value": "#8c3216", "$type": "color" },
-            "embers-glow-2": { "$value": "#b3401c", "$type": "color" },
-            "embers-glow-3": { 
-                "$value": "#d94e23", 
-                "$type": "color",
-                "$description": "A rich, saturated burnt sienna. This is the 'heart' of the palette, perfect for primary buttons and brand marks."
-            },
-            "embers-glow-4": { "$value": "#e6856a", "$type": "color" },
-            "embers-glow-5": { "$value": "#f0b5a5", "$type": "color" }
+                "embers-glow-1": {
+                    "$value": "#f0b5a5",
+                    "$type": "color"
+                },
+                "embers-glow-2": {
+                    "$value": "#e6856a",
+                    "$type": "color"
+                },
+                "embers-glow-3": {
+                    "$value": "#d94e23",
+                    "$type": "color",
+                    "$description": "A rich burnt sienna for primary buttons and brand marks."
+                },
+                "embers-glow-4": {
+                    "$value": "#b3401c",
+                    "$type": "color"
+                },
+                "embers-glow-5": {
+                    "$value": "#8c3216",
+                    "$type": "color"
+                }
             },
             "mulled-wine": {
-            "mulled-wine-1": { "$value": "#3b1620", "$type": "color" },
-            "mulled-wine-2": { "$value": "#57202f", "$type": "color" },
-            "mulled-wine-3": { 
-                "$value": "#7a2d42", 
-                "$type": "color",
-                "$description": "A deep, sophisticated berry-purple. Use this for high-contrast text or decorative borders to add a touch of luxury."
-            },
-            "mulled-wine-4": { "$value": "#a36171", "$type": "color" },
-            "mulled-wine-5": { "$value": "#cc9ba6", "$type": "color" }
+                "mulled-wine-1": {
+                    "$value": "#cc9ba6",
+                    "$type": "color"
+                },
+                "mulled-wine-2": {
+                    "$value": "#a36171",
+                    "$type": "color"
+                },
+                "mulled-wine-3": {
+                    "$value": "#7a2d42",
+                    "$type": "color",
+                    "$description": "A deep berry purple for high-contrast luxury accents."
+                },
+                "mulled-wine-4": {
+                    "$value": "#57202f",
+                    "$type": "color"
+                },
+                "mulled-wine-5": {
+                    "$value": "#3b1620",
+                    "$type": "color"
+                }
             },
             "roasted-bean": {
-            "roasted-bean-1": { "$value": "#1a110e", "$type": "color" },
-            "roasted-bean-2": { "$value": "#261914", "$type": "color" },
-            "roasted-bean-3": { 
-                "$value": "#33211b", 
-                "$type": "color",
-                "$description": "A very dark, warm brown. Replaces pure black for all typography and grounding elements to maintain the 'cozy' theme."
+                "roasted-bean-1": {
+                    "$value": "#85746e",
+                    "$type": "color"
+                },
+                "roasted-bean-2": {
+                    "$value": "#5c4740",
+                    "$type": "color"
+                },
+                "roasted-bean-3": {
+                    "$value": "#33211b",
+                    "$type": "color",
+                    "$description": "A dark warm brown for grounding typography."
+                },
+                "roasted-bean-4": {
+                    "$value": "#261914",
+                    "$type": "color"
+                },
+                "roasted-bean-5": {
+                    "$value": "#1a110e",
+                    "$type": "color"
+                }
             },
-            "roasted-bean-4": { "$value": "#5c4740", "$type": "color" },
-            "roasted-bean-5": { "$value": "#85746e", "$type": "color" }
+            "spiced-cider": {
+                "spiced-cider-1": {
+                    "$value": "#f5d9c9",
+                    "$type": "color"
+                },
+                "spiced-cider-2": {
+                    "$value": "#ebb391",
+                    "$type": "color"
+                },
+                "spiced-cider-3": {
+                    "$value": "#e08c5e",
+                    "$type": "color",
+                    "$description": "A muted dusty orange for secondary headings and accents."
+                },
+                "spiced-cider-4": {
+                    "$value": "#c4713e",
+                    "$type": "color"
+                },
+                "spiced-cider-5": {
+                    "$value": "#9e5b32",
+                    "$type": "color"
+                }
+            },
+            "woolen-oat": {
+                "woolen-oat-1": {
+                    "$value": "#ffffff",
+                    "$type": "color"
+                },
+                "woolen-oat-2": {
+                    "$value": "#faf9f7",
+                    "$type": "color"
+                },
+                "woolen-oat-3": {
+                    "$value": "#f7f1e6",
+                    "$type": "color",
+                    "$description": "A soft warm off-white for primary backgrounds."
+                },
+                "woolen-oat-4": {
+                    "$value": "#ede5d8",
+                    "$type": "color"
+                },
+                "woolen-oat-5": {
+                    "$value": "#d9cebd",
+                    "$type": "color"
+                }
             }
         },
-        "Golden-Orchard": {
-            "parchment-silk": {
-            "parchment-silk-1": { "$value": "#e0d9cf", "$type": "color" },
-            "parchment-silk-2": { "$value": "#f0ece6", "$type": "color" },
-            "parchment-silk-3": { 
-                "$value": "#faf9f7", 
-                "$type": "color",
-                "$description": "A warm, breathable off-white. This is the ultimate background for minimalist layouts, providing a softer look than pure white."
-            },
-            "parchment-silk-4": { "$value": "#ffffff", "$type": "color" },
-            "parchment-silk-5": { "$value": "#fcfcfb", "$type": "color" }
+        "golden-orchard": {
+            "heirloom-bark": {
+                "heirloom-bark-1": {
+                    "$value": "#948880",
+                    "$type": "color"
+                },
+                "heirloom-bark-2": {
+                    "$value": "#6b5e55",
+                    "$type": "color"
+                },
+                "heirloom-bark-3": {
+                    "$value": "#423730",
+                    "$type": "color",
+                    "$description": "A deep charcoal brown for primary body copy."
+                },
+                "heirloom-bark-4": {
+                    "$value": "#2e2621",
+                    "$type": "color"
+                },
+                "heirloom-bark-5": {
+                    "$value": "#1a1512",
+                    "$type": "color"
+                }
             },
             "honey-glow": {
-            "honey-glow-1": { "$value": "#b38600", "$type": "color" },
-            "honey-glow-2": { "$value": "#e6ac00", "$type": "color" },
-            "honey-glow-3": { 
-                "$value": "#ffc107", 
-                "$type": "color",
-                "$description": "A rich, golden amber. Use for secondary buttons, interactive highlights, or branding icons to inject warmth and energy."
-            },
-            "honey-glow-4": { "$value": "#ffd54f", "$type": "color" },
-            "honey-glow-5": { "$value": "#ffecb3", "$type": "color" }
-            },
-            "terracotta-soil": {
-            "terracotta-soil-1": { "$value": "#8c3a1a", "$type": "color" },
-            "terracotta-soil-2": { "$value": "#b34a21", "$type": "color" },
-            "terracotta-soil-3": { 
-                "$value": "#d95a28", 
-                "$type": "color",
-                "$description": "A deep, sun-baked clay. This is the primary brand color, ideal for Call-to-Action (CTA) elements and main headings."
-            },
-            "terracotta-soil-4": { "$value": "#e68b6a", "$type": "color" },
-            "terracotta-soil-5": { "$value": "#f0bcab", "$type": "color" }
+                "honey-glow-1": {
+                    "$value": "#ffecb3",
+                    "$type": "color"
+                },
+                "honey-glow-2": {
+                    "$value": "#ffd54f",
+                    "$type": "color"
+                },
+                "honey-glow-3": {
+                    "$value": "#ffc107",
+                    "$type": "color",
+                    "$description": "A rich golden amber for interactive highlights."
+                },
+                "honey-glow-4": {
+                    "$value": "#e6ac00",
+                    "$type": "color"
+                },
+                "honey-glow-5": {
+                    "$value": "#b38600",
+                    "$type": "color"
+                }
             },
             "mossy-branch": {
-            "mossy-branch-1": { "$value": "#2b2e1b", "$type": "color" },
-            "mossy-branch-2": { "$value": "#444a2b", "$type": "color" },
-            "mossy-branch-3": { 
-                "$value": "#5d663b", 
-                "$type": "color",
-                "$description": "A dark, desaturated olive green. Use for secondary typography, botanical illustrations, or footer backgrounds."
+                "mossy-branch-1": {
+                    "$value": "#b7bd9a",
+                    "$type": "color"
+                },
+                "mossy-branch-2": {
+                    "$value": "#8b9464",
+                    "$type": "color"
+                },
+                "mossy-branch-3": {
+                    "$value": "#5d663b",
+                    "$type": "color",
+                    "$description": "A dark olive green for grounding typography and botanical elements."
+                },
+                "mossy-branch-4": {
+                    "$value": "#444a2b",
+                    "$type": "color"
+                },
+                "mossy-branch-5": {
+                    "$value": "#2b2e1b",
+                    "$type": "color"
+                }
             },
-            "mossy-branch-4": { "$value": "#8b9464", "$type": "color" },
-            "mossy-branch-5": { "$value": "#b7bd9a", "$type": "color" }
+            "parchment-silk": {
+                "parchment-silk-1": {
+                    "$value": "#ffffff",
+                    "$type": "color"
+                },
+                "parchment-silk-2": {
+                    "$value": "#fcfcfb",
+                    "$type": "color"
+                },
+                "parchment-silk-3": {
+                    "$value": "#faf9f7",
+                    "$type": "color",
+                    "$description": "A warm off-white for primary backgrounds."
+                },
+                "parchment-silk-4": {
+                    "$value": "#f0ece6",
+                    "$type": "color"
+                },
+                "parchment-silk-5": {
+                    "$value": "#e0d5c3",
+                    "$type": "color"
+                }
             },
-            "heirloom-bark": {
-            "heirloom-bark-1": { "$value": "#1a1512", "$type": "color" },
-            "heirloom-bark-2": { "$value": "#2e2621", "$type": "color" },
-            "heirloom-bark-3": { 
-                "$value": "#423730", 
-                "$type": "color",
-                "$description": "A deep, warm charcoal brown. A richer alternative to black, perfect for primary body copy and grounding elements."
-            },
-            "heirloom-bark-4": { "$value": "#6b5e55", "$type": "color" },
-            "heirloom-bark-5": { "$value": "#948880", "$type": "color" }
+            "terracotta-soil": {
+                "terracotta-soil-1": {
+                    "$value": "#f0bcab",
+                    "$type": "color"
+                },
+                "terracotta-soil-2": {
+                    "$value": "#e68b6a",
+                    "$type": "color"
+                },
+                "terracotta-soil-3": {
+                    "$value": "#d95a28",
+                    "$type": "color",
+                    "$description": "A sun-baked clay for primary CTAs and headings."
+                },
+                "terracotta-soil-4": {
+                    "$value": "#b34a21",
+                    "$type": "color"
+                },
+                "terracotta-soil-5": {
+                    "$value": "#8c3a1a",
+                    "$type": "color"
+                }
             }
         },
-        "Hearth-and-Harvest": {
-            "roasted-umber": {
-            "roasted-umber-1": {"$value": "#5C3A21", "$type": "color"},
-            "roasted-umber-2": {"$value": "#4D311C", "$type": "color"},
-            "roasted-umber-3": {
-                "$value": "#3E2717", 
-                "$type": "color",
-                "$description": "Deep grounding brown used for primary brand elements, footers, and high-contrast text."
-            },
-            "roasted-umber-4": {"$value": "#2F1D11", "$type": "color"},
-            "roasted-umber-5": {"$value": "#1F140C", "$type": "color"}
-            },
-            "golden-ochard": {
-            "golden-ochard-1": {"$value": "#E8B459", "$type": "color"},
-            "golden-ochard-2": {"$value": "#DB9F3A", "$type": "color"},
-            "golden-ochard-3": {
-                "$value": "#D18C26", 
-                "$type": "color",
-                "$description": "A vibrant yet earthy yellow for call-to-action buttons, icons, and highlights."
-            },
-            "golden-ochard-4": {"$value": "#B07620", "$type": "color"},
-            "golden-ochard-5": {"$value": "#8F601A", "$type": "color"}
-            },
-            "spiced-chai": {
-            "spiced-chai-1": {"$value": "#BC8E7A", "$type": "color"},
-            "spiced-chai-2": {"$value": "#AF7962", "$type": "color"},
-            "spiced-chai-3": {
-                "$value": "#A3644A", 
-                "$type": "color",
-                "$description": "A muted, warm terracotta/rose tone used for secondary cards and UI elements."
-            },
-            "spiced-chai-4": {"$value": "#8A553E", "$type": "color"},
-            "spiced-chai-5": {"$value": "#714633", "$type": "color"}
-            },
-            "clotted-cream": {
-            "clotted-cream-1": {"$value": "#FFF9F2", "$type": "color"},
-            "clotted-cream-2": {"$value": "#F9F1E5", "$type": "color"},
-            "clotted-cream-3": {
-                "$value": "#F2E8D7", 
-                "$type": "color",
-                "$description": "A soft, warm off-white used for backgrounds, headers, and light UI sections."
-            },
-            "clotted-cream-4": {"$value": "#E5D8C3", "$type": "color"},
-            "clotted-cream-5": {"$value": "#D8C7B0", "$type": "color"}
-            },
-            "antique-parchment": {
-            "antique-parchment-1": {"$value": "#EEDBC4", "$type": "color"},
-            "antique-parchment-2": {"$value": "#E2CAB0", "$type": "color"},
-            "antique-parchment-3": {
-                "$value": "#D6B99B", 
-                "$type": "color",
-                "$description": "A slightly darker neutral for card backgrounds and borders to provide depth."
-            },
-            "antique-parchment-4": {"$value": "#C3A687", "$type": "color"},
-            "antique-parchment-5": {"$value": "#AF9273", "$type": "color"}
-            }
+    "hearth-and-harvest": {
+        "roasted-umber": {
+        "roasted-umber-1": {"$value": "#5C3A21", "$type": "color"},
+        "roasted-umber-2": {"$value": "#4D311C", "$type": "color"},
+        "roasted-umber-3": {
+            "$value": "#3E2717", 
+            "$type": "color",
+            "$description": "Deep grounding brown used for primary brand elements, footers, and high-contrast text."
+        },
+        "roasted-umber-4": {"$value": "#2F1D11", "$type": "color"},
+        "roasted-umber-5": {"$value": "#1F140C", "$type": "color"}
+        },
+        "honeyed-amber": {
+        "honeyed-amber-1": {"$value": "#E8B459", "$type": "color"},
+        "honeyed-amber-2": {"$value": "#DB9F3A", "$type": "color"},
+        "honeyed-amber-3": {
+            "$value": "#D18C26", 
+            "$type": "color",
+            "$description": "A vibrant yet earthy yellow for call-to-action buttons, icons, and highlights."
+        },
+        "honeyed-amber-4": {"$value": "#B07620", "$type": "color"},
+        "honeyed-amber-5": {"$value": "#8F601A", "$type": "color"}
+        },
+        "spiced-chai": {
+        "spiced-chai-1": {"$value": "#BC8E7A", "$type": "color"},
+        "spiced-chai-2": {"$value": "#AF7962", "$type": "color"},
+        "spiced-chai-3": {
+            "$value": "#A3644A", 
+            "$type": "color",
+            "$description": "A muted, warm terracotta/rose tone used for secondary cards and UI elements."
+        },
+        "spiced-chai-4": {"$value": "#8A553E", "$type": "color"},
+        "spiced-chai-5": {"$value": "#714633", "$type": "color"}
+        },
+        "clotted-cream": {
+        "clotted-cream-1": {"$value": "#FFF9F2", "$type": "color"},
+        "clotted-cream-2": {"$value": "#F9F1E5", "$type": "color"},
+        "clotted-cream-3": {
+            "$value": "#F2E8D7", 
+            "$type": "color",
+            "$description": "A soft, warm off-white used for backgrounds, headers, and light UI sections."
+        },
+        "clotted-cream-4": {"$value": "#E5D8C3", "$type": "color"},
+        "clotted-cream-5": {"$value": "#D8C7B0", "$type": "color"}
+        },
+        "antique-parchment": {
+        "antique-parchment-1": {"$value": "#EEDBC4", "$type": "color"},
+        "antique-parchment-2": {"$value": "#E2CAB0", "$type": "color"},
+        "antique-parchment-3": {
+            "$value": "#D6B99B", 
+            "$type": "color",
+            "$description": "A slightly darker neutral for card backgrounds and borders to provide depth."
+        },
+        "antique-parchment-4": {"$value": "#C3A687", "$type": "color"},
+        "antique-parchment-5": {"$value": "#AF9273", "$type": "color"}
         }
+    }
     },
-    "Fun & Vibrant": {
-        "Electric-Stream": {
+    "fun-vibrent": {
+        "electric-stream": {
             "cream-silk": {
             "cream-silk-1": {"$value": "#FFFDF5", "$type": "color"},
             "cream-silk-2": {"$value": "#FDF9E2", "$type": "color"},
@@ -287,7 +407,7 @@
             "lime-spark-5": {"$value": "#5F862B", "$type": "color"}
             }
         },
-        "PawsAndPlay": {
+        "paws-and-play": {
             "playful-red": {
             "playful-red-1": { "$value": "#FFD1D1", "$type": "color" },
             "playful-red-2": { "$value": "#FF7070", "$type": "color" },
@@ -344,7 +464,7 @@
             "royal-purple-5": { "$value": "#2E1540", "$type": "color" }
             }
         },
-        "Toyland-Treats-Trends": {
+        "toyland-treats-trends": {
             "onyx-night": {
             "onyx-night-1": { "$value": "#4D4D4D", "$type": "color" },
             "onyx-night-2": { "$value": "#2B2B2B", "$type": "color" },
@@ -401,8 +521,8 @@
             "sunny-citrus-5": { "$value": "#998000", "$type": "color" }
             }
         },
-        "Vivid Horizon": {
-            "Creamy Bone": {
+        "vivid-horizon": {
+            "creamy-bone": {
             "creamy-bone-1": { "$value": "#FAF9F2", "$type": "color" },
             "creamy-bone-2": { "$value": "#F7F5E6", "$type": "color" },
             "creamy-bone-3": { 
@@ -413,7 +533,7 @@
             "creamy-bone-4": { "$value": "#EBE6CC", "$type": "color" },
             "creamy-bone-5": { "$value": "#DED8B6", "$type": "color" }
             },
-            "Sunny Yellow": {
+            "sunny-yellow": {
             "sunny-yellow-1": { "$value": "#FFF299", "$type": "color" },
             "sunny-yellow-2": { "$value": "#FFE94D", "$type": "color" },
             "sunny-yellow-3": { 
@@ -424,7 +544,7 @@
             "sunny-yellow-4": { "$value": "#CCAC00", "$type": "color" },
             "sunny-yellow-5": { "$value": "#998100", "$type": "color" }
             },
-            "Cerulean Blue": {
+            "cerulean-blue": {
             "cerulean-blue-1": { "$value": "#80D4FF", "$type": "color" },
             "cerulean-blue-2": { "$value": "#33B5FF", "$type": "color" },
             "cerulean-blue-3": { 
@@ -435,7 +555,7 @@
             "cerulean-blue-4": { "$value": "#007ACC", "$type": "color" },
             "cerulean-blue-5": { "$value": "#005C99", "$type": "color" }
             },
-            "Forest Green": {
+            "forest-green": {
             "forest-green-1": { "$value": "#2A6B54", "$type": "color" },
             "forest-green-2": { "$value": "#1A4D3B", "$type": "color" },
             "forest-green-3": { 
@@ -446,7 +566,7 @@
             "forest-green-4": { "$value": "#062017", "$type": "color" },
             "forest-green-5": { "$value": "#020D09", "$type": "color" }
             },
-            "Fiery Orange": {
+            "fiery-orange": {
             "fiery-orange-1": { "$value": "#FF9D66", "$type": "color" },
             "fiery-orange-2": { "$value": "#FF7526", "$type": "color" },
             "fiery-orange-3": { 
@@ -459,8 +579,8 @@
             }
         }             
     },
-    "Industrial & Cool":{
-        "Forge-Foundry": {
+    "industrial-cool":{
+        "forge-foundry": {
             "onyx-steel": {
             "onyx-steel-1": {"$value": "#424242", "$type": "color"},
             "onyx-steel-2": {"$value": "#303030", "$type": "color"},
@@ -517,7 +637,7 @@
             "industrial-amber-5": {"$value": "#6E361E", "$type": "color"}
             }
         },
-        "Industrial-Foundation": {
+        "industrial-foundation": {
             "concrete-grey": {
             "concrete-grey-1": { "$value": "#F2F4F5", "$type": "color" },
             "concrete-grey-2": { "$value": "#D1D8DB", "$type": "color" },
@@ -574,7 +694,7 @@
             "warning-orange-5": { "$value": "#7A450D", "$type": "color" }
             }
         },
-        "Industrial Steel & Concrete": {
+        "industrial-steel-concrete": {
             "carbon-shadow": {
             "carbon-shadow-1": { "$value": "#424242", "$type": "color" },
             "carbon-shadow-2": { "$value": "#363636", "$type": "color" },
@@ -631,8 +751,8 @@
             "oxidized-copper-5": { "$value": "#443024", "$type": "color" }
             }
         },
-        "Iron-Oxygen": {
-            "Charcoal": {
+        "iron-oxygen": {
+            "charcoal": {
             "charcoal-1": { "$value": "#404040", "$type": "color" },
             "charcoal-2": { "$value": "#333333", "$type": "color" },
             "charcoal-3": { 
@@ -643,7 +763,7 @@
             "charcoal-4": { "$value": "#1E2421", "$type": "color" },
             "charcoal-5": { "$value": "#111413", "$type": "color" }
             },
-            "Steel-Grey": {
+            "steel-grey": {
             "steel-grey-1": { "$value": "#F2F2F2", "$type": "color" },
             "steel-grey-2": { "$value": "#E0E0E0", "$type": "color" },
             "steel-grey-3": { 
@@ -654,7 +774,7 @@
             "steel-grey-4": { "$value": "#BDBDBD", "$type": "color" },
             "steel-grey-5": { "$value": "#A6A6A6", "$type": "color" }
             },
-            "Industrial-Blue": {
+            "industrial-blue": {
             "industrial-blue-1": { "$value": "#5C7080", "$type": "color" },
             "industrial-blue-2": { "$value": "#455A64", "$type": "color" },
             "industrial-blue-3": { 
@@ -665,7 +785,7 @@
             "industrial-blue-4": { "$value": "#2C3E50", "$type": "color" },
             "industrial-blue-5": { "$value": "#1A252F", "$type": "color" }
             },
-            "Rust-Red": {
+            "rust-red": {
             "rust-red-1": { "$value": "#E67E22", "$type": "color" },
             "rust-red-2": { "$value": "#D35400", "$type": "color" },
             "rust-red-3": { 
@@ -676,7 +796,7 @@
             "rust-red-4": { "$value": "#8A3931", "$type": "color" },
             "rust-red-5": { "$value": "#6E2D27", "$type": "color" }
             },
-            "Electric-Cyan": {
+            "electric-cyan": {
             "electric-cyan-1": { "$value": "#81D4FA", "$type": "color" },
             "electric-cyan-2": { "$value": "#4FC3F7", "$type": "color" },
             "electric-cyan-3": { 
@@ -689,8 +809,8 @@
             }
         }
     },
-    "Elegant & Soft":{
-        "Heirloom Luxe": {
+    "elegant-soft":{
+        "heirloom-luxe": {
             "creme-brulee": {
             "creme-brulee-1": { "$value": "#FAF9F6", "$type": "color" },
             "creme-brulee-2": { "$value": "#F2F1EC", "$type": "color" },
@@ -747,8 +867,8 @@
             "slate-blue-5": { "$value": "#39454F", "$type": "color" }
             }
         },
-        "Radiant Satin": {
-            "Silk Creamsicle": {
+        "radient-satin": {
+            "silk-cremsicle": {
             "silk-creamsicle-1": {"$value": "#FDFBF7", "$type": "color"},
             "silk-creamsicle-2": {"$value": "#FAF5ED", "$type": "color"},
             "silk-creamsicle-3": {
@@ -759,7 +879,7 @@
             "silk-creamsicle-4": {"$value": "#E9DCCB", "$type": "color"},
             "silk-creamsicle-5": {"$value": "#DDC8AE", "$type": "color"}
             },
-            "Dusty Rose Petal": {
+            "dusty-rose-petal": {
             "dusty-rose-petal-1": {"$value": "#F2E3E3", "$type": "color"},
             "dusty-rose-petal-2": {"$value": "#D8A9A9", "$type": "color"},
             "dusty-rose-petal-3": {
@@ -770,7 +890,7 @@
             "dusty-rose-petal-4": {"$value": "#8A5B5B", "$type": "color"},
             "dusty-rose-petal-5": {"$value": "#613C3C", "$type": "color"}
             },
-            "Burnished Gold": {
+            "burnished-gold": {
             "burnished-gold-1": {"$value": "#F8F1E7", "$type": "color"},
             "burnished-gold-2": {"$value": "#E0CDB4", "$type": "color"},
             "burnished-gold-3": {
@@ -781,7 +901,7 @@
             "burnished-gold-4": {"$value": "#8F7657", "$type": "color"},
             "burnished-gold-5": {"$value": "#66533B", "$type": "color"}
             },
-            "Vintage Mauve": {
+            "vintage-mauve": {
             "vintage-mauve-1": {"$value": "#EFE9E9", "$type": "color"},
             "vintage-mauve-2": {"$value": "#BC9E9E", "$type": "color"},
             "vintage-mauve-3": {
@@ -792,7 +912,7 @@
             "vintage-mauve-4": {"$value": "#6D4F4F", "$type": "color"},
             "vintage-mauve-5": {"$value": "#4B3434", "$type": "color"}
             },
-            "Velvet Charcoal": {
+            "velvet-charcoal": {
             "velvet-charcoal-1": {"$value": "#D9D9D9", "$type": "color"},
             "velvet-charcoal-2": {"$value": "#8C8C8C", "$type": "color"},
             "velvet-charcoal-3": {
@@ -804,7 +924,7 @@
             "velvet-charcoal-5": {"$value": "#121212", "$type": "color"}
             }
         },
-        "Refined Threads": {
+        "refined-threads": {
             "charcoal-noir": {
             "charcoal-noir-1": { "$value": "#4D4D4D", "$type": "color" },
             "charcoal-noir-2": { "$value": "#404040", "$type": "color" },
@@ -861,8 +981,8 @@
             "camel-suede-5": { "$value": "#877150", "$type": "color" }
             }
         },
-        "SereneSanctuary": {
-            "AlmondFrost": {
+        "serene-sanctuary": {
+            "almond-frost": {
             "almond-frost-1": {"$value": "#FAF9F6", "$type": "color"},
             "almond-frost-2": {"$value": "#F2F0E9", "$type": "color"},
             "almond-frost-3": {
@@ -873,7 +993,7 @@
             "almond-frost-4": {"$value": "#D8D3C3", "$type": "color"},
             "almond-frost-5": {"$value": "#C6BFAA", "$type": "color"}
             },
-            "DustyRose": {
+            "dusty-rose": {
             "dusty-rose-1": {"$value": "#F2E4E4", "$type": "color"},
             "dusty-rose-2": {"$value": "#D9B8B8", "$type": "color"},
             "dusty-rose-3": {
@@ -884,7 +1004,7 @@
             "dusty-rose-4": {"$value": "#A97C7C", "$type": "color"},
             "dusty-rose-5": {"$value": "#8A5F5F", "$type": "color"}
             },
-            "SageLeaf": {
+            "sage-leaf": {
             "sage-leaf-1": {"$value": "#E8EEE5", "$type": "color"},
             "sage-leaf-2": {"$value": "#C3D1BD", "$type": "color"},
             "sage-leaf-3": {
@@ -895,7 +1015,7 @@
             "sage-leaf-4": {"$value": "#7D8F76", "$type": "color"},
             "sage-leaf-5": {"$value": "#5D6D58", "$type": "color"}
             },
-            "ObsidianMist": {
+            "obsidian-mist": {
             "obsidian-mist-1": {"$value": "#6F7275", "$type": "color"},
             "obsidian-mist-2": {"$value": "#585B5E", "$type": "color"},
             "obsidian-mist-3": {
@@ -906,7 +1026,7 @@
             "obsidian-mist-4": {"$value": "#2C2F32", "$type": "color"},
             "obsidian-mist-5": {"$value": "#16191B", "$type": "color"}
             },
-            "GildedSand": {
+            "gilded-sand": {
             "gilded-sand-1": {"$value": "#F3E7D1", "$type": "color"},
             "gilded-sand-2": {"$value": "#E1CB9F", "$type": "color"},
             "gilded-sand-3": {

@@ -1,13 +1,9 @@
 # DFD Color Palettes
 
-## Version: 1.0.0
-**Release Date**: 02/11/2026
-
 ```
-
 {
-    "Cozy & Warm": {
-        "Artisan-Estate": {
+    "cozy-warm": {
+        "artisan-estate": {
             "spiced-pumpkin": {
             "spiced-pumpkin-1": {"$value": "#F9E6D8", "$type": "color"},
             "spiced-pumpkin-2": {"$value": "#E6A16D", "$type": "color"},
@@ -64,121 +60,241 @@
             "golden-yellow-5": {"$value": "#6E530C", "$type": "color"}
             }
         },
-        "Autumn-Hearth": {
-            "woolen-oat": {
-            "woolen-oat-1": { "$value": "#d9cebd", "$type": "color" },
-            "woolen-oat-2": { "$value": "#ede5d8", "$type": "color" },
-            "woolen-oat-3": { 
-                "$value": "#f7f1e6", 
-                "$type": "color",
-                "$description": "A soft, neutral beige with warm undertones. Best used for large background areas or minimalist packaging to provide a gentle, non-clinical feel."
-            },
-            "woolen-oat-4": { "$value": "#ffffff", "$type": "color" },
-            "woolen-oat-5": { "$value": "#faf9f7", "$type": "color" }
-            },
-            "spiced-cider": {
-            "spiced-cider-1": { "$value": "#9e5b32", "$type": "color" },
-            "spiced-cider-2": { "$value": "#c4713e", "$type": "color" },
-            "spiced-cider-3": { 
-                "$value": "#e08c5e", 
-                "$type": "color",
-                "$description": "A muted, dusty orange. Ideal for illustrative accents, secondary headings, or UI elements that need to feel friendly but not loud."
-            },
-            "spiced-cider-4": { "$value": "#ebb391", "$type": "color" },
-            "spiced-cider-5": { "$value": "#f5d9c9", "$type": "color" }
-            },
+        "Autumn Hearth": {
             "embers-glow": {
-            "embers-glow-1": { "$value": "#8c3216", "$type": "color" },
-            "embers-glow-2": { "$value": "#b3401c", "$type": "color" },
-            "embers-glow-3": { 
-                "$value": "#d94e23", 
-                "$type": "color",
-                "$description": "A rich, saturated burnt sienna. This is the 'heart' of the palette, perfect for primary buttons and brand marks."
-            },
-            "embers-glow-4": { "$value": "#e6856a", "$type": "color" },
-            "embers-glow-5": { "$value": "#f0b5a5", "$type": "color" }
+                "embers-glow-1": {
+                    "$value": "#f0b5a5",
+                    "$type": "color"
+                },
+                "embers-glow-2": {
+                    "$value": "#e6856a",
+                    "$type": "color"
+                },
+                "embers-glow-3": {
+                    "$value": "#d94e23",
+                    "$type": "color",
+                    "$description": "A rich burnt sienna for primary buttons and brand marks."
+                },
+                "embers-glow-4": {
+                    "$value": "#b3401c",
+                    "$type": "color"
+                },
+                "embers-glow-5": {
+                    "$value": "#8c3216",
+                    "$type": "color"
+                }
             },
             "mulled-wine": {
-            "mulled-wine-1": { "$value": "#3b1620", "$type": "color" },
-            "mulled-wine-2": { "$value": "#57202f", "$type": "color" },
-            "mulled-wine-3": { 
-                "$value": "#7a2d42", 
-                "$type": "color",
-                "$description": "A deep, sophisticated berry-purple. Use this for high-contrast text or decorative borders to add a touch of luxury."
-            },
-            "mulled-wine-4": { "$value": "#a36171", "$type": "color" },
-            "mulled-wine-5": { "$value": "#cc9ba6", "$type": "color" }
+                "mulled-wine-1": {
+                    "$value": "#cc9ba6",
+                    "$type": "color"
+                },
+                "mulled-wine-2": {
+                    "$value": "#a36171",
+                    "$type": "color"
+                },
+                "mulled-wine-3": {
+                    "$value": "#7a2d42",
+                    "$type": "color",
+                    "$description": "A deep berry purple for high-contrast luxury accents."
+                },
+                "mulled-wine-4": {
+                    "$value": "#57202f",
+                    "$type": "color"
+                },
+                "mulled-wine-5": {
+                    "$value": "#3b1620",
+                    "$type": "color"
+                }
             },
             "roasted-bean": {
-            "roasted-bean-1": { "$value": "#1a110e", "$type": "color" },
-            "roasted-bean-2": { "$value": "#261914", "$type": "color" },
-            "roasted-bean-3": { 
-                "$value": "#33211b", 
-                "$type": "color",
-                "$description": "A very dark, warm brown. Replaces pure black for all typography and grounding elements to maintain the 'cozy' theme."
+                "roasted-bean-1": {
+                    "$value": "#85746e",
+                    "$type": "color"
+                },
+                "roasted-bean-2": {
+                    "$value": "#5c4740",
+                    "$type": "color"
+                },
+                "roasted-bean-3": {
+                    "$value": "#33211b",
+                    "$type": "color",
+                    "$description": "A dark warm brown for grounding typography."
+                },
+                "roasted-bean-4": {
+                    "$value": "#261914",
+                    "$type": "color"
+                },
+                "roasted-bean-5": {
+                    "$value": "#1a110e",
+                    "$type": "color"
+                }
             },
-            "roasted-bean-4": { "$value": "#5c4740", "$type": "color" },
-            "roasted-bean-5": { "$value": "#85746e", "$type": "color" }
+            "spiced-cider": {
+                "spiced-cider-1": {
+                    "$value": "#f5d9c9",
+                    "$type": "color"
+                },
+                "spiced-cider-2": {
+                    "$value": "#ebb391",
+                    "$type": "color"
+                },
+                "spiced-cider-3": {
+                    "$value": "#e08c5e",
+                    "$type": "color",
+                    "$description": "A muted dusty orange for secondary headings and accents."
+                },
+                "spiced-cider-4": {
+                    "$value": "#c4713e",
+                    "$type": "color"
+                },
+                "spiced-cider-5": {
+                    "$value": "#9e5b32",
+                    "$type": "color"
+                }
+            },
+            "woolen-oat": {
+                "woolen-oat-1": {
+                    "$value": "#ffffff",
+                    "$type": "color"
+                },
+                "woolen-oat-2": {
+                    "$value": "#faf9f7",
+                    "$type": "color"
+                },
+                "woolen-oat-3": {
+                    "$value": "#f7f1e6",
+                    "$type": "color",
+                    "$description": "A soft warm off-white for primary backgrounds."
+                },
+                "woolen-oat-4": {
+                    "$value": "#ede5d8",
+                    "$type": "color"
+                },
+                "woolen-oat-5": {
+                    "$value": "#d9cebd",
+                    "$type": "color"
+                }
             }
         },
-        "Golden-Orchard": {
-            "parchment-silk": {
-            "parchment-silk-1": { "$value": "#e0d9cf", "$type": "color" },
-            "parchment-silk-2": { "$value": "#f0ece6", "$type": "color" },
-            "parchment-silk-3": { 
-                "$value": "#faf9f7", 
-                "$type": "color",
-                "$description": "A warm, breathable off-white. This is the ultimate background for minimalist layouts, providing a softer look than pure white."
-            },
-            "parchment-silk-4": { "$value": "#ffffff", "$type": "color" },
-            "parchment-silk-5": { "$value": "#fcfcfb", "$type": "color" }
+        "Golden Orchard": {
+            "heirloom-bark": {
+                "heirloom-bark-1": {
+                    "$value": "#948880",
+                    "$type": "color"
+                },
+                "heirloom-bark-2": {
+                    "$value": "#6b5e55",
+                    "$type": "color"
+                },
+                "heirloom-bark-3": {
+                    "$value": "#423730",
+                    "$type": "color",
+                    "$description": "A deep charcoal brown for primary body copy."
+                },
+                "heirloom-bark-4": {
+                    "$value": "#2e2621",
+                    "$type": "color"
+                },
+                "heirloom-bark-5": {
+                    "$value": "#1a1512",
+                    "$type": "color"
+                }
             },
             "honey-glow": {
-            "honey-glow-1": { "$value": "#b38600", "$type": "color" },
-            "honey-glow-2": { "$value": "#e6ac00", "$type": "color" },
-            "honey-glow-3": { 
-                "$value": "#ffc107", 
-                "$type": "color",
-                "$description": "A rich, golden amber. Use for secondary buttons, interactive highlights, or branding icons to inject warmth and energy."
-            },
-            "honey-glow-4": { "$value": "#ffd54f", "$type": "color" },
-            "honey-glow-5": { "$value": "#ffecb3", "$type": "color" }
-            },
-            "terracotta-soil": {
-            "terracotta-soil-1": { "$value": "#8c3a1a", "$type": "color" },
-            "terracotta-soil-2": { "$value": "#b34a21", "$type": "color" },
-            "terracotta-soil-3": { 
-                "$value": "#d95a28", 
-                "$type": "color",
-                "$description": "A deep, sun-baked clay. This is the primary brand color, ideal for Call-to-Action (CTA) elements and main headings."
-            },
-            "terracotta-soil-4": { "$value": "#e68b6a", "$type": "color" },
-            "terracotta-soil-5": { "$value": "#f0bcab", "$type": "color" }
+                "honey-glow-1": {
+                    "$value": "#ffecb3",
+                    "$type": "color"
+                },
+                "honey-glow-2": {
+                    "$value": "#ffd54f",
+                    "$type": "color"
+                },
+                "honey-glow-3": {
+                    "$value": "#ffc107",
+                    "$type": "color",
+                    "$description": "A rich golden amber for interactive highlights."
+                },
+                "honey-glow-4": {
+                    "$value": "#e6ac00",
+                    "$type": "color"
+                },
+                "honey-glow-5": {
+                    "$value": "#b38600",
+                    "$type": "color"
+                }
             },
             "mossy-branch": {
-            "mossy-branch-1": { "$value": "#2b2e1b", "$type": "color" },
-            "mossy-branch-2": { "$value": "#444a2b", "$type": "color" },
-            "mossy-branch-3": { 
-                "$value": "#5d663b", 
-                "$type": "color",
-                "$description": "A dark, desaturated olive green. Use for secondary typography, botanical illustrations, or footer backgrounds."
+                "mossy-branch-1": {
+                    "$value": "#b7bd9a",
+                    "$type": "color"
+                },
+                "mossy-branch-2": {
+                    "$value": "#8b9464",
+                    "$type": "color"
+                },
+                "mossy-branch-3": {
+                    "$value": "#5d663b",
+                    "$type": "color",
+                    "$description": "A dark olive green for grounding typography and botanical elements."
+                },
+                "mossy-branch-4": {
+                    "$value": "#444a2b",
+                    "$type": "color"
+                },
+                "mossy-branch-5": {
+                    "$value": "#2b2e1b",
+                    "$type": "color"
+                }
             },
-            "mossy-branch-4": { "$value": "#8b9464", "$type": "color" },
-            "mossy-branch-5": { "$value": "#b7bd9a", "$type": "color" }
+            "parchment-silk": {
+                "parchment-silk-1": {
+                    "$value": "#ffffff",
+                    "$type": "color"
+                },
+                "parchment-silk-2": {
+                    "$value": "#fcfcfb",
+                    "$type": "color"
+                },
+                "parchment-silk-3": {
+                    "$value": "#faf9f7",
+                    "$type": "color",
+                    "$description": "A warm off-white for primary backgrounds."
+                },
+                "parchment-silk-4": {
+                    "$value": "#f0ece6",
+                    "$type": "color"
+                },
+                "parchment-silk-5": {
+                    "$value": "#e0d5c3",
+                    "$type": "color"
+                }
             },
-            "heirloom-bark": {
-            "heirloom-bark-1": { "$value": "#1a1512", "$type": "color" },
-            "heirloom-bark-2": { "$value": "#2e2621", "$type": "color" },
-            "heirloom-bark-3": { 
-                "$value": "#423730", 
-                "$type": "color",
-                "$description": "A deep, warm charcoal brown. A richer alternative to black, perfect for primary body copy and grounding elements."
-            },
-            "heirloom-bark-4": { "$value": "#6b5e55", "$type": "color" },
-            "heirloom-bark-5": { "$value": "#948880", "$type": "color" }
+            "terracotta-soil": {
+                "terracotta-soil-1": {
+                    "$value": "#f0bcab",
+                    "$type": "color"
+                },
+                "terracotta-soil-2": {
+                    "$value": "#e68b6a",
+                    "$type": "color"
+                },
+                "terracotta-soil-3": {
+                    "$value": "#d95a28",
+                    "$type": "color",
+                    "$description": "A sun-baked clay for primary CTAs and headings."
+                },
+                "terracotta-soil-4": {
+                    "$value": "#b34a21",
+                    "$type": "color"
+                },
+                "terracotta-soil-5": {
+                    "$value": "#8c3a1a",
+                    "$type": "color"
+                }
             }
         },
-        "Hearth-and-Harvest": {
+        "hearth-and-harvest": {
             "roasted-umber": {
             "roasted-umber-1": {"$value": "#5C3A21", "$type": "color"},
             "roasted-umber-2": {"$value": "#4D311C", "$type": "color"},
@@ -236,8 +352,8 @@
             }
         }
     },
-    "Fun & Vibrant": {
-        "Electric-Stream": {
+    "fun-vibrent": {
+        "electric-stream": {
             "cream-silk": {
             "cream-silk-1": {"$value": "#FFFDF5", "$type": "color"},
             "cream-silk-2": {"$value": "#FDF9E2", "$type": "color"},
@@ -294,7 +410,7 @@
             "lime-spark-5": {"$value": "#5F862B", "$type": "color"}
             }
         },
-        "PawsAndPlay": {
+        "paws-and-play": {
             "playful-red": {
             "playful-red-1": { "$value": "#FFD1D1", "$type": "color" },
             "playful-red-2": { "$value": "#FF7070", "$type": "color" },
@@ -351,7 +467,7 @@
             "royal-purple-5": { "$value": "#2E1540", "$type": "color" }
             }
         },
-        "Toyland-Treats-Trends": {
+        "toyland-treats-trends": {
             "onyx-night": {
             "onyx-night-1": { "$value": "#4D4D4D", "$type": "color" },
             "onyx-night-2": { "$value": "#2B2B2B", "$type": "color" },
@@ -408,7 +524,7 @@
             "sunny-citrus-5": { "$value": "#998000", "$type": "color" }
             }
         },
-        "Vivid Horizon": {
+        "vivid-horizon": {
             "Creamy Bone": {
             "creamy-bone-1": { "$value": "#FAF9F2", "$type": "color" },
             "creamy-bone-2": { "$value": "#F7F5E6", "$type": "color" },
@@ -466,8 +582,8 @@
             }
         }             
     },
-    "Industrial & Cool":{
-        "Forge-Foundry": {
+    "industrial-cool":{
+        "forge-foundry": {
             "onyx-steel": {
             "onyx-steel-1": {"$value": "#424242", "$type": "color"},
             "onyx-steel-2": {"$value": "#303030", "$type": "color"},
@@ -524,7 +640,7 @@
             "industrial-amber-5": {"$value": "#6E361E", "$type": "color"}
             }
         },
-        "Industrial-Foundation": {
+        "industrial-foundation": {
             "concrete-grey": {
             "concrete-grey-1": { "$value": "#F2F4F5", "$type": "color" },
             "concrete-grey-2": { "$value": "#D1D8DB", "$type": "color" },
@@ -581,7 +697,7 @@
             "warning-orange-5": { "$value": "#7A450D", "$type": "color" }
             }
         },
-        "Industrial Steel & Concrete": {
+        "industrial-steel-concrete": {
             "carbon-shadow": {
             "carbon-shadow-1": { "$value": "#424242", "$type": "color" },
             "carbon-shadow-2": { "$value": "#363636", "$type": "color" },
@@ -638,7 +754,7 @@
             "oxidized-copper-5": { "$value": "#443024", "$type": "color" }
             }
         },
-        "Iron-Oxygen": {
+        "iron-oxygen": {
             "Charcoal": {
             "charcoal-1": { "$value": "#404040", "$type": "color" },
             "charcoal-2": { "$value": "#333333", "$type": "color" },
@@ -696,8 +812,8 @@
             }
         }
     },
-    "Elegant & Soft":{
-        "Heirloom Luxe": {
+    "elegant-soft":{
+        "heirloom-luxe": {
             "creme-brulee": {
             "creme-brulee-1": { "$value": "#FAF9F6", "$type": "color" },
             "creme-brulee-2": { "$value": "#F2F1EC", "$type": "color" },
@@ -754,7 +870,7 @@
             "slate-blue-5": { "$value": "#39454F", "$type": "color" }
             }
         },
-        "Radiant Satin": {
+        "radient-satin": {
             "Silk Creamsicle": {
             "silk-creamsicle-1": {"$value": "#FDFBF7", "$type": "color"},
             "silk-creamsicle-2": {"$value": "#FAF5ED", "$type": "color"},
@@ -811,7 +927,7 @@
             "velvet-charcoal-5": {"$value": "#121212", "$type": "color"}
             }
         },
-        "Refined Threads": {
+        "refined-threads": {
             "charcoal-noir": {
             "charcoal-noir-1": { "$value": "#4D4D4D", "$type": "color" },
             "charcoal-noir-2": { "$value": "#404040", "$type": "color" },
@@ -868,7 +984,7 @@
             "camel-suede-5": { "$value": "#877150", "$type": "color" }
             }
         },
-        "SereneSanctuary": {
+        "serene-sanctuary": {
             "AlmondFrost": {
             "almond-frost-1": {"$value": "#FAF9F6", "$type": "color"},
             "almond-frost-2": {"$value": "#F2F0E9", "$type": "color"},

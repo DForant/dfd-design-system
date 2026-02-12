@@ -1,59 +1,59 @@
 {
-  "Radiant Satin": {
-    "Silk Creamsicle": {
-      "silk-creamsicle-1": {"$value": "#FDFBF7", "$type": "color"},
-      "silk-creamsicle-2": {"$value": "#FAF5ED", "$type": "color"},
-      "silk-creamsicle-3": {
-        "$value": "#F4EBE0", 
-        "$type": "color",
-        "$description": "A delicate champagne off-white used for clean, elegant backgrounds and airy UI sections."
-      },
-      "silk-creamsicle-4": {"$value": "#E9DCCB", "$type": "color"},
-      "silk-creamsicle-5": {"$value": "#DDC8AE", "$type": "color"}
-    },
-    "Dusty Rose Petal": {
-      "dusty-rose-petal-1": {"$value": "#F2E3E3", "$type": "color"},
-      "dusty-rose-petal-2": {"$value": "#D8A9A9", "$type": "color"},
-      "dusty-rose-petal-3": {
-        "$value": "#B17A7A", 
-        "$type": "color",
-        "$description": "A sophisticated, muted rose that serves as the primary brand color for buttons and call-to-actions."
-      },
-      "dusty-rose-petal-4": {"$value": "#8A5B5B", "$type": "color"},
-      "dusty-rose-petal-5": {"$value": "#613C3C", "$type": "color"}
-    },
-    "Burnished Gold": {
-      "burnished-gold-1": {"$value": "#F8F1E7", "$type": "color"},
-      "burnished-gold-2": {"$value": "#E0CDB4", "$type": "color"},
-      "burnished-gold-3": {
-        "$value": "#B89A74", 
-        "$type": "color",
-        "$description": "A soft, metallic-inspired tan used for luxury accents, borders, and high-end iconography."
-      },
-      "burnished-gold-4": {"$value": "#8F7657", "$type": "color"},
-      "burnished-gold-5": {"$value": "#66533B", "$type": "color"}
-    },
-    "Vintage Mauve": {
-      "vintage-mauve-1": {"$value": "#EFE9E9", "$type": "color"},
-      "vintage-mauve-2": {"$value": "#BC9E9E", "$type": "color"},
-      "vintage-mauve-3": {
-        "$value": "#8F6B6B", 
-        "$type": "color",
-        "$description": "A deeper, muted mauve that provides variety for secondary interactive elements and hover states."
-      },
-      "vintage-mauve-4": {"$value": "#6D4F4F", "$type": "color"},
-      "vintage-mauve-5": {"$value": "#4B3434", "$type": "color"}
-    },
-    "Velvet Charcoal": {
-      "velvet-charcoal-1": {"$value": "#D9D9D9", "$type": "color"},
-      "velvet-charcoal-2": {"$value": "#8C8C8C", "$type": "color"},
-      "velvet-charcoal-3": {
-        "$value": "#2D2D2D", 
-        "$type": "color",
-        "$description": "A soft warm black used for body typography and high-contrast luxury dark-mode backgrounds."
-      },
-      "velvet-charcoal-4": {"$value": "#1F1F1F", "$type": "color"},
-      "velvet-charcoal-5": {"$value": "#121212", "$type": "color"}
+    "radient-satin": {
+        "Silk Creamsicle": {
+        "silk-creamsicle-1": {"$value": "#FDFBF7", "$type": "color"},
+        "silk-creamsicle-2": {"$value": "#FAF5ED", "$type": "color"},
+        "silk-creamsicle-3": {
+            "$value": "#F4EBE0", 
+            "$type": "color",
+            "$description": "A delicate champagne off-white used for clean, elegant backgrounds and airy UI sections."
+        },
+        "silk-creamsicle-4": {"$value": "#E9DCCB", "$type": "color"},
+        "silk-creamsicle-5": {"$value": "#DDC8AE", "$type": "color"}
+        },
+        "Dusty Rose Petal": {
+        "dusty-rose-petal-1": {"$value": "#F2E3E3", "$type": "color"},
+        "dusty-rose-petal-2": {"$value": "#D8A9A9", "$type": "color"},
+        "dusty-rose-petal-3": {
+            "$value": "#B17A7A", 
+            "$type": "color",
+            "$description": "A sophisticated, muted rose that serves as the primary brand color for buttons and call-to-actions."
+        },
+        "dusty-rose-petal-4": {"$value": "#8A5B5B", "$type": "color"},
+        "dusty-rose-petal-5": {"$value": "#613C3C", "$type": "color"}
+        },
+        "Burnished Gold": {
+        "burnished-gold-1": {"$value": "#F8F1E7", "$type": "color"},
+        "burnished-gold-2": {"$value": "#E0CDB4", "$type": "color"},
+        "burnished-gold-3": {
+            "$value": "#B89A74", 
+            "$type": "color",
+            "$description": "A soft, metallic-inspired tan used for luxury accents, borders, and high-end iconography."
+        },
+        "burnished-gold-4": {"$value": "#8F7657", "$type": "color"},
+        "burnished-gold-5": {"$value": "#66533B", "$type": "color"}
+        },
+        "Vintage Mauve": {
+        "vintage-mauve-1": {"$value": "#EFE9E9", "$type": "color"},
+        "vintage-mauve-2": {"$value": "#BC9E9E", "$type": "color"},
+        "vintage-mauve-3": {
+            "$value": "#8F6B6B", 
+            "$type": "color",
+            "$description": "A deeper, muted mauve that provides variety for secondary interactive elements and hover states."
+        },
+        "vintage-mauve-4": {"$value": "#6D4F4F", "$type": "color"},
+        "vintage-mauve-5": {"$value": "#4B3434", "$type": "color"}
+        },
+        "Velvet Charcoal": {
+        "velvet-charcoal-1": {"$value": "#D9D9D9", "$type": "color"},
+        "velvet-charcoal-2": {"$value": "#8C8C8C", "$type": "color"},
+        "velvet-charcoal-3": {
+            "$value": "#2D2D2D", 
+            "$type": "color",
+            "$description": "A soft warm black used for body typography and high-contrast luxury dark-mode backgrounds."
+        },
+        "velvet-charcoal-4": {"$value": "#1F1F1F", "$type": "color"},
+        "velvet-charcoal-5": {"$value": "#121212", "$type": "color"}
+        }
     }
-  }
 }

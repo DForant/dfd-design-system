@@ -1,59 +1,59 @@
 {
-  "Iron-Oxygen": {
-    "Charcoal": {
+  "iron-oxygen": {
+      "Charcoal": {
       "charcoal-1": { "$value": "#404040", "$type": "color" },
       "charcoal-2": { "$value": "#333333", "$type": "color" },
       "charcoal-3": { 
-        "$value": "#2C3531", 
-        "$type": "color",
-        "$description": "Primary dark grounding color for text and deep UI regions."
+          "$value": "#2C3531", 
+          "$type": "color",
+          "$description": "Primary dark grounding color for text and deep UI regions."
       },
       "charcoal-4": { "$value": "#1E2421", "$type": "color" },
       "charcoal-5": { "$value": "#111413", "$type": "color" }
-    },
-    "Steel-Grey": {
+      },
+      "Steel-Grey": {
       "steel-grey-1": { "$value": "#F2F2F2", "$type": "color" },
       "steel-grey-2": { "$value": "#E0E0E0", "$type": "color" },
       "steel-grey-3": { 
-        "$value": "#D1D1D1", 
-        "$type": "color",
-        "$description": "Neutral scale for secondary backgrounds, borders, and subtle structural elements."
+          "$value": "#D1D1D1", 
+          "$type": "color",
+          "$description": "Neutral scale for secondary backgrounds, borders, and subtle structural elements."
       },
       "steel-grey-4": { "$value": "#BDBDBD", "$type": "color" },
       "steel-grey-5": { "$value": "#A6A6A6", "$type": "color" }
-    },
-    "Industrial-Blue": {
+      },
+      "Industrial-Blue": {
       "industrial-blue-1": { "$value": "#5C7080", "$type": "color" },
       "industrial-blue-2": { "$value": "#455A64", "$type": "color" },
       "industrial-blue-3": { 
-        "$value": "#34495E", 
-        "$type": "color",
-        "$description": "The Structural Support primary brand color for navigation and primary containers."
+          "$value": "#34495E", 
+          "$type": "color",
+          "$description": "The Structural Support primary brand color for navigation and primary containers."
       },
       "industrial-blue-4": { "$value": "#2C3E50", "$type": "color" },
       "industrial-blue-5": { "$value": "#1A252F", "$type": "color" }
-    },
-    "Rust-Red": {
+      },
+      "Rust-Red": {
       "rust-red-1": { "$value": "#E67E22", "$type": "color" },
       "rust-red-2": { "$value": "#D35400", "$type": "color" },
       "rust-red-3": { 
-        "$value": "#A5443B", 
-        "$type": "color",
-        "$description": "High-contrast secondary color used for membership tiers and primary calls to action."
+          "$value": "#A5443B", 
+          "$type": "color",
+          "$description": "High-contrast secondary color used for membership tiers and primary calls to action."
       },
       "rust-red-4": { "$value": "#8A3931", "$type": "color" },
       "rust-red-5": { "$value": "#6E2D27", "$type": "color" }
-    },
-    "Electric-Cyan": {
+      },
+      "Electric-Cyan": {
       "electric-cyan-1": { "$value": "#81D4FA", "$type": "color" },
       "electric-cyan-2": { "$value": "#4FC3F7", "$type": "color" },
       "electric-cyan-3": { 
-        "$value": "#11ABB0", 
-        "$type": "color",
-        "$description": "The Digital Energy accent for active states, icons, and vital Join Now buttons."
+          "$value": "#11ABB0", 
+          "$type": "color",
+          "$description": "The Digital Energy accent for active states, icons, and vital Join Now buttons."
       },
       "electric-cyan-4": { "$value": "#0E8E92", "$type": "color" },
       "electric-cyan-5": { "$value": "#0A6D70", "$type": "color" }
-    }
+      }
   }
 }

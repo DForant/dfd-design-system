@@ -1,59 +1,59 @@
 {
-  "Hearth-and-Harvest": {
-    "roasted-umber": {
-      "roasted-umber-1": {"$value": "#5C3A21", "$type": "color"},
-      "roasted-umber-2": {"$value": "#4D311C", "$type": "color"},
-      "roasted-umber-3": {
-        "$value": "#3E2717", 
-        "$type": "color",
-        "$description": "Deep grounding brown used for primary brand elements, footers, and high-contrast text."
-      },
-      "roasted-umber-4": {"$value": "#2F1D11", "$type": "color"},
-      "roasted-umber-5": {"$value": "#1F140C", "$type": "color"}
-    },
-    "golden-ochre": {
-      "golden-ochre-1": {"$value": "#E8B459", "$type": "color"},
-      "golden-ochre-2": {"$value": "#DB9F3A", "$type": "color"},
-      "golden-ochre-3": {
-        "$value": "#D18C26", 
-        "$type": "color",
-        "$description": "A vibrant yet earthy yellow for call-to-action buttons, icons, and highlights."
-      },
-      "golden-ochre-4": {"$value": "#B07620", "$type": "color"},
-      "golden-ochre-5": {"$value": "#8F601A", "$type": "color"}
-    },
-    "spiced-chai": {
-      "spiced-chai-1": {"$value": "#BC8E7A", "$type": "color"},
-      "spiced-chai-2": {"$value": "#AF7962", "$type": "color"},
-      "spiced-chai-3": {
-        "$value": "#A3644A", 
-        "$type": "color",
-        "$description": "A muted, warm terracotta/rose tone used for secondary cards and UI elements."
-      },
-      "spiced-chai-4": {"$value": "#8A553E", "$type": "color"},
-      "spiced-chai-5": {"$value": "#714633", "$type": "color"}
-    },
-    "clotted-cream": {
-      "clotted-cream-1": {"$value": "#FFF9F2", "$type": "color"},
-      "clotted-cream-2": {"$value": "#F9F1E5", "$type": "color"},
-      "clotted-cream-3": {
-        "$value": "#F2E8D7", 
-        "$type": "color",
-        "$description": "A soft, warm off-white used for backgrounds, headers, and light UI sections."
-      },
-      "clotted-cream-4": {"$value": "#E5D8C3", "$type": "color"},
-      "clotted-cream-5": {"$value": "#D8C7B0", "$type": "color"}
-    },
-    "antique-parchment": {
-      "antique-parchment-1": {"$value": "#EEDBC4", "$type": "color"},
-      "antique-parchment-2": {"$value": "#E2CAB0", "$type": "color"},
-      "antique-parchment-3": {
-        "$value": "#D6B99B", 
-        "$type": "color",
-        "$description": "A slightly darker neutral for card backgrounds and borders to provide depth."
-      },
-      "antique-parchment-4": {"$value": "#C3A687", "$type": "color"},
-      "antique-parchment-5": {"$value": "#AF9273", "$type": "color"}
+    "hearth-and-harvest": {
+        "roasted-umber": {
+        "roasted-umber-1": {"$value": "#5C3A21", "$type": "color"},
+        "roasted-umber-2": {"$value": "#4D311C", "$type": "color"},
+        "roasted-umber-3": {
+            "$value": "#3E2717", 
+            "$type": "color",
+            "$description": "Deep grounding brown used for primary brand elements, footers, and high-contrast text."
+        },
+        "roasted-umber-4": {"$value": "#2F1D11", "$type": "color"},
+        "roasted-umber-5": {"$value": "#1F140C", "$type": "color"}
+        },
+        "honeyed-amber": {
+        "honeyed-amber-1": {"$value": "#E8B459", "$type": "color"},
+        "honeyed-amber-2": {"$value": "#DB9F3A", "$type": "color"},
+        "honeyed-amber-3": {
+            "$value": "#D18C26", 
+            "$type": "color",
+            "$description": "A vibrant yet earthy yellow for call-to-action buttons, icons, and highlights."
+        },
+        "honeyed-amber-4": {"$value": "#B07620", "$type": "color"},
+        "honeyed-amber-5": {"$value": "#8F601A", "$type": "color"}
+        },
+        "spiced-chai": {
+        "spiced-chai-1": {"$value": "#BC8E7A", "$type": "color"},
+        "spiced-chai-2": {"$value": "#AF7962", "$type": "color"},
+        "spiced-chai-3": {
+            "$value": "#A3644A", 
+            "$type": "color",
+            "$description": "A muted, warm terracotta/rose tone used for secondary cards and UI elements."
+        },
+        "spiced-chai-4": {"$value": "#8A553E", "$type": "color"},
+        "spiced-chai-5": {"$value": "#714633", "$type": "color"}
+        },
+        "clotted-cream": {
+        "clotted-cream-1": {"$value": "#FFF9F2", "$type": "color"},
+        "clotted-cream-2": {"$value": "#F9F1E5", "$type": "color"},
+        "clotted-cream-3": {
+            "$value": "#F2E8D7", 
+            "$type": "color",
+            "$description": "A soft, warm off-white used for backgrounds, headers, and light UI sections."
+        },
+        "clotted-cream-4": {"$value": "#E5D8C3", "$type": "color"},
+        "clotted-cream-5": {"$value": "#D8C7B0", "$type": "color"}
+        },
+        "antique-parchment": {
+        "antique-parchment-1": {"$value": "#EEDBC4", "$type": "color"},
+        "antique-parchment-2": {"$value": "#E2CAB0", "$type": "color"},
+        "antique-parchment-3": {
+            "$value": "#D6B99B", 
+            "$type": "color",
+            "$description": "A slightly darker neutral for card backgrounds and borders to provide depth."
+        },
+        "antique-parchment-4": {"$value": "#C3A687", "$type": "color"},
+        "antique-parchment-5": {"$value": "#AF9273", "$type": "color"}
+        }
     }
-  }
 }

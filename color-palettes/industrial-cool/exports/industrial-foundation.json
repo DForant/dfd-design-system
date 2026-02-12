@@ -1,59 +1,59 @@
 {
-  "Industrial-Foundation": {
-    "concrete-grey": {
+  "industrial-foundation": {
+      "concrete-grey": {
       "concrete-grey-1": { "$value": "#F2F4F5", "$type": "color" },
       "concrete-grey-2": { "$value": "#D1D8DB", "$type": "color" },
       "concrete-grey-3": { 
-        "$value": "#A9B4B8", 
-        "$type": "color",
-        "$description": "A foundational neutral that mimics cured cement. Perfect for large background areas or secondary containers."
+          "$value": "#A9B4B8", 
+          "$type": "color",
+          "$description": "A foundational neutral that mimics cured cement. Perfect for large background areas or secondary containers."
       },
       "concrete-grey-4": { "$value": "#7B888D", "$type": "color" },
       "concrete-grey-5": { "$value": "#4E575B", "$type": "color" }
-    },
-    "steel-blue": {
+      },
+      "steel-blue": {
       "steel-blue-1": { "$value": "#E8EEF2", "$type": "color" },
       "steel-blue-2": { "$value": "#99B3C6", "$type": "color" },
       "steel-blue-3": { 
-        "$value": "#5B82A1", 
-        "$type": "color",
-        "$description": "A professional mid-tone representing high-grade machinery and diamond-tipped tools. Used for subheaders and icons."
+          "$value": "#5B82A1", 
+          "$type": "color",
+          "$description": "A professional mid-tone representing high-grade machinery and diamond-tipped tools. Used for subheaders and icons."
       },
       "steel-blue-4": { "$value": "#3D576B", "$type": "color" },
       "steel-blue-5": { "$value": "#202D38", "$type": "color" }
-    },
-    "asphalt-dark": {
+      },
+      "asphalt-dark": {
       "asphalt-dark-1": { "$value": "#D6D9DB", "$type": "color" },
       "asphalt-dark-2": { "$value": "#5C6369", "$type": "color" },
       "asphalt-dark-3": { 
-        "$value": "#2E3438", 
-        "$type": "color",
-        "$description": "A deep, near-black blue for maximum contrast. Ideal for footers, primary text, and heavy branding elements."
+          "$value": "#2E3438", 
+          "$type": "color",
+          "$description": "A deep, near-black blue for maximum contrast. Ideal for footers, primary text, and heavy branding elements."
       },
       "asphalt-dark-4": { "$value": "#1D2124", "$type": "color" },
       "asphalt-dark-5": { "$value": "#0E1012", "$type": "color" }
-    },
-    "deep-sea-blue": {
+      },
+      "deep-sea-blue": {
       "deep-sea-blue-1": { "$value": "#D3DCE3", "$type": "color" },
       "deep-sea-blue-2": { "$value": "#608099", "$type": "color" },
       "deep-sea-blue-3": { 
-        "$value": "#2B4B63", 
-        "$type": "color",
-        "$description": "An elegant, dark corporate blue that adds depth to the industrial aesthetic. Use for primary buttons or navigation."
+          "$value": "#2B4B63", 
+          "$type": "color",
+          "$description": "An elegant, dark corporate blue that adds depth to the industrial aesthetic. Use for primary buttons or navigation."
       },
       "deep-sea-blue-4": { "$value": "#1D3242", "$type": "color" },
       "deep-sea-blue-5": { "$value": "#0E1921", "$type": "color" }
-    },
-    "warning-orange": {
+      },
+      "warning-orange": {
       "warning-orange-1": { "$value": "#FFF2E6", "$type": "color" },
       "warning-orange-2": { "$value": "#FFC48C", "$type": "color" },
       "warning-orange-3": { 
-        "$value": "#F38A1D", 
-        "$type": "color",
-        "$description": "The energetic accent color. It signifies action, safety, and high-performance power. Use for CTAs and alerts."
+          "$value": "#F38A1D", 
+          "$type": "color",
+          "$description": "The energetic accent color. It signifies action, safety, and high-performance power. Use for CTAs and alerts."
       },
       "warning-orange-4": { "$value": "#B86714", "$type": "color" },
       "warning-orange-5": { "$value": "#7A450D", "$type": "color" }
-    }
+      }
   }
 }

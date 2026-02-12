@@ -1,59 +1,59 @@
 {
-  "Industrial Steel & Concrete": {
-    "carbon-shadow": {
+  "industrial-steel-concrete": {
+      "carbon-shadow": {
       "carbon-shadow-1": { "$value": "#424242", "$type": "color" },
       "carbon-shadow-2": { "$value": "#363636", "$type": "color" },
       "carbon-shadow-3": { 
-        "$value": "#2A2A2A", 
-        "$type": "color",
-        "$description": "A deep, near-black neutral used for structural grounding, primary text, and heavy borders."
+          "$value": "#2A2A2A", 
+          "$type": "color",
+          "$description": "A deep, near-black neutral used for structural grounding, primary text, and heavy borders."
       },
       "carbon-shadow-4": { "$value": "#1E1E1E", "$type": "color" },
       "carbon-shadow-5": { "$value": "#121212", "$type": "color" }
-    },
-    "slate-foundry": {
+      },
+      "slate-foundry": {
       "slate-foundry-1": { "$value": "#738391", "$type": "color" },
       "slate-foundry-2": { "$value": "#64727F", "$type": "color" },
       "slate-foundry-3": { 
-        "$value": "#55616D", 
-        "$type": "color",
-        "$description": "A cool, muted blue-grey that mimics treated metal. Use for secondary UI elements."
+          "$value": "#55616D", 
+          "$type": "color",
+          "$description": "A cool, muted blue-grey that mimics treated metal. Use for secondary UI elements."
       },
       "slate-foundry-4": { "$value": "#46505A", "$type": "color" },
       "slate-foundry-5": { "$value": "#373F47", "$type": "color" }
-    },
-    "raw-steel": {
+      },
+      "raw-steel": {
       "raw-steel-1": { "$value": "#9E9E9E", "$type": "color" },
       "raw-steel-2": { "$value": "#8E8E8E", "$type": "color" },
       "raw-steel-3": { 
-        "$value": "#7E7E7E", 
-        "$type": "color",
-        "$description": "The primary neutral. Represents unfinished concrete and brushed aluminum."
+          "$value": "#7E7E7E", 
+          "$type": "color",
+          "$description": "The primary neutral. Represents unfinished concrete and brushed aluminum."
       },
       "raw-steel-4": { "$value": "#6E6E6E", "$type": "color" },
       "raw-steel-5": { "$value": "#5E5E5E", "$type": "color" }
-    },
-    "midnight-teal": {
+      },
+      "midnight-teal": {
       "midnight-teal-1": { "$value": "#465F64", "$type": "color" },
       "midnight-teal-2": { "$value": "#394E52", "$type": "color" },
       "midnight-teal-3": { 
-        "$value": "#2C3C40", 
-        "$type": "color",
-        "$description": "A sophisticated accent color for CTA buttons and core brand identity."
+          "$value": "#2C3C40", 
+          "$type": "color",
+          "$description": "A sophisticated accent color for CTA buttons and core brand identity."
       },
       "midnight-teal-4": { "$value": "#1F2A2D", "$type": "color" },
       "midnight-teal-5": { "$value": "#12181A", "$type": "color" }
-    },
-    "oxidized-copper": {
+      },
+      "oxidized-copper": {
       "oxidized-copper-1": { "$value": "#9C6C52", "$type": "color" },
       "oxidized-copper-2": { "$value": "#865D46", "$type": "color" },
       "oxidized-copper-3": { 
-        "$value": "#704E3B", 
-        "$type": "color",
-        "$description": "A warm contrast color mimicking weathered copper or rust. Use for alerts."
+          "$value": "#704E3B", 
+          "$type": "color",
+          "$description": "A warm contrast color mimicking weathered copper or rust. Use for alerts."
       },
       "oxidized-copper-4": { "$value": "#5A3F2F", "$type": "color" },
       "oxidized-copper-5": { "$value": "#443024", "$type": "color" }
-    }
+      }
   }
 }

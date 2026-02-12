@@ -1,59 +1,119 @@
 {
-  "Golden-Orchard": {
-    "parchment-silk": {
-      "parchment-silk-1": { "$value": "#e0d9cf", "$type": "color" },
-      "parchment-silk-2": { "$value": "#f0ece6", "$type": "color" },
-      "parchment-silk-3": { 
-        "$value": "#faf9f7", 
-        "$type": "color",
-        "$description": "A warm, breathable off-white. This is the ultimate background for minimalist layouts, providing a softer look than pure white."
-      },
-      "parchment-silk-4": { "$value": "#ffffff", "$type": "color" },
-      "parchment-silk-5": { "$value": "#fcfcfb", "$type": "color" }
-    },
-    "honey-glow": {
-      "honey-glow-1": { "$value": "#b38600", "$type": "color" },
-      "honey-glow-2": { "$value": "#e6ac00", "$type": "color" },
-      "honey-glow-3": { 
-        "$value": "#ffc107", 
-        "$type": "color",
-        "$description": "A rich, golden amber. Use for secondary buttons, interactive highlights, or branding icons to inject warmth and energy."
-      },
-      "honey-glow-4": { "$value": "#ffd54f", "$type": "color" },
-      "honey-glow-5": { "$value": "#ffecb3", "$type": "color" }
-    },
-    "terracotta-soil": {
-      "terracotta-soil-1": { "$value": "#8c3a1a", "$type": "color" },
-      "terracotta-soil-2": { "$value": "#b34a21", "$type": "color" },
-      "terracotta-soil-3": { 
-        "$value": "#d95a28", 
-        "$type": "color",
-        "$description": "A deep, sun-baked clay. This is the primary brand color, ideal for Call-to-Action (CTA) elements and main headings."
-      },
-      "terracotta-soil-4": { "$value": "#e68b6a", "$type": "color" },
-      "terracotta-soil-5": { "$value": "#f0bcab", "$type": "color" }
-    },
-    "mossy-branch": {
-      "mossy-branch-1": { "$value": "#2b2e1b", "$type": "color" },
-      "mossy-branch-2": { "$value": "#444a2b", "$type": "color" },
-      "mossy-branch-3": { 
-        "$value": "#5d663b", 
-        "$type": "color",
-        "$description": "A dark, desaturated olive green. Use for secondary typography, botanical illustrations, or footer backgrounds."
-      },
-      "mossy-branch-4": { "$value": "#8b9464", "$type": "color" },
-      "mossy-branch-5": { "$value": "#b7bd9a", "$type": "color" }
-    },
-    "heirloom-bark": {
-      "heirloom-bark-1": { "$value": "#1a1512", "$type": "color" },
-      "heirloom-bark-2": { "$value": "#2e2621", "$type": "color" },
-      "heirloom-bark-3": { 
-        "$value": "#423730", 
-        "$type": "color",
-        "$description": "A deep, warm charcoal brown. A richer alternative to black, perfect for primary body copy and grounding elements."
-      },
-      "heirloom-bark-4": { "$value": "#6b5e55", "$type": "color" },
-      "heirloom-bark-5": { "$value": "#948880", "$type": "color" }
+    "golden-orchard": {
+        "heirloom-bark": {
+            "heirloom-bark-1": {
+                "$value": "#948880",
+                "$type": "color"
+            },
+            "heirloom-bark-2": {
+                "$value": "#6b5e55",
+                "$type": "color"
+            },
+            "heirloom-bark-3": {
+                "$value": "#423730",
+                "$type": "color",
+                "$description": "A deep charcoal brown for primary body copy."
+            },
+            "heirloom-bark-4": {
+                "$value": "#2e2621",
+                "$type": "color"
+            },
+            "heirloom-bark-5": {
+                "$value": "#1a1512",
+                "$type": "color"
+            }
+        },
+        "honey-glow": {
+            "honey-glow-1": {
+                "$value": "#ffecb3",
+                "$type": "color"
+            },
+            "honey-glow-2": {
+                "$value": "#ffd54f",
+                "$type": "color"
+            },
+            "honey-glow-3": {
+                "$value": "#ffc107",
+                "$type": "color",
+                "$description": "A rich golden amber for interactive highlights."
+            },
+            "honey-glow-4": {
+                "$value": "#e6ac00",
+                "$type": "color"
+            },
+            "honey-glow-5": {
+                "$value": "#b38600",
+                "$type": "color"
+            }
+        },
+        "mossy-branch": {
+            "mossy-branch-1": {
+                "$value": "#b7bd9a",
+                "$type": "color"
+            },
+            "mossy-branch-2": {
+                "$value": "#8b9464",
+                "$type": "color"
+            },
+            "mossy-branch-3": {
+                "$value": "#5d663b",
+                "$type": "color",
+                "$description": "A dark olive green for grounding typography and botanical elements."
+            },
+            "mossy-branch-4": {
+                "$value": "#444a2b",
+                "$type": "color"
+            },
+            "mossy-branch-5": {
+                "$value": "#2b2e1b",
+                "$type": "color"
+            }
+        },
+        "parchment-silk": {
+            "parchment-silk-1": {
+                "$value": "#ffffff",
+                "$type": "color"
+            },
+            "parchment-silk-2": {
+                "$value": "#fcfcfb",
+                "$type": "color"
+            },
+            "parchment-silk-3": {
+                "$value": "#faf9f7",
+                "$type": "color",
+                "$description": "A warm off-white for primary backgrounds."
+            },
+            "parchment-silk-4": {
+                "$value": "#f0ece6",
+                "$type": "color"
+            },
+            "parchment-silk-5": {
+                "$value": "#e0d5c3",
+                "$type": "color"
+            }
+        },
+        "terracotta-soil": {
+            "terracotta-soil-1": {
+                "$value": "#f0bcab",
+                "$type": "color"
+            },
+            "terracotta-soil-2": {
+                "$value": "#e68b6a",
+                "$type": "color"
+            },
+            "terracotta-soil-3": {
+                "$value": "#d95a28",
+                "$type": "color",
+                "$description": "A sun-baked clay for primary CTAs and headings."
+            },
+            "terracotta-soil-4": {
+                "$value": "#b34a21",
+                "$type": "color"
+            },
+            "terracotta-soil-5": {
+                "$value": "#8c3a1a",
+                "$type": "color"
+            }
+        }
     }
-  }
 }

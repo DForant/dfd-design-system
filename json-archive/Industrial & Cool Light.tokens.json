@@ -1,0 +1,239 @@
+{
+  "scheme-base": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.8196078538894653,
+        0.8196078538894653,
+        0.8196078538894653
+      ],
+      "alpha": 1,
+      "hex": "#D1D1D1"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:8",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:a7ef521113266dae0879db3ef7ecc020bb4ba647/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/steel-grey/steel-grey-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-border": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.658823549747467,
+        0.6823529601097107,
+        0.7019608020782471
+      ],
+      "alpha": 1,
+      "hex": "#A8AEB3"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2136",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:aae37b7dc7b4f8a180e9e5cfc7bf1917a7d7b39d/-1:-1",
+        "targetVariableName": "industrial-cool/forge-foundry/frosted-zinc/frosted-zinc-5",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-shadow": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.054901961237192154,
+        0.062745101749897,
+        0.07058823853731155
+      ],
+      "alpha": 1,
+      "hex": "#0E1012"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2137",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:9c384424276e92646d14f414e2f301359f922862/-1:-1",
+        "targetVariableName": "industrial-cool/industrial-foundation/asphalt-dark/asphalt-dark-5",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-primary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.20392157137393951,
+        0.2862745225429535,
+        0.3686274588108063
+      ],
+      "alpha": 1,
+      "hex": "#34495E"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:5",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:e404847dd7c3a6c62432eaab760e10222a001b57/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/industrial-blue/industrial-blue-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-secondary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.6470588445663452,
+        0.2666666805744171,
+        0.23137255012989044
+      ],
+      "alpha": 1,
+      "hex": "#A5443B"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:6",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:cf3b2630c0e188fe4299a1ec6b0ab05fecd51f97/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/rust-red/rust-red-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-accent": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.06666667014360428,
+        0.6705882549285889,
+        0.6901960968971252
+      ],
+      "alpha": 1,
+      "hex": "#11ABB0"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:7",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:2909372d6ce300f9b98584513673965ff1d9e562/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/electric-cyan/electric-cyan-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-surface": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9490196108818054,
+        0.9490196108818054,
+        0.9490196108818054
+      ],
+      "alpha": 1,
+      "hex": "#F2F2F2"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:9",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:16a930461dbb9655e05e0baf6037ca352a7d45a9/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/steel-grey/steel-grey-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.1725490242242813,
+        0.2078431397676468,
+        0.1921568661928177
+      ],
+      "alpha": 1,
+      "hex": "#2C3531"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:10",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:db3a3d640a69d6994e36ce5a6a6b61e1ebeb42ca/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/charcoal/charcoal-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-alt-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.250980406999588,
+        0.250980406999588,
+        0.250980406999588
+      ],
+      "alpha": 1,
+      "hex": "#404040"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:11",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:4c93c00f8c31e5665a4a615e1b24b8f246b0db8e/-1:-1",
+        "targetVariableName": "industrial-cool/iron-oxygen/charcoal/charcoal-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Industrial & Cool Light"
+  }
+}

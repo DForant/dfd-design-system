@@ -1,0 +1,140 @@
+{
+  "collections": [
+    {
+      "name": "DFD Schemes",
+      "modes": [
+        "01 Custom (Default)",
+        "Warm / Light",
+        "Warm / Dark",
+        "Fun / Light",
+        "Fun / Dark",
+        "Cool / Light",
+        "Cool / Dark",
+        "Soft / Light",
+        "Soft / Dark"
+      ],
+      "variables": [
+        {
+          "name": "scheme-base",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/white}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/clotted-cream/clotted-cream-1}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/roasted-umber/roasted-umber-5}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/cream-silk/cream-silk-1}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/midnight-neon/midnight-neon-5}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/frosted-zinc/frosted-zinc-1}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/onyx-steel/onyx-steel-5}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/almond-frost/almond-frost-1}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-5}"
+          }
+        },
+        {
+          "name": "scheme-primary",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/blue/blue-6}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/honeyed-amber/honeyed-amber-3}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/honeyed-amber/honeyed-amber-2}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/electric-yellow/electric-yellow-3}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/electric-yellow/electric-yellow-2}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/cobalt-graphite/cobalt-graphite-3}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/cobalt-graphite/cobalt-graphite-2}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/gilded-sand/gilded-sand-3}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/gilded-sand/gilded-sand-2}"
+          }
+        },
+        {
+          "name": "scheme-secondary",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/gray/gray-6}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/spiced-chai/spiced-chai-3}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/spiced-chai/spiced-chai-2}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/dragonfruit-pink/dragonfruit-pink-3}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/dragonfruit-pink/dragonfruit-pink-2}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/slag-grey/slag-grey-3}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/slag-grey/slag-grey-2}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/dusty-rose/dusty-rose-3}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/dusty-rose/dusty-rose-2}"
+          }
+        },
+        {
+          "name": "scheme-accent",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/teal/teal-6}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/antique-parchment/antique-parchment-3}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/antique-parchment/antique-parchment-2}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/lime-spark/lime-spark-3}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/lime-spark/lime-spark-2}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/industrial-amber/industrial-amber-3}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/industrial-amber/industrial-amber-2}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/sage-leaf/sage-leaf-3}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/sage-leaf/sage-leaf-2}"
+          }
+        },
+        {
+          "name": "scheme-content-max",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/gray/gray-9}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/roasted-umber/roasted-umber-3}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/clotted-cream/clotted-cream-1}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/midnight-neon/midnight-neon-3}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/cream-silk/cream-silk-1}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/onyx-steel/onyx-steel-3}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/frosted-zinc/frosted-zinc-1}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-3}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/almond-frost/almond-frost-1}"
+          }
+        },
+        {
+          "name": "scheme-content-mid",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/gray/gray-6}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/roasted-umber/roasted-umber-1}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/clotted-cream/clotted-cream-4}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/midnight-neon/midnight-neon-1}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/cream-silk/cream-silk-4}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/onyx-steel/onyx-steel-1}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/frosted-zinc/frosted-zinc-4}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-1}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/almond-frost/almond-frost-4}"
+          }
+        },
+        {
+          "name": "scheme-border",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/gray/gray-3}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/clotted-cream/clotted-cream-5}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/roasted-umber/roasted-umber-1}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/electric-stream/cream-silk/cream-silk-5}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/midnight-neon/midnight-neon-1}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/forge-foundry/frosted-zinc/frosted-zinc-5}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/forge-foundry/onyx-steel/onyx-steel-1}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/serene-sanctuary/almond-frost/almond-frost-5}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-1}"
+          }
+        },
+        {
+          "name": "scheme-shadow",
+          "type": "COLOR",
+          "valuesByMode": {
+            "01 Custom (Default)": "{DFD Open Color Primitives/gray/gray-9}",
+            "Warm / Light": "{DFD Color Palettes/cozy-warm/hearth-and-harvest/roasted-umber/roasted-umber-5}",
+            "Warm / Dark": "{DFD Color Palettes/cozy-warm/autumn-hearth/roasted-bean/roasted-bean-5}",
+            "Fun / Light": "{DFD Color Palettes/fun-vibrent/paws-and-play/midnight-navy/midnight-navy-5}",
+            "Fun / Dark": "{DFD Color Palettes/fun-vibrent/electric-stream/midnight-neon/midnight-neon-5}",
+            "Cool / Light": "{DFD Color Palettes/industrial-cool/industrial-foundation/asphalt-dark/asphalt-dark-5}",
+            "Cool / Dark": "{DFD Color Palettes/industrial-cool/industrial-steel-concrete/carbon-shadow/carbon-shadow-5}",
+            "Soft / Light": "{DFD Color Palettes/elegant-soft/heirloom-luxe/charcoal-truffle/charcoal-truffle-5}",
+            "Soft / Dark": "{DFD Color Palettes/elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-5}"
+          }
+        }
+      ]
+    }
+  ]
+}

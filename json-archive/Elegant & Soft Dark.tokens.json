@@ -1,0 +1,239 @@
+{
+  "scheme-base": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.1764705926179886,
+        0.1764705926179886,
+        0.1764705926179886
+      ],
+      "alpha": 1,
+      "hex": "#2D2D2D"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:8",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:3ffd3dcfbbd02ab52cf650d692e586f828fcc1c7/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/velvet-charcoal/velvet-charcoal-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-border": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.43529412150382996,
+        0.4470588266849518,
+        0.4588235318660736
+      ],
+      "alpha": 1,
+      "hex": "#6F7275"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2136",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:608a2d34d97b73cbdc572718fe630f42dd898456/-1:-1",
+        "targetVariableName": "elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-shadow": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.08627451211214066,
+        0.09803921729326248,
+        0.10588235408067703
+      ],
+      "alpha": 1,
+      "hex": "#16191B"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2137",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:78a687463b3b83f058f283a33b55c5d42754643b/-1:-1",
+        "targetVariableName": "elegant-soft/serene-sanctuary/obsidian-mist/obsidian-mist-5",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-primary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.6941176652908325,
+        0.47843137383461,
+        0.47843137383461
+      ],
+      "alpha": 1,
+      "hex": "#B17A7A"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:5",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:9396be7e698ada4bda72aaa0a003aca3fdd3f697/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/dusty-rose-petal/dusty-rose-petal-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-secondary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.5607843399047852,
+        0.41960784792900085,
+        0.41960784792900085
+      ],
+      "alpha": 1,
+      "hex": "#8F6B6B"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:6",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:e4010017873d42aa68fed255d2c09e19a166b80e/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/vintage-mauve/vintage-mauve-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-accent": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.7215686440467834,
+        0.6039215922355652,
+        0.45490196347236633
+      ],
+      "alpha": 1,
+      "hex": "#B89A74"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:7",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:c08999b1d553a90ef5aeb2fc3a8798d0b4e85bc1/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/burnished-gold/burnished-gold-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-surface": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.8509804010391235,
+        0.8509804010391235,
+        0.8509804010391235
+      ],
+      "alpha": 1,
+      "hex": "#D9D9D9"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:9",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:d5f2979f9abe4d404cfb0ea9902dada019728480/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/velvet-charcoal/velvet-charcoal-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.95686274766922,
+        0.9215686321258545,
+        0.8784313797950745
+      ],
+      "alpha": 1,
+      "hex": "#F4EBE0"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:10",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:c7d362ee3e564b16a3ba476d14ab201a387531ba/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/silk-cremsicle/silk-creamsicle-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-alt-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9921568632125854,
+        0.9843137264251709,
+        0.9686274528503418
+      ],
+      "alpha": 1,
+      "hex": "#FDFBF7"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:11",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:40ae8ca5269da5734a52c1eb9f2d5ce89244fa66/-1:-1",
+        "targetVariableName": "elegant-soft/radient-satin/silk-cremsicle/silk-creamsicle-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Elegant & Soft Dark"
+  }
+}

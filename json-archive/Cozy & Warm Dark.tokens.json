@@ -1,0 +1,239 @@
+{
+  "scheme-base": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.20000000298023224,
+        0.12941177189350128,
+        0.10588235408067703
+      ],
+      "alpha": 1,
+      "hex": "#33211B"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:8",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:edf85b8f6116e1e60324515ed5ea7adb06792a16/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/roasted-bean/roasted-bean-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-border": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.3607843220233917,
+        0.22745098173618317,
+        0.12941177189350128
+      ],
+      "alpha": 1,
+      "hex": "#5C3A21"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2136",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:304a228c4d9a6754c0b60612ce9f7af99f83d5ef/-1:-1",
+        "targetVariableName": "cozy-warm/hearth-and-harvest/roasted-umber/roasted-umber-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-shadow": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.10196078568696976,
+        0.06666667014360428,
+        0.054901961237192154
+      ],
+      "alpha": 1,
+      "hex": "#1A110E"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2137",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:802781b047134aa37f52eed197897dfe360e25a4/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/roasted-bean/roasted-bean-5",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-primary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.8509804010391235,
+        0.30588236451148987,
+        0.13725490868091583
+      ],
+      "alpha": 1,
+      "hex": "#D94E23"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:5",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:475ec29f48aafc0efa76e1c8480e5d6c6f4be997/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/embers-glow/embers-glow-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-secondary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.47843137383461,
+        0.1764705926179886,
+        0.25882354378700256
+      ],
+      "alpha": 1,
+      "hex": "#7A2D42"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:6",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:06005ce3c792be3040de090885df223f4e4f0685/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/mulled-wine/mulled-wine-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-accent": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.8784313797950745,
+        0.5490196347236633,
+        0.3686274588108063
+      ],
+      "alpha": 1,
+      "hex": "#E08C5E"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:7",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:5cd8c5d5d57c04e6a68273d8f55cdcd3f3c08028/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/spiced-cider/spiced-cider-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-surface": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.5215686559677124,
+        0.45490196347236633,
+        0.4313725531101227
+      ],
+      "alpha": 1,
+      "hex": "#85746E"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:9",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:6037604d74426003648fb75d9d32a147c3531ddc/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/roasted-bean/roasted-bean-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9686274528503418,
+        0.9450980424880981,
+        0.9019607901573181
+      ],
+      "alpha": 1,
+      "hex": "#F7F1E6"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:10",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:6df56f8eb6ca6023f180a2091a6f2de7907d4507/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/woolen-oat/woolen-oat-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-alt-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#FFFFFF"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:11",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:18bb28c023094e74f1bf33c8360f933ec87de228/-1:-1",
+        "targetVariableName": "cozy-warm/autumn-hearth/woolen-oat/woolen-oat-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Cozy & Warm Dark"
+  }
+}

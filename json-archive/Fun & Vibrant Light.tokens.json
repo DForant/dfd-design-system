@@ -1,0 +1,233 @@
+{
+  "scheme-base": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9490196108818054,
+        0.9372549057006836,
+        0.8784313797950745
+      ],
+      "alpha": 1,
+      "hex": "#F2EFE0"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:8",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:51a4ab975bc47c64dccd3f7745b51c8b134b3c09/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/creamy-bone/creamy-bone-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-border": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.8196078538894653,
+        0.7882353067398071,
+        0.5490196347236633
+      ],
+      "alpha": 1,
+      "hex": "#D1C98C"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2136",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:eb31491194f087c3b538b160a74f92fb05d8dd84/-1:-1",
+        "targetVariableName": "fun-vibrent/electric-stream/cream-silk/cream-silk-5",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-shadow": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#FFFFFF"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:312:2137",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-primary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9019607901573181,
+        0.3176470696926117,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#E65100"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:5",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:149bbfb08d478c7a59a6f8076c1ec1ca06995b5f/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/fiery-orange/fiery-orange-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-secondary": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0.6000000238418579,
+        0.9333333373069763
+      ],
+      "alpha": 1,
+      "hex": "#0099EE"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:6",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:decacf54c2a8229475353bf73796c915df74edf2/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/cerulean-blue/cerulean-blue-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-accent": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.843137264251709,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#FFD700"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:7",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:5e7b66dc741d284391c6a8eb50c30068c86174de/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/sunny-yellow/sunny-yellow-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-surface": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.9803921580314636,
+        0.9764705896377563,
+        0.9490196108818054
+      ],
+      "alpha": 1,
+      "hex": "#FAF9F2"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:9",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:4c954e634d68afcf95e8ba67aa08972e2510a01d/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/creamy-bone/creamy-bone-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.03921568766236305,
+        0.1882352977991104,
+        0.13333334028720856
+      ],
+      "alpha": 1,
+      "hex": "#0A3022"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:10",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:d0e52a0df6a6c0d24ed0b07bb69d36f08cccac02/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/forest-green/forest-green-3",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "scheme-alt-typography": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0.16470588743686676,
+        0.41960784792900085,
+        0.3294117748737335
+      ],
+      "alpha": 1,
+      "hex": "#2A6B54"
+    },
+    "$extensions": {
+      "com.figma.variableId": "VariableID:251:11",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:e2e4c3a2fbe50807317fbb897c7ba5aba022ef9f/-1:-1",
+        "targetVariableName": "fun-vibrent/vivid-horizon/forest-green/forest-green-1",
+        "targetVariableSetId": "VariableCollectionId:6107c7e97fd6b490edaccfeda0de39a4bfad36d6/-1:-1",
+        "targetVariableSetName": "DFD Color Palettes"
+      },
+      "com.figma.isOverride": true
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Fun & Vibrant Light"
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "scheme": {
+    "shadow": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.07058823853731155,
+          0.07058823853731155,
+          0.07058823853731155
+        ],
+        "alpha": 1,
+        "hex": "#121212"
+      },
+      "$description": "Defines the dark foundation used for elevation and depth effects; it provides the color value for shadows to create visual separation between layered surfaces.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:394:3",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8184445fd335a04de2028114faff5bcc6e985fe5/-1:-1",
+          "targetVariableName": "elegant-soft/radient-satin/velvet-charcoal/velvet-charcoal-5",
+          "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+          "targetVariableSetName": "DFD Color Primitives"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "primary": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5411764979362488,
+            0.35686275362968445,
+            0.35686275362968445
+          ],
+          "alpha": 1,
+          "hex": "#8A5B5B"
+        },
+        "$description": "A modified variant of the primary brand color specifically intended for cursor interaction; provides visual feedback when a user hovers over a primary interactive element.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:399:2",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0863cae7e6934113a2557c4773d195cd05789a0e/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/dusty-rose-petal/dusty-rose-petal-4",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4274509847164154,
+            0.239215686917305,
+            0.2549019753932953
+          ],
+          "alpha": 1,
+          "hex": "#6D3D41"
+        },
+        "$description": "The deepest variant of the primary brand color; used to signify the \"pressed\" or active state of an element, providing immediate tactile feedback during a user's click or touch.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:7",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:13ed5c8e4ecbe520683d76464ef4e54ccf223d57/-1:-1",
+            "targetVariableName": "elegant-soft/heirloom-luxe/dusty-rose/dusty-rose-5",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "$root": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6941176652908325,
+            0.47843137383461,
+            0.47843137383461
+          ],
+          "alpha": 1,
+          "hex": "#B17A7A"
+        },
+        "$description": "The main brand identifier for the system; used for core functional actions, key interactive elements, and defining the visual personality of the active theme.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:396:4",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6ea59bf021b72eb2494d4caae41285cbec2ea503/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/dusty-rose-petal/dusty-rose-petal-3",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "base": {
+      "dim": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137254953384399,
+            0.8627451062202454,
+            0.7960784435272217
+          ],
+          "alpha": 1,
+          "hex": "#E9DCCB"
+        },
+        "$description": "A slightly darker or more saturated variant of the base foundation; used to create subtle depth, distinguish nested sections, or provide contrast for input fields against the main application background.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:399:5",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:975eda3b0d1d7734f76a2699f925afe70ad008b6/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/silk-cremsicle/silk-creamsicle-4",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "$root": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9921568632125854,
+            0.9843137264251709,
+            0.9686274528503418
+          ],
+          "alpha": 1,
+          "hex": "#FDFBF7"
+        },
+        "$description": "The primary foundation of the interface; defines the global background color for the application canvas upon which all other surfaces and components are placed.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:389:1583",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:3147586ed62720efd4a1354d9351c2a973fcdee7/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/silk-cremsicle/silk-creamsicle-1",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "typography": {
+      "alt": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.23137255012989044,
+            0.23137255012989044,
+            0.5607843399047852
+          ],
+          "alpha": 1,
+          "hex": "#3B3B8F"
+        },
+        "$description": "A reduced-contrast variant of the primary typography color; used for secondary labels, captions, or helper text to establish visual hierarchy without sacrificing legibility.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:396:8",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:42be7cb4791c598a0a5ae30e0718451c41694d89/-1:-1",
+            "targetVariableName": "fun-vibrent/electric-stream/midnight-neon/midnight-neon-1",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "$root": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1764705926179886,
+            0.1764705926179886,
+            0.1764705926179886
+          ],
+          "alpha": 1,
+          "hex": "#2D2D2D"
+        },
+        "$description": "The primary color for high-readability content; used for main body text and standard headings to ensure core messaging remains legible against the theme's base surfaces.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:396:7",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d81a977c97cdbe4b200e899653ba12f6498f819f/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/velvet-charcoal/velvet-charcoal-3",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "surface": {
+      "bright": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "A high-luminance variant of the surface color; specifically used for elevated UI elements like cards, modals, or popovers to create clear visual separation and focus against the base and standard surface layers.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:2",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:b7e27e3495115eae95d0e5e54a0d902c760d8a08/-1:-1",
+            "targetVariableName": "Base/white",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137254953384399,
+            0.9254902005195618,
+            0.9372549057006836
+          ],
+          "alpha": 1,
+          "hex": "#E9ECEF"
+        },
+        "$description": "A muted, low-contrast neutral used as the background for non-interactive or locked elements, signaling to the user that the component is currently unavailable for use.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:15",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2a70f462aba28182bc66d9018e04d038103ebd45/-1:-1",
+            "targetVariableName": "open-color/gray/2",
+            "targetVariableSetId": "VariableCollectionId:96b8ae78e851fa417db6c7f3b8545502abb9ffdc/-1:-1",
+            "targetVariableSetName": "DFD Open Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "on-disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6784313917160034,
+            0.7098039388656616,
+            0.7411764860153198
+          ],
+          "alpha": 1,
+          "hex": "#ADB5BD"
+        },
+        "$description": "A specific typography and icon color designed to maintain legibility on top of disabled surfaces while visually conveying a \"dimmed\" or inactive state.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:16",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:7ea553a5d0abb45c3a6d9bb3af2dbfef924071f7/-1:-1",
+            "targetVariableName": "open-color/gray/5",
+            "targetVariableSetId": "VariableCollectionId:96b8ae78e851fa417db6c7f3b8545502abb9ffdc/-1:-1",
+            "targetVariableSetName": "DFD Open Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "$root": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.95686274766922,
+            0.9215686321258545,
+            0.8784313797950745
+          ],
+          "alpha": 1,
+          "hex": "#F4EBE0"
+        },
+        "$description": "Represents the primary color for UI containers and structural elements (like cards or panels) that sit on top of the base layer. It serves as the standard background for most component surfaces in the system.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:394:2",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:c1522663632637a0706e680926c39b0a13ef5679/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/silk-cremsicle/silk-creamsicle-3",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "alert": {
+      "error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9803921580314636,
+            0.32156863808631897,
+            0.32156863808631897
+          ],
+          "alpha": 1,
+          "hex": "#FA5252"
+        },
+        "$description": "The primary color for critical system failures, validation errors, or destructive actions that require immediate user correction.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:3",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2470e270360c8c64ebac37bfe39796374ae50653/-1:-1",
+            "targetVariableName": "open-color/red/6",
+            "targetVariableSetId": "VariableCollectionId:96b8ae78e851fa417db6c7f3b8545502abb9ffdc/-1:-1",
+            "targetVariableSetName": "DFD Open Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "success": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21568627655506134,
+            0.6980392336845398,
+            0.3019607961177826
+          ],
+          "alpha": 1,
+          "hex": "#37B24D"
+        },
+        "$description": "The interim mapping for positive outcomes; used to theme components like toast notifications or badges that signal completed actions or successful validation.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:12",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:17646c0e1b60f9a79214cdeb96c0e8d081a85a43/-1:-1",
+            "targetVariableName": "open-color/green/7",
+            "targetVariableSetId": "VariableCollectionId:96b8ae78e851fa417db6c7f3b8545502abb9ffdc/-1:-1",
+            "targetVariableSetName": "DFD Open Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "warning": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9686274528503418,
+            0.40392157435417175,
+            0.027450980618596077
+          ],
+          "alpha": 1,
+          "hex": "#F76707"
+        },
+        "$description": "A cautionary color used to draw attention to states that require user awareness or potential intervention without representing an immediate failure.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:13",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:a7cb39f230d6e854278638b74457368842e586dc/-1:-1",
+            "targetVariableName": "open-color/orange/7",
+            "targetVariableSetId": "VariableCollectionId:96b8ae78e851fa417db6c7f3b8545502abb9ffdc/-1:-1",
+            "targetVariableSetName": "DFD Open Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "info": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.10980392247438431,
+            0.4941176474094391,
+            0.8392156958580017
+          ],
+          "alpha": 1,
+          "hex": "#1C7ED6"
+        },
+        "$description": "A neutral, non-critical color used for informative messages, help text, or system updates that provide additional context without an associated status weight.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:14",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:ac6a6d4f0367f18214a3b412d5afdee416e42960/-1:-1",
+            "targetVariableName": "open-color/blue/7",
+            "targetVariableSetId": "VariableCollectionId:96b8ae78e851fa417db6c7f3b8545502abb9ffdc/-1:-1",
+            "targetVariableSetName": "DFD Open Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "secondary": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4274509847164154,
+            0.30980393290519714,
+            0.30980393290519714
+          ],
+          "alpha": 1,
+          "hex": "#6D4F4F"
+        },
+        "$description": "A modified variant of the secondary brand color used for cursor interaction; it provides visual feedback when a user hovers over a secondary action or supporting interactive element.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:8",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:8e4d318bcb096ea19dac84f09173abe7ce251c3d/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/vintage-mauve/vintage-mauve-4",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.29411765933036804,
+            0.20392157137393951,
+            0.20392157137393951
+          ],
+          "alpha": 1,
+          "hex": "#4B3434"
+        },
+        "$description": "The deepest variant of the secondary brand color; used to signify the \"pressed\" or active state of secondary interactive elements, providing visual confirmation of a user's selection or click.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:9",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0849528554441a2b65a3a511960d87407e447b51/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/vintage-mauve/vintage-mauve-5",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "$root": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7215686440467834,
+            0.6039215922355652,
+            0.45490196347236633
+          ],
+          "alpha": 1,
+          "hex": "#B89A74"
+        },
+        "$description": "Acts as the secondary brand identifier; used for supporting actions and interactive elements that require less visual prominence than the primary color.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:396:5",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f2b6ea4d205505c757b6b27d81aaeb2b52ee9ea3/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/burnished-gold/burnished-gold-3",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "accent": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5607843399047852,
+            0.4627451002597809,
+            0.34117648005485535
+          ],
+          "alpha": 1,
+          "hex": "#8F7657"
+        },
+        "$description": "A modified variant of the accent color specifically intended for cursor interaction; provides visual feedback when a user hovers over a high-priority call-to-action or unique decorative element.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:10",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:012daf987d5a50df79fe32233cb706d02013fe64/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/burnished-gold/burnished-gold-4",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.32549020648002625,
+            0.23137255012989044
+          ],
+          "alpha": 1,
+          "hex": "#66533B"
+        },
+        "$description": "The most saturated or darkest variant of the accent color; utilized to provide immediate visual confirmation during a click or tap on high-priority call-to-action elements.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:400:11",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:6a5ac04ac8b0ea467dc3e294ffef23bd99a99e70/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/burnished-gold/burnished-gold-5",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "$root": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5607843399047852,
+            0.41960784792900085,
+            0.41960784792900085
+          ],
+          "alpha": 1,
+          "hex": "#8F6B6B"
+        },
+        "$description": "A high-contrast color used to draw attention to specific UI highlights, unique calls-to-action, or decorative elements that distinguish the theme.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:396:6",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4ec583425875b9871de1e52bc5f2deca6ead2000/-1:-1",
+            "targetVariableName": "elegant-soft/radient-satin/vintage-mauve/vintage-mauve-3",
+            "targetVariableSetId": "VariableCollectionId:b2842e2d615777c61211f52aa079071a5c4b0c32/-1:-1",
+            "targetVariableSetName": "DFD Color Primitives"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Soft & Elegant Light"
+  }
+}

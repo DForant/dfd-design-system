@@ -1,0 +1,959 @@
+{
+  "surface": {
+    "canvas": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.12941177189350128,
+          0.14509804546833038,
+          0.16078431904315948
+        ],
+        "alpha": 1,
+        "hex": "#212529"
+      },
+      "$description": "Main page background (Body).",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:413:3",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9be7ee612b6a060168754f2b26eb2db14b97e291/-1:-1",
+          "targetVariableName": "scheme/base",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "sunken": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9450980424880981,
+          0.9529411792755127,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F1F3F5"
+      },
+      "$description": "Section backgrounds to separate content (e.g., \"Our History\" section).",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:413:4",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fc00d935f483cfb6a43b4e0414182270c086316a/-1:-1",
+          "targetVariableName": "scheme/base/dim",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "container": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9450980424880981,
+          0.9529411792755127,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F1F3F5"
+      },
+      "$description": "Content cards (Menu items, Service lists).",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:413:5",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:17ee6fdf1538f155eded20eb4fbaafbc46efdfc7/-1:-1",
+          "targetVariableName": "scheme/surface",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "elevated": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Floating elements (Contact modals, Dropdown menus).",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:413:6",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a950d378332065b0a9dd501bc9b06efdff37ad62/-1:-1",
+          "targetVariableName": "scheme/surface/bright",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "action": {
+    "primary": {
+      "bg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.13333334028720856,
+            0.545098066329956,
+            0.9019607901573181
+          ],
+          "alpha": 1,
+          "hex": "#228BE6"
+        },
+        "$description": "\"Book Now\" or \"Order Online\" buttons.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:413:7",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:a2129ea4b097f835f0d7910234b9ddac45563e2b/-1:-1",
+            "targetVariableName": "scheme/primary",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09803921729326248,
+            0.4431372582912445,
+            0.7607843279838562
+          ],
+          "alpha": 1,
+          "hex": "#1971C2"
+        },
+        "$description": "Hover state for main CTAs.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:413:8",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:22ca6eb616a83d3bd93b9b92e401e27e245edb20/-1:-1",
+            "targetVariableName": "scheme/primary/hover",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0941176488995552,
+            0.3921568691730499,
+            0.6705882549285889
+          ],
+          "alpha": 1,
+          "hex": "#1864AB"
+        },
+        "$description": "Clicked state for main CTAs.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:413:9",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:551c915a664d987e036d631cfac58906c77fc53b/-1:-1",
+            "targetVariableName": "scheme/primary/active",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "secondary": {
+      "bg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2980392277240753,
+            0.4313725531101227,
+            0.9607843160629272
+          ],
+          "alpha": 1,
+          "hex": "#4C6EF5"
+        },
+        "$description": "\"Learn More\" or \"View Gallery\" buttons.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:2",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:d7df7982b83ab05bcdcb818ff9cb40ebc28f7dca/-1:-1",
+            "targetVariableName": "scheme/secondary",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2862745225429535,
+            0.3137255012989044,
+            0.34117648005485535
+          ],
+          "alpha": 1,
+          "hex": "#495057"
+        },
+        "$description": "\tHover state for secondary actions.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:3",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:68fbb078a8b11ff85f25641784632ed0139b4ced/-1:-1",
+            "targetVariableName": "scheme/secondary/hover",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.12941177189350128,
+            0.14509804546833038,
+            0.16078431904315948
+          ],
+          "alpha": 1,
+          "hex": "#212529"
+        },
+        "$description": "\tPressed state for \"Learn More\" buttons.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:4",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:2497556a6d4050dda15cc3ab5cba47d433e7f899/-1:-1",
+            "targetVariableName": "scheme/secondary/active",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "accent": {
+      "bg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.572549045085907,
+            0.16862745583057404
+          ],
+          "alpha": 1,
+          "hex": "#FF922B"
+        },
+        "$description": "High-priority \"Special Offer\" or \"Register\" buttons.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:5",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e6f4ef9be48c67ac6129207ca50d98d7dc5e7982/-1:-1",
+            "targetVariableName": "scheme/accent",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2980392277240753,
+            0.4313725531101227,
+            0.9607843160629272
+          ],
+          "alpha": 1,
+          "hex": "#4C6EF5"
+        },
+        "$description": "Hover state for accent buttons.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:6",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:bbc9bc6ecd4ccad39bc0dc8734a1b5b360e10787/-1:-1",
+            "targetVariableName": "scheme/accent/hover",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.23137255012989044,
+            0.35686275362968445,
+            0.8588235378265381
+          ],
+          "alpha": 1,
+          "hex": "#3B5BDB"
+        },
+        "$description": "Pressed state for accent buttons",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:414:7",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:60652a2c5e752033bfaa408c32d7df94334c4401/-1:-1",
+            "targetVariableName": "scheme/accent/active",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "disabled": {
+      "bg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137254953384399,
+            0.9254902005195618,
+            0.9372549057006836
+          ],
+          "alpha": 1,
+          "hex": "#E9ECEF"
+        },
+        "$description": "Buttons for out-of-stock items or closed hours.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:415:8",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:e554fb8f38927e1dc51a540385cd4cbee8572efa/-1:-1",
+            "targetVariableName": "scheme/surface/disabled",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.12941177189350128,
+          0.14509804546833038,
+          0.16078431904315948
+        ],
+        "alpha": 1,
+        "hex": "#212529"
+      },
+      "$description": "Main headings and body paragraphs.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:415:9",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f96b5931a81561ac87e42777891213df211e13b8/-1:-1",
+          "targetVariableName": "scheme/typography",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5254902243614197,
+          0.5568627715110779,
+          0.5882353186607361
+        ],
+        "alpha": 1,
+        "hex": "#868E96"
+      },
+      "$description": "Captions, dates on blog posts, or \"Est. 1994\" subtext.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:415:10",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f9188ad370635864da80ad59e02018953df87aeb/-1:-1",
+          "targetVariableName": "scheme/typography/alt",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "on-action": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Text inside primary/secondary colored buttons.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:415:11",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:a950d378332065b0a9dd501bc9b06efdff37ad62/-1:-1",
+          "targetVariableName": "scheme/surface/bright",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6784313917160034,
+          0.7098039388656616,
+          0.7411764860153198
+        ],
+        "alpha": 1,
+        "hex": "#ADB5BD"
+      },
+      "$description": "Inactive text in forms or menus.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:415:12",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8eab5a03801b74bea4d6e4caf2d534c73cd86442/-1:-1",
+          "targetVariableName": "scheme/surface/on-disabled",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "accent": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.572549045085907,
+          0.16862745583057404
+        ],
+        "alpha": 1,
+        "hex": "#FF922B"
+      },
+      "$description": "Price tags, promotional highlights, or special links.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:415:13",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:e6f4ef9be48c67ac6129207ca50d98d7dc5e7982/-1:-1",
+          "targetVariableName": "scheme/accent",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "status": {
+    "error": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9411764740943909,
+          0.24313725531101227,
+          0.24313725531101227
+        ],
+        "alpha": 1,
+        "hex": "#F03E3E"
+      },
+      "$description": "\"This field is required\" in contact forms.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:419:2",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:89d640b4e048fd8b74b43a2ab6d2053af29f025e/-1:-1",
+          "targetVariableName": "scheme/alert/error",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "success": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.21568627655506134,
+          0.6980392336845398,
+          0.3019607961177826
+        ],
+        "alpha": 1,
+        "hex": "#37B24D"
+      },
+      "$description": "\"Message sent successfully!\" banners.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:419:3",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b397081194f4dd3dca762ff3d1c8c7e4ccdfe78b/-1:-1",
+          "targetVariableName": "scheme/alert/success",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "info": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.10980392247438431,
+          0.4941176474094391,
+          0.8392156958580017
+        ],
+        "alpha": 1,
+        "hex": "#1C7ED6"
+      },
+      "$description": "\"Free delivery within 5 miles\" banners.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:419:5",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b55d67e17f5853f9909c802ef2e8c40016a4b47d/-1:-1",
+          "targetVariableName": "scheme/alert/info",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "warning": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9686274528503418,
+          0.40392157435417175,
+          0.027450980618596077
+        ],
+        "alpha": 1,
+        "hex": "#F76707"
+      },
+      "$description": "\"Limited holiday hours\" notice.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:419:6",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:099e090e73669cfd93b3a1633976833342372de9/-1:-1",
+          "targetVariableName": "scheme/alert/warning",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    }
+  },
+  "nav": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9450980424880981,
+          0.9529411792755127,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F1F3F5"
+      },
+      "$description": "Main header background color.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:420:2",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:17ee6fdf1538f155eded20eb4fbaafbc46efdfc7/-1:-1",
+          "targetVariableName": "scheme/surface",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "link": {
+      "default": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.12941177189350128,
+            0.14509804546833038,
+            0.16078431904315948
+          ],
+          "alpha": 1,
+          "hex": "#212529"
+        },
+        "$description": "Standard menu item color (Home, Services, Contact).",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:420:3",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f96b5931a81561ac87e42777891213df211e13b8/-1:-1",
+            "targetVariableName": "scheme/typography",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.09803921729326248,
+            0.4431372582912445,
+            0.7607843279838562
+          ],
+          "alpha": 1,
+          "hex": "#1971C2"
+        },
+        "$description": "Hover state for menu items to show activity.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:420:4",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:22ca6eb616a83d3bd93b9b92e401e27e245edb20/-1:-1",
+            "targetVariableName": "scheme/primary/hover",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0941176488995552,
+            0.3921568691730499,
+            0.6705882549285889
+          ],
+          "alpha": 1,
+          "hex": "#1864AB"
+        },
+        "$description": "The color of the link for the page the user is currently on.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:420:5",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:551c915a664d987e036d631cfac58906c77fc53b/-1:-1",
+            "targetVariableName": "scheme/primary/active",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "hero": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9450980424880981,
+          0.9529411792755127,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F1F3F5"
+      },
+      "$description": "Subtle background tint behind a large headline and image.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:420:8",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fc00d935f483cfb6a43b4e0414182270c086316a/-1:-1",
+          "targetVariableName": "scheme/base/dim",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "overlay": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.12941177189350128,
+          0.14509804546833038,
+          0.16078431904315948
+        ],
+        "alpha": 1,
+        "hex": "#212529"
+      },
+      "$description": "Used to darken background images so text remains legible.",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:420:10",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:c9d95601d8e53ae1bf6e855e6c64625517cbc207/-1:-1",
+          "targetVariableName": "scheme/shadow",
+          "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+          "targetVariableSetName": "DFD Color Interims"
+        },
+        "com.figma.isOverride": true
+      }
+    },
+    "text": {
+      "title": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.12941177189350128,
+            0.14509804546833038,
+            0.16078431904315948
+          ],
+          "alpha": 1,
+          "hex": "#212529"
+        },
+        "$description": "The main H1 \"welcome\" headline.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:420:9",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:f96b5931a81561ac87e42777891213df211e13b8/-1:-1",
+            "targetVariableName": "scheme/typography",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    },
+    "carousel": {
+      "track": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9450980424880981,
+              0.9529411792755127,
+              0.9607843160629272
+            ],
+            "alpha": 1,
+            "hex": "#F1F3F5"
+          },
+          "$description": "The background of the slider area if no image is present.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:420:11",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.aliasData": {
+              "targetVariableId": "VariableID:fc00d935f483cfb6a43b4e0414182270c086316a/-1:-1",
+              "targetVariableName": "scheme/base/dim",
+              "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+              "targetVariableSetName": "DFD Color Interims"
+            },
+            "com.figma.isOverride": true
+          }
+        },
+        "carousel": {
+          "indicator": {
+            "inactive": {
+              "$type": "color",
+              "$value": {
+                "colorSpace": "srgb",
+                "components": [
+                  0.9137254953384399,
+                  0.9254902005195618,
+                  0.9372549057006836
+                ],
+                "alpha": 1,
+                "hex": "#E9ECEF"
+              },
+              "$description": "Small dots showing unselected slides.",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:420:12",
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.aliasData": {
+                  "targetVariableId": "VariableID:e554fb8f38927e1dc51a540385cd4cbee8572efa/-1:-1",
+                  "targetVariableName": "scheme/surface/disabled",
+                  "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+                  "targetVariableSetName": "DFD Color Interims"
+                },
+                "com.figma.isOverride": true
+              }
+            },
+            "active": {
+              "$type": "color",
+              "$value": {
+                "colorSpace": "srgb",
+                "components": [
+                  1,
+                  0.572549045085907,
+                  0.16862745583057404
+                ],
+                "alpha": 1,
+                "hex": "#FF922B"
+              },
+              "$description": "The dot highlight for the current slide.",
+              "$extensions": {
+                "com.figma.variableId": "VariableID:420:13",
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.aliasData": {
+                  "targetVariableId": "VariableID:e6f4ef9be48c67ac6129207ca50d98d7dc5e7982/-1:-1",
+                  "targetVariableName": "scheme/accent",
+                  "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+                  "targetVariableSetName": "DFD Color Interims"
+                },
+                "com.figma.isOverride": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "carousel": {
+    "control": {
+      "bg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Background for \"Next/Prev\" arrows.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:420:14",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:a950d378332065b0a9dd501bc9b06efdff37ad62/-1:-1",
+            "targetVariableName": "scheme/surface/bright",
+            "targetVariableSetId": "VariableCollectionId:bc90a76001e3c000648f626abfbed859ab5d519f/-1:-1",
+            "targetVariableSetName": "DFD Color Interims"
+          },
+          "com.figma.isOverride": true
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}

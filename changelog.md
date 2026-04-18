@@ -7,30 +7,6 @@
 
 ---
 
-## [0.1.0] - 2025-12-23
-
-### Added
-- **Foundations:** Established the 10px Rem scale (`1rem = 10px`) for all spacing variables.
-- **Primitives:** Imported Open Color library (0-9 scales) into the `Primitives` variable collection.
-- **Brand Colors:** Added three custom color schemes, each with a 5 step chromatic scale.
-  - Palette 1 - Cozy & Rustic: This pallete works well with Pubs, Brewerys, Craft studios, and any other business that is looking for that outdoorsy country feel
-  - Palette 2 - Fun & Playful: This palette works well with fast food restaurants, pet care, child care, dance studio or any other business that is looking for a fun vibe
-  - Palette 2 - Soft & elegent: This palette works well with Beatuy and helthcare prodcts or services, Fashion, Photo or art studio, or any business that is looking for a soft feel.   
-- **Typography:** Generated Text Styles (H1-H4, Body, Utility) linked to number variables.
-- **Semantics:** Created semantic alias mappings for:
-  - `Action/Primary` -> `oc-indigo-6`
-  - `Status/Error` -> `oc-red-7`
-  - `gap/xs`        -> `space-4`
-  - `padding/button-x`  -> `space-12`
-
-
-### Changed
-- N/A
-
-### Fixed
-- N/A
-
-
 ## 🚀 v0.1.1 — The Color Module Definition
 **April 6th 2026**
 
@@ -68,11 +44,37 @@ Updated: Naming convention for all tokens to strict kebab-case.
 Refinement: Spacing tokens adjusted to 10px root alignment.
 
 
-
-
 ⚠️ Known Issues
 Semantic mapping only 60% complete
 Testing/Playground still needs to be created
 Typography needs to be redefined
 Spacing and Padding needs to be defined
 Line Height values need to be reassessed
+
+---
+
+##  🚀v0.1.0 - Initial Kickoff
+**Dec 12 2025**
+
+### Added
+- **Foundations:** Established the 10px Rem scale (`1rem = 10px`) for all spacing variables.
+- **Primitives:** Imported Open Color library (0-9 scales) into the `Primitives` variable collection.
+- **Brand Colors:** Added three custom color schemes, each with a 5 step chromatic scale.
+  - Palette 1 - Cozy & Rustic: This pallete works well with Pubs, Brewerys, Craft studios, and any other business that is looking for that outdoorsy country feel
+  - Palette 2 - Fun & Playful: This palette works well with fast food restaurants, pet care, child care, dance studio or any other business that is looking for a fun vibe
+  - Palette 2 - Soft & elegent: This palette works well with Beatuy and helthcare prodcts or services, Fashion, Photo or art studio, or any business that is looking for a soft feel.   
+- **Typography:** Generated Text Styles (H1-H4, Body, Utility) linked to number variables.
+- **Semantics:** Created semantic alias mappings for:
+  - `Action/Primary` -> `oc-indigo-6`
+  - `Status/Error` -> `oc-red-7`
+  - `gap/xs`        -> `space-4`
+  - `padding/button-x`  -> `space-12`
+
+
+### Changed
+- N/A
+
+### Fixed
+- N/A
+
+

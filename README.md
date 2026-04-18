@@ -3,7 +3,7 @@
 > **Modular. Tokenized. Scalable.**
 > The DFD Design System is a high-performance, variable-first framework currently in **Alpha**. It leverages a strict 3-tier token architecture to provide ultimate flexibility for themes, accessibility, and multi-platform scaling.
 
-[![Figma Design File](https://img.shields.io/badge/Figma-Pre--release%20v0.1.1-F24E1E?style=for-the-badge&logo=figma)](https://www.figma.com/design/HTB64tDNklIDRvZ1VLAFH8/DFD-Design-System?node-id=377-1151&t=fKxkgqapKWWFTDRD-1)
+[![Figma Design File](https://img.shields.io/badge/Figma-Pre--release%20v0.1.1-F24E1E?style=for-the-badge&logo=figma)](https://www.figma.com/design/HTB64tDNklIDRvZ1VLAFH8/DFD-Design-System?node-id=0-1&t=B4lswHakwwD64DN1-1)
 [![Status](https://img.shields.io/badge/Status-Alpha-orange?style=for-the-badge)](https://github.com/DForant/dfd-design-system)
 
 ---
@@ -60,7 +60,7 @@ Utilizes **Open Color** as the foundation for balanced neutral and hue scales. T
 
 ### 🛠 Pre-release Access
 This system is currently in **Alpha (v0.1.x)**. You can view the live architecture and work-in-progress components here:
-👉 **[View Figma Design File](https://www.figma.com/design/HTB64tDNklIDRvZ1VLAFH8/DFD-Design-System?node-id=377-1151&t=fKxkgqapKWWFTDRD-1)**
+👉 **[View Figma Design File](https://www.figma.com/design/HTB64tDNklIDRvZ1VLAFH8/DFD-Design-System?node-id=0-1&t=B4lswHakwwD64DN1-1)**
 
 ### For Developers (JSON)
 Tokens are structured for compatibility with the **Variables Import** plugin and Style Dictionary.

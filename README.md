@@ -3,7 +3,7 @@
 > **Modular. Tokenized. Scalable.**
 > The DFD Design System is a high-performance, variable-first framework currently in **Alpha**. It leverages a strict 3-tier token architecture to provide ultimate flexibility for themes, accessibility, and multi-platform scaling.
 
-[![Figma Design File](https://img.shields.io/badge/Figma-Pre--release%20v0.1.x-F24E1E?style=for-the-badge&logo=figma)](https://www.figma.com/design/HTB64tDNklIDRvZ1VLAFH8/DFD-Design-System?node-id=377-1151&t=fKxkgqapKWWFTDRD-1)
+[![Figma Design File](https://img.shields.io/badge/Figma-Pre--release%20v0.1.1-F24E1E?style=for-the-badge&logo=figma)](https://www.figma.com/design/HTB64tDNklIDRvZ1VLAFH8/DFD-Design-System?node-id=377-1151&t=fKxkgqapKWWFTDRD-1)
 [![Status](https://img.shields.io/badge/Status-Alpha-orange?style=for-the-badge)](https://github.com/DForant/dfd-design-system)
 
 ---

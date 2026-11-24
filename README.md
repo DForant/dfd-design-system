@@ -94,6 +94,12 @@ All notable changes to the **DFD Design System** are documented in this section.
   * Defined semantic font-weight tokens (`typography/*/weight`) scoped strictly to Font Weight in Figma.
 * **Documentation:** Published initial public Figma Community file and repository `README.md`.
 
+### [0.1.1-alpha] - 2026-11-24
+
+#### Fixes
+
+* Performed audit on Primitives, Interims, and Semantic JSON files and fixed missing descriptions, typos, mis-mappings and incomplete mappings.
+
 ---
 
 *Maintained by **Dean Forant Design (DFD)**. For questions, issues, or contribution guidelines, please open an issue in this repository.*
